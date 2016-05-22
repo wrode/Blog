@@ -1,0 +1,17 @@
+name: All is abstract
+description: Data visualization. Blockchain. Thoughts.
+meta_description: "A blog about data, and some other things"
+
+markdown: kramdown
+highlighter: rouge
+logo: false
+paginate: 15
+baseurl:	http://allisabstract.com
+domain_name: 'http://allisabstract.com'
+google_analytics: 'UA-XXXXXXXX-X'
+gems: [jekyll-paginate]
+excerpt_separator: <!--more-->
+
+# Details for the RSS feed generator
+url:            'http://allisabstract.com'
+author:         'Bill'
