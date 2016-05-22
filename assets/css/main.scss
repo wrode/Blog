@@ -13,6 +13,24 @@
 	margin-bottom: 0.5rem;
 }
 
+.author-image{
+	width: 60px;
+	height: 60px;
+	top: -3rem;
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	&:hover{
+		filter: grayscale(0);
+		-webkit-filter: grayscale(0);
+	};
+}
+
+.post-footer{
+	border-top: #CCC 1px solid;
+	margin-top: 6rem;
+	padding-top: 6rem;
+}
+
 /*
 .post-date{
 	margin-left: 0;
