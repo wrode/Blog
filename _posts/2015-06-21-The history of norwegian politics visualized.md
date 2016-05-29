@@ -2,6 +2,7 @@
 layout: post
 title: Norwegian politics visualized
 intro: Visualizing the outcome of norwegian elections
+draft: true
 ---
 
 In this post, I test different ways to present the history of norwegian elections.

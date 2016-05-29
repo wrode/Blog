@@ -2,6 +2,7 @@
 layout: post
 title: Tacky trips
 intro: How much cheaper is alcohol in Sweden than Norway?
+draft: true
 ---
 
 Every weekend, hordes of Norwegians located in eastern Norway travel across the border to Sweden to shop.

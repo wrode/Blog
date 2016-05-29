@@ -8,7 +8,7 @@ logo: false
 paginate: 15
 baseurl:	http://allisabstract.com
 domain_name: 'http://allisabstract.com'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-33950011-3'
 gems: [jekyll-paginate]
 excerpt_separator: <!--more-->
 

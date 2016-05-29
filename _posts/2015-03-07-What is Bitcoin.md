@@ -2,6 +2,7 @@
 layout: post
 title: What is Bitcoin?
 intro: Understanding magic internet money
+draft: true
 ---
 
 ## Intro
