@@ -26,7 +26,10 @@ Different types of agreement have varying degrees of societal consequence. Some 
 
 ![Consequences for society]({{ site.url }}/assets/images/ConsequencesForSociety.jpg)
 
-For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start, is agreeing about the rules of a society. The fact that people in the society *can* own things is one such rule. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example. Another rule of the society is that individuals can enter into binding agreements with other individuals. The rule #can also state what the consequences for not upholding the terms of the agreement. Essentially, an agreement about how to handle agreements.
+For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start, is agreeing about the rules of the society.
+
+- The fact that people in the society *can* own things is one such rule. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
+- Another rule is allowing individuals to enter into binding agreements with eachother. This rule would define what members of the society are able to make agreements about, and what process to follow if the agreement was not being upheld. Essentially, an agreement about how to handle agreements.
 
 ### Ownership
 
@@ -36,8 +39,9 @@ Everyone in todays expansive societies cannot possibly be expected to keep an up
 
     picture of two people claiming that they own an apartment. Picture of an apartment door. Door number can be reference to planet money podcast.
 
-There needs to be some sort of way that society agrees upon who owns what. One single source of the "truth". This is usually solved by one central authority documenting the state of things. 
-- A goverment will document who owns which real estate. 
+There needs to be some sort of way that society agrees upon who owns what. One single source of the "truth". This is usually solved by one central authority documenting the state of things.
+
+- Some form of government will document who owns which real estate. 
 - A bank will dokument the balance of account holders.
 - A central bank will document the balance of the banks.
 
