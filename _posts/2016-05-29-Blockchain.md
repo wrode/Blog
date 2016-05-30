@@ -37,7 +37,7 @@ Once you have established the agreement that individuals can own things, the nex
 
 Everyone in todays expansive societies cannot possibly be expected to keep an updated list of who owns which real estate. And you cannot trust individuals to report this themselves, because there is an incentive problem. Why would society trust that the apartment is mine when the other guy claiming that the apartment is his is just as credible. In fact, he´s more credible, because he is wearing a suit and I am wearing hemp sandals.
 
-    picture of two people claiming that they own an apartment. Picture of an apartment door. Door number can be reference to planet money podcast.
+![Who owns the apartment]({{ site.url }}/assets/images/WhosApartment.jpg)
 
 There needs to be some sort of way that society agrees upon who owns what. One single source of the "truth". This is usually solved by one central authority documenting the state of things.
 
