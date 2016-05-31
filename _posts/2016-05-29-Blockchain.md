@@ -29,9 +29,9 @@ Different types of agreement have varying degrees of societal consequence. Some 
 For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start, is agreeing about the rules of the society.
 
 - The fact that people in the society *can* own things is one such rule. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
-- Another rule is allowing individuals to enter into binding agreements with eachother. This rule would define what members of the society are able to make agreements about, and what process to follow if the agreement was not being upheld. Essentially, an agreement about how to handle agreements.
+- Another rule is allowing individuals to enter into binding agreements with eachother. This rule defines what members of the society can make agreements about, and what process to follow if the agreement is not being upheld. Essentially, an agreement about how to handle agreements.
 
-### Ownership
+#### Ownership
 
 Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it´s pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment.# But what about the actual apartment itself? What is stopping someone from sneaking in to my apartment and claiming it for themselves whilst I stroll about town with in my hemp sandals?
 
@@ -53,11 +53,24 @@ There needs to be some sort of way that society agrees upon who owns what. One s
 -documenting isnt really enough, enforcing is also important.
 
 
-### Agreeing about agreements
+#### Agreeing about agreements
 
 In societies today you have a central authority for documenting and enforcing the agreement about agreements. This is the legislative branch of the government. If there is a dispute about a particular signed agreement, then you can take this agreement to the authority, who in turn chooses what to do about the dispute (AKA going to court).
 
+Its all about documenting the state of things. One truth which there is agreement about (at least on the societal level)
+
 ### Blockchain
+
+Ok, but what does blockchain have to do with agreements?
+
+Blockchain technology is essentially just a new way to agree about the state of something.
+
+Unlike the traditional methods that we mentioned above, where the agreed upon state is handled by a central authority, such as a government or a bank. The blockchain.
+
+This also means that there is no central authority who can . The rules are already set in the blockchain, and a government, or a bank must follow these rules like everyone else.
+
+Once you start asking *how* Blockchain technology does this
+
 
 For both **ownership** and **agreement about agreements** the solution is having one source of the truth. One agreed upon state. The solution has usually always been to have one central authority who is in charge of this state.
 
@@ -69,7 +82,6 @@ Blockchain is essentially just a new way of documenting the state. It´s a way t
 - Contracts are the things that need to be explicitly defined. When there needs to be agreement.
 - Political views, but there is agreement about who can govern even if there is no agreement about who should govern.
 - de facto vs de jura - queen in england owning all the land
-- Normally not something that you think about in everyday life. Because, it is obvious. Someone cannot just take over your home after you were away for the weekend.
 - contracts are a strange case, because no central authoroty actually keeps this state. But both parties have signed versions of the contract which is presented to a central authority in the case a dispute has to be solved.
 
 - Its worth noting that not everyone might agree with the rules of the society. In fact, they probably dont, but they know the consequences if they do not agree about something.
