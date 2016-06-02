@@ -29,17 +29,23 @@ Different types of agreement have varying degrees of societal consequence. Some 
 For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start, is agreeing about the rules of the society.
 
 - The fact that people in the society *can* own things is one such rule. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
-- Another rule is allowing individuals to enter into binding agreements with eachother. This rule defines what members of the society can make agreements about, and what process to follow if the agreement is not being upheld. Essentially, an agreement about how to handle agreements.
+- Another rule is allowing individuals to enter into binding agreements with eachother.
 
 #### Ownership
 
-Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it´s pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment.# But what about the actual apartment itself? What is stopping someone from sneaking in to my apartment and claiming it for themselves whilst I stroll about town with in my hemp sandals?
+Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it´s pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment. It is also not the end of the world if I happened to lose them. Likewise, it sucks to lose other pieces of clothing, my wallet, my playstation controller etc. But again, it´s not the end of the world, life goes on. 
 
-Everyone in todays expansive societies cannot possibly be expected to keep an updated list of who owns which real estate. And you cannot trust individuals to report this themselves, because there is an incentive problem. Why would society trust that the apartment is mine when the other guy claiming that the apartment is his is just as credible. In fact, he´s more credible, because he is wearing a suit and I am wearing hemp sandals.
+Then there are the big things. Things that *really* do impact you if you lose them. An example of a big thing is the apartment that you own. Losing that apartment would be life changing. If it was possible to steal an apartment in the same way that you could steal a purse, then that is what thiefs would be doing because that is were the big bucks would be. People would be spending their time protecting their apartment, and society as a whole would not function well. Therefore, it is important that society agrees about who owns the big things.
+
+So what is stopping another person from sneaking in to my apartment and claiming it for himself, while I am strolling about town in my new hemp sandals? 
+
+The problem is that todays societies are so huge that people can´t be expected to keep track of who owns which apartment.
+
+And you cannot trust individuals to report this themselves, because there is an incentive problem. Why would society trust that the apartment is mine when the other guy claiming that the apartment is his is just as credible. In fact, he´s more credible, because he is wearing a suit and I am wearing hemp sandals.
 
 ![Who owns the apartment]({{ site.url }}/assets/images/WhosApartment.jpg)
 
-There needs to be some sort of way that society agrees upon who owns what. One single source of the "truth". This is usually solved by one central authority documenting the state of things.
+This rule defines what members of the society *can* make agreements about, and what process to follow if an agreement is not being upheld. Essentially, an agreement about how to handle agreements.
 
 - Some form of government will document who owns which real estate. 
 - A bank will dokument the balance of account holders.
@@ -54,6 +60,8 @@ There needs to be some sort of way that society agrees upon who owns what. One s
 
 
 #### Agreeing about agreements
+
+There needs to be some sort of way that society agrees upon who owns what. One single source of the "truth". This is usually solved by one central authority documenting the state of things.
 
 In societies today you have a central authority for documenting and enforcing the agreement about agreements. This is the legislative branch of the government. If there is a dispute about a particular signed agreement, then you can take this agreement to the authority, who in turn chooses what to do about the dispute (AKA going to court).
 
@@ -71,9 +79,14 @@ This also means that there is no central authority who can . The rules are alrea
 
 Once you start asking *how* Blockchain technology does this
 
-
 For both **ownership** and **agreement about agreements** the solution is having one source of the truth. One agreed upon state. The solution has usually always been to have one central authority who is in charge of this state.
 
+That’s what is meant by decentralized. Instead of one entity managing a central truth for everyone else, now many entities can own an up to date copy of the truth.
+
+If we pretend the Blochchain is based on magic instead of fancy technology, this is how it works:
+All people who want to own a document with the “agreed upon state” for a particular subject (there can be open to the public blockchain and closed types) get an enchanted document, which updates itself with the agreed upon state of things. The document is enchanted in such a way that people cannot make changes to the truth unless you are being honest. So that you cannot change the document to say that you own an apartment which you don’t. Only if you have truly brought the new apartment, then the enchanted dokument allows to be updated, and since it is enchanted, all the other enchanted lists also make the update to themselves.
+
+Is it cheating to use "magic" to get around the promise of not using IT jargon*
 
 Blockchain is essentially just a new way of documenting the state. It´s a way to make a group agree about how .
 
