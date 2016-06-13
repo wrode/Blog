@@ -8,9 +8,9 @@ draft: true
 
     A Blockchain is a decentralized database that carries out transactions based on a predefined protocol.
 
-There, know you know that.
+There, know you know that. The problem is, if you are like most people this sentence wasn´t very helpful. 
 
-The problem is, if you are like most people, this sentence wasn´t very helpful. In some circles, Blockchain is so hot right now, it´s the talk of the town. But even though there is a lot of discussion about Blockchain technology, not that many people actually understand what this thing is. Or more importantly - what it can become.
+In some circles, Blockchain is so hot right now, it´s the talk of the town. But even though there is a lot of discussion about Blockchain technology, not that many people actually understand what this thing is. Or more importantly - what it can become.
 
 Most explanations of blockchain are full of IT jargon. So unless you know IT, the explanations don´t really help. In this post I try to explain blockchain without the IT part, and why it is such a big deal.
 
@@ -22,14 +22,22 @@ Agreement is nice. Whether its agreeing about the best football team, what chees
 
     more than one agreement here
 
-Different types of agreement have varying degrees of societal consequence. Some subjects are unimportant to reach an agreement about. It is not very important that you agree with your friend about the best tasting cheese. In this case, you can agree to disagree, and go off eating the cheese that you prefer. Other things are a little more important, say that you are a couple that can only afford to buy one type of cheese. If you dont agree about what cheese to buy, hard feelings and arguments may pursue. Other things have a larger impact on society, such as agreeing about language and the meaning of words.
+Different types of agreement have varying degrees of societal consequence. Some subjects are unimportant to reach an agreement about. As an example, it is not very important that you agree with your friend about the best tasting cheese. In this case, you can agree to disagree, and go off eating the cheese that you prefer. Other things are a little more important, say that you are a couple that can only afford to buy one type of cheese. If you don´t agree about what cheese to buy, hard feelings and arguments may pursue. But for society as a whole, agreement here is still not very important. On the other end of the scale there are things which are really important for a society as a whole to agree about in order to function. One such thing is agreeing about language and the meaning of words.
 
 ![Consequences for society]({{ site.url }}/assets/images/ConsequencesForSociety.jpg)
 
-For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start, is agreeing about the rules of the society.
+For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start, is agreeing about the rules of the society (aka laws).
 
-- The fact that people in the society *can* own things is one such rule. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
-- Another rule is allowing individuals to enter into binding agreements with eachother.
+- One such rule is allowing individuals to enter into binding agreements with eachother.
+- Another rule is whether people in the society *can* own things at all. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
+
+#### Agreeing about agreements
+
+As mentioned above, a society may agree that individuals are allowed to enter into bindings agreements with one another. This agreement exists in most modern societies, but it is not without restrictions. Individuals can not enter into *any* binding agreement that they wish, the agreement about agreements specifies what is allowed, and what is not allowed to enter into binding agreements about. Minimum wage is one of these specifications - you are not allowed to agree to work for an hourly wage which is less than X.
+
+This is essentially society agreeing about agreements, but is most commonly refered to as contract law. In societies today you have a central authority for documenting, updating and enforcing the agreement about agreements. This is the legislative branch of the government. If there is a dispute about a particular signed agreement, then you can take this agreement to the authority, who in turn chooses what to do about the dispute (aka going to court).
+
+(underline the importance of society agreeing about this.)
 
 #### Ownership
 
@@ -59,13 +67,7 @@ This rule defines what members of the society *can* make agreements about, and w
 -documenting isnt really enough, enforcing is also important.
 
 
-#### Agreeing about agreements
-
 There needs to be some sort of way that society agrees upon who owns what. One single source of the "truth". This is usually solved by one central authority documenting the state of things.
-
-In societies today you have a central authority for documenting and enforcing the agreement about agreements. This is the legislative branch of the government. If there is a dispute about a particular signed agreement, then you can take this agreement to the authority, who in turn chooses what to do about the dispute (AKA going to court).
-
-Its all about documenting the state of things. One truth which there is agreement about (at least on the societal level)
 
 ### Blockchain
 
@@ -91,6 +93,9 @@ Is it cheating to use "magic" to get around the promise of not using IT jargon*
 Blockchain is essentially just a new way of documenting the state. It´s a way to make a group agree about how .
 
 
+Its all about documenting the state of things. One truth which there is agreement about (at least on the societal level)
+
+The important thing to note here is that even though individual, there is still an overall agreement about the current state of things.
 
 - Contracts are the things that need to be explicitly defined. When there needs to be agreement.
 - Political views, but there is agreement about who can govern even if there is no agreement about who should govern.
