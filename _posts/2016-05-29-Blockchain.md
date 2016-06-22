@@ -8,15 +8,15 @@ draft: true
 
     A Blockchain is a decentralized database that carries out transactions based on a predefined protocol.
 
-There, know you know that. The problem is, if you are like most people this sentence wasn´t very helpful. 
+There, now you know that. The problem is, if you are like most people this sentence wasn´t very helpful. 
 
-In some circles, Blockchain is so hot right now, it´s the talk of the town. But even though there is a lot of discussion about Blockchain technology, not that many people actually understand what this thing is. Or more importantly - what it can become.
+In some circles, Blockchain is so hot right now, it´s the talk of the town. But even though there is a lot of discussion about Blockchain technology, few people actually understand what this thing is. Or more importantly - what it can become.
 
 Most explanations of blockchain are full of IT jargon. So unless you know IT, the explanations don´t really help. In this post I try to explain blockchain without the IT part, and why it is such a big deal.
 
 ### Agreement
 
-Agreement is nice. Whether its agreeing about the best football team, what cheese tastes good or which political candidate will make a country great again. If you take a step back and look, different types of agreements exist everywhere. It´s not only the explicit agreements you might have in a conversation. The very fact and are able to communicate abstract ideas with  another person is based on an agreement about the meaning of the words being spoken.
+Agreement is nice. Whether its agreeing about the best football team, what cheese tastes good or which political candidate will make a country great again. If you take a step back and look, different types of agreements exist everywhere. It´s not only the explicit agreements you might have in a conversation. The very fact that you are able to communicate abstract ideas with  another person is based on an agreement about the meaning of the words being spoken.
 
 ![Cheese tastes good]({{ site.url }}/assets/images/CheeseTastesGood.jpg)
 
@@ -26,20 +26,23 @@ Different types of agreement have varying degrees of societal consequence. Some 
 
 ![Consequences for society]({{ site.url }}/assets/images/ConsequencesForSociety.jpg)
 
-For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start, is agreeing about the rules of the society (aka laws).
+For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start, is agreeing about the rules of the society (also known as laws).
 
-- One such rule is allowing individuals to enter into binding agreements with eachother.
-- Another rule is whether people in the society *can* own things at all. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
 
 #### Agreeing about agreements
 
-As mentioned above, a society may agree that individuals are allowed to enter into bindings agreements with one another. This agreement exists in most modern societies, but it is not without restrictions. Individuals can not enter into *any* binding agreement that they wish, the agreement about agreements specifies what is allowed, and what is not allowed to enter into binding agreements about. Minimum wage is one of these specifications - you are not allowed to agree to work for an hourly wage which is less than X.
+One of these laws may be to allow people to enter into bindings agreements with one another. This agreement exists in most modern societies, but it is not without restrictions. People can not enter into *any* binding agreement they wish. The agreement about agreements specifies what is allowed and what is not allowed to enter into binding agreements about.
 
-This is essentially society agreeing about agreements, but is most commonly refered to as contract law. In societies today you have a central authority for documenting, updating and enforcing the agreement about agreements. This is the legislative branch of the government. If there is a dispute about a particular signed agreement, then you can take this agreement to the authority, who in turn chooses what to do about the dispute (aka going to court).
+This rule defines what members of the society *can* make agreements about, and what process to follow if an agreement is not being upheld. Essentially, an agreement about how to handle agreements.
 
-(underline the importance of society agreeing about this.)
+Minimum wage is an example of one of these restrictions - you are not allowed to agree to work for an hourly wage which is less than the agreed upon minimum.
+
+The agreement about agreements is know as contract law. Modern societies have a central authority for documenting, updating and enforcing the contract law. This is the legislative branch of the government. If there is a dispute about an agreement, then you can take this agreement to the authority, who in turn chooses what to do about the dispute (aka going to court).
+
 
 #### Ownership
+
+Another rule is whether people in the society *can* own things at all. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
 
 Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it´s pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment. It is also not the end of the world if I happened to lose them. Likewise, it sucks to lose other pieces of clothing, my wallet, my playstation controller etc. But again, it´s not the end of the world, life goes on. 
 
@@ -47,13 +50,11 @@ Then there are the big things. Things that *really* do impact you if you lose th
 
 So what is stopping another person from sneaking in to my apartment and claiming it for himself, while I am strolling about town in my new hemp sandals? 
 
-The problem is that todays societies are so huge that people can´t be expected to keep track of who owns which apartment.
-
-And you cannot trust individuals to report this themselves, because there is an incentive problem. Why would society trust that the apartment is mine when the other guy claiming that the apartment is his is just as credible. In fact, he´s more credible, because he is wearing a suit and I am wearing hemp sandals.
+The problem is that todays societies are so huge that people can´t be expected to keep track of who owns which apartment. You cannot trust individuals to report this themselves, because there is an incentive problem. Why would society trust that the apartment is mine when the con artist claiming that the apartment is his is just as credible. In fact, he´s more credible, because he is wearing a suit and I am wearing hemp sandals.
 
 ![Who owns the apartment]({{ site.url }}/assets/images/WhosApartment.jpg)
 
-This rule defines what members of the society *can* make agreements about, and what process to follow if an agreement is not being upheld. Essentially, an agreement about how to handle agreements.
+
 
 - Some form of government will document who owns which real estate. 
 - A bank will dokument the balance of account holders.
