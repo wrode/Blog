@@ -50,39 +50,35 @@ Then there are the big things. Things that *really* do impact you if you lose th
 
 So what is stopping another person from sneaking in to my apartment and claiming it for himself, while I am strolling about town in my new hemp sandals? 
 
-The problem is that todays societies are so huge that people can´t be expected to keep track of who owns which apartment. You cannot trust individuals to report this themselves, because there is an incentive problem. Why would society trust that the apartment is mine when the con artist claiming that the apartment is his is just as credible. In fact, he´s more credible, because he is wearing a suit and I am wearing hemp sandals.
+The problem is that todays societies are so huge that people can´t be expected to keep track of who owns which apartment. You cannot trust individuals to report this themselves, because there is an incentive problem. 
+
+Why would society trust that the apartment is mine when the con artist claiming that the apartment is his is just as credible. In fact, he´s more credible, because he is wearing a suit and I am wearing hemp sandals.
 
 ![Who owns the apartment]({{ site.url }}/assets/images/WhosApartment.jpg)
 
+Just like with the agreement about agreements, agreement about ownership is solved in our societies by relying on central sources of "truth" - administrated by a trusted authority.
 
-
-- Some form of government will document who owns which real estate. 
-- A bank will dokument the balance of account holders.
-- A central bank will document the balance of the banks.
-
-    picture of a guy claiming that he is really really rich.
-    "i am really really rich"
-    "But jon, you have $5 in your bank account"
-    - people, they cant be trusted
-
--documenting isnt really enough, enforcing is also important.
-
-
-There needs to be some sort of way that society agrees upon who owns what. One single source of the "truth". This is usually solved by one central authority documenting the state of things.
+In the case of apartments, the government owns a central registry of who owns what land. But there are also many other registries which keep track of who owns what (among other things):
+- Governments keep track of who owns what veichle registration plates.
+- Kennel clubs will keep track of who owns what dog through a breed registry.
+- The nonprofit organization ICANN keeps track of who owns what internet domain names. 
+- A bank will dokument the balance of their account holders.
 
 ### Blockchain
 
 Ok, but what does blockchain have to do with agreements?
 
-Blockchain technology is essentially just a new way to agree about the state of something.
+Blockchain technology is essentially just a new way to reach agreement about the state of something. What's new is that unlike the traditional methods that we mentioned above, the agreement is not administrated (controlled) by a central authority.
 
-Unlike the traditional methods that we mentioned above, where the agreed upon state is handled by a central authority, such as a government or a bank. The blockchain.
+Once you start asking *how* the Blockchain technology does this you start venturing down the rabbit hole and things get IT jargony very quickly. Fortunately, if we pretend that Blockchains are based on **magic** instead of fancy **technology** I can at least explain things on a conceptual level.
 
-This also means that there is no central authority who can . The rules are already set in the blockchain, and a government, or a bank must follow these rules like everyone else.
 
-Once you start asking *how* Blockchain technology does this
+All people who want to own a document with the “agreed upon state” for a particular subject (there can be open to the public blockchain and closed types) get an enchanted document, which updates itself with the agreed upon state of things. The document is enchanted in such a way that people cannot make changes to the truth unless you are being honest. So that you cannot change the document to say that you own an apartment which you don’t. Only if you have truly brought the new apartment, then the enchanted dokument allows to be updated, and since it is enchanted, all the other enchanted lists also make the update to themselves.
 
-For both **ownership** and **agreement about agreements** the solution is having one source of the truth. One agreed upon state. The solution has usually always been to have one central authority who is in charge of this state.
+
+This also means that there is no central authority who can independently change the rules of the blockchain. The rules are already set in the blockchain, and a government, or a bank must follow these rules like everyone else.
+
+
 
 That’s what is meant by decentralized. Instead of one entity managing a central truth for everyone else, now many entities can own an up to date copy of the truth.
 
@@ -114,3 +110,13 @@ There are other types of implicit agreements, such as eyeballing the girlfriend 
 - Agreement is very important in my project. The governance structure is extremely important. It could be made using a smart contract.
 - The good thing about smart contract is that everything needs to be so explicitly defined. This means that there is less room missunderstanding.
 - To understand how private blockchains, think about a small group of people agreeing about the state of something rather than many people agreeing about something.
+
+
+    picture of a guy claiming that he is really really rich.
+    "i am really really rich"
+    "But jon, you have $5 in your bank account"
+    - people, they cant be trusted
+
+-documenting isnt really enough, enforcing is also important.
+
+There needs to be some sort of way that society agrees upon who owns what. One single source of the "truth". This is usually solved by one central authority documenting the state of things.
