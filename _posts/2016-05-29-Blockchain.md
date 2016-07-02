@@ -33,9 +33,7 @@ For societies to function, there needs to be a common agreement about some of th
 
 One of these laws may be to allow people to enter into bindings agreements with one another. This agreement exists in most modern societies, but it is not without restrictions. People can not enter into *any* binding agreement they wish. The agreement about agreements specifies what is allowed and what is not allowed to enter into binding agreements about.
 
-This rule defines what members of the society *can* make agreements about, and what process to follow if an agreement is not being upheld. Essentially, an agreement about how to handle agreements.
-
-Minimum wage is an example of one of these restrictions - you are not allowed to agree to work for an hourly wage which is less than the agreed upon minimum.
+This rule defines what members of the society *can* make agreements about, and what process to follow if an agreement is not being upheld. Essentially, an agreement about how to handle agreements. Minimum wage is an example of one of these restrictions - you are not allowed to agree to work for an hourly wage which is less than the agreed upon minimum.
 
 The agreement about agreements is know as contract law. Modern societies have a central authority for documenting, updating and enforcing the contract law. This is the legislative branch of the government. If there is a dispute about an agreement, then you can take this agreement to the authority, who in turn chooses what to do about the dispute (aka going to court).
 
@@ -56,13 +54,13 @@ Why would society trust that the apartment is mine when the con artist claiming 
 
 ![Who owns the apartment]({{ site.url }}/assets/images/WhosApartment.jpg)
 
-Just like with the agreement about agreements, agreement about ownership is solved in our societies by relying on central sources of "truth" - administrated by a trusted authority.
+Just like with the agreement about agreements, agreement about ownership is solved in our societies by relying on a single source of "truth" - centrally administrated by a trusted authority.
 
 In the case of apartments, the government owns a central registry of who owns what land. But there are also many other registries which keep track of who owns what (among other things):
 - Governments keep track of who owns what veichle registration plates.
-- Kennel clubs will keep track of who owns what dog through a breed registry.
+- Kennel clubs keep track of who owns what dog through a breed registry.
 - The nonprofit organization ICANN keeps track of who owns what internet domain names. 
-- A bank will dokument the balance of their account holders.
+- A bank keeps an up to date ledger with the balance of account holders.
 
 ### Blockchain
 
@@ -70,29 +68,50 @@ Ok, but what does blockchain have to do with agreements?
 
 Blockchain technology is essentially just a new way to reach agreement about the state of something. What's new is that unlike the traditional methods that we mentioned above, the agreement is not administrated (controlled) by a central authority.
 
-Once you start asking *how* the Blockchain technology does this you start venturing down the rabbit hole and things get IT jargony very quickly. Fortunately, if we pretend that Blockchains are based on **magic** instead of fancy **technology** I can at least explain things on a conceptual level.
+Instead of the central authority owning a single document that captures the agreed upon state, everyone who wants to document the agreed upon state is allowed to do so. Let us call the people who wants to take part in documenting the state **Peeps**. 
+
+<!--
+    Should have an image of a large amount of people here, with some of them with their hands up in the air. An an arrow signaling that these are the peeps
+-->
+
+Ofcourse, the agreed upon state *should* not vary between the Peeps - then there would not be agreement. In order to ensure that all the Peeps had the same document, they would need to meet, dokument the state, and then sign eachothers dokument. This might be fine if the agreement in question did not change. The problem arises when you have an agreement which often changes. If all the Peeps needed to meet, update and sign a new version of the document every time someone makes a bank transaction, this system would be extremely inefficient.
+
+<!--
+    The society as a whole would need to agree that most of the peeps were honest
+
+    This might lead just a few people willing to be PEEPS. This would then mean that the whole thing was centralized.
+-->
+
+The ability for many Peeps to keep an up-to-date documentation of the agreed upon state is what the Blockchain technology enables. Once you start asking *how* the Blockchain technology does this you start venturing down the rabbit hole and things can get IT jargony very quickly. Fortunately, we can pretend that Blockchains are based on **magic** instead of fancy **technology**.
+
+<!--
+    Am I cheating by using magic to get around the promise of not using IT jargon?
+-->
+
+![You´re a wizard]({{ site.url }}/assets/images/WizardHarry.png)
+
+Imagine if all the Peeps have a copy of an enchanted document with the agreed upon state. This enchanted document has the following magic properties:
+
+- The documents have a set of magic rules which need to be followed in order to make an update to the agreement.
+- If an update is made to one of the enchanted documents and it followed the rules, this update would also be applied to all the other enchanted documents.
+
+The rules of the enchanted documents can vary, it´s these rules that result in many different Blockchain. In the case of a Blockchain that specifies ownership, the magic rule is that only people that have ownership of item A can give away this ownership to someone else. If anyone else have this document
+
+Blockchains are ofcourse not based on magic, but on the conceptual level, this simplification is good enough.
+
+So if you own an apartment, let one of the peers kno
+
+The document is enchanted in such a way that people cannot make changes to the truth unless you are being honest. So that you cannot change the document to say that you own an apartment which you don’t.
 
 
-All people who want to own a document with the “agreed upon state” for a particular subject (there can be open to the public blockchain and closed types) get an enchanted document, which updates itself with the agreed upon state of things. The document is enchanted in such a way that people cannot make changes to the truth unless you are being honest. So that you cannot change the document to say that you own an apartment which you don’t. Only if you have truly brought the new apartment, then the enchanted dokument allows to be updated, and since it is enchanted, all the other enchanted lists also make the update to themselves.
-
-
+<!--
 This also means that there is no central authority who can independently change the rules of the blockchain. The rules are already set in the blockchain, and a government, or a bank must follow these rules like everyone else.
 
-
+Talk about the weak link between the blockchain and the real world. For example, that scarcity of a certain type of token. And this only has value in the real world because people are willing to pay a price for it.
 
 That’s what is meant by decentralized. Instead of one entity managing a central truth for everyone else, now many entities can own an up to date copy of the truth.
 
-If we pretend the Blochchain is based on magic instead of fancy technology, this is how it works:
-All people who want to own a document with the “agreed upon state” for a particular subject (there can be open to the public blockchain and closed types) get an enchanted document, which updates itself with the agreed upon state of things. The document is enchanted in such a way that people cannot make changes to the truth unless you are being honest. So that you cannot change the document to say that you own an apartment which you don’t. Only if you have truly brought the new apartment, then the enchanted dokument allows to be updated, and since it is enchanted, all the other enchanted lists also make the update to themselves.
-
-Is it cheating to use "magic" to get around the promise of not using IT jargon*
-
-Blockchain is essentially just a new way of documenting the state. It´s a way to make a group agree about how .
-
-
 Its all about documenting the state of things. One truth which there is agreement about (at least on the societal level)
-
-The important thing to note here is that even though individual, there is still an overall agreement about the current state of things.
 
 - Contracts are the things that need to be explicitly defined. When there needs to be agreement.
 - Political views, but there is agreement about who can govern even if there is no agreement about who should govern.
@@ -107,16 +126,11 @@ There are other types of implicit agreements, such as eyeballing the girlfriend 
 
 - if today you someone had sneaked in your apartment and claimed it fo rthemselves, the first people that the police would check with is probably the neighbours. They likely do have an up to date view about who owns what. And the police trust them to be honest.
     + But you cannot be sure that they have an up to date view of the world. What if the unknown stranger had just paid a large sum of money for the apartment but the old owner still claimed ownership.
-- Agreement is very important in my project. The governance structure is extremely important. It could be made using a smart contract.
+    + Agreement is very important in my project. The governance structure is extremely important. It could be made using a smart contract.
 - The good thing about smart contract is that everything needs to be so explicitly defined. This means that there is less room missunderstanding.
-- To understand how private blockchains, think about a small group of people agreeing about the state of something rather than many people agreeing about something.
-
-
-    picture of a guy claiming that he is really really rich.
-    "i am really really rich"
-    "But jon, you have $5 in your bank account"
-    - people, they cant be trusted
+- Explain that there are private and public blockchains
 
 -documenting isnt really enough, enforcing is also important.
 
 There needs to be some sort of way that society agrees upon who owns what. One single source of the "truth". This is usually solved by one central authority documenting the state of things.
+-->
