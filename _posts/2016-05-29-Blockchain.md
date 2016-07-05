@@ -16,29 +16,32 @@ In some circles, Blockchain is so hot right now, it´s the talk of the town. But
 
 Most explanations of blockchain are full of IT jargon. So unless you know IT, the explanations don´t really help. In this post I try to explain blockchain without the IT part, and why it is such a big deal.
 
+<!-- But first I will go on a little tangent, bear with me-->
+
 ### Agreement
 
-Agreement is nice. Whether its agreeing about the best football team, what cheese tastes good or which political candidate will make a country great again. If you take a step back and look, different types of agreements exist everywhere. It´s not only the explicit agreements you might have in a conversation. The very fact that you are able to communicate abstract ideas with  another person is based on an agreement about the meaning of the words being spoken.
+Agreement is nice. Whether its agreeing about the best football team, what cheese tastes good or which political candidate will make a country great again. If you take a step back and look, different types of agreements exist everywhere. It´s not only the explicit agreements you might have in a conversation<!--the subject of the conversation-->. The very fact that you are able to communicate abstract ideas with  another person is based on an agreement about the meaning of the words being spoken.
 
 ![Cheese tastes good]({{ site.url }}/assets/images/CheeseTastesGood.jpg)
 
     more than one agreement here
 
-Different types of agreement have varying degrees of societal consequence. Some subjects are unimportant to reach an agreement about. As an example, it is not very important that you agree with your friend about the best tasting cheese. In this case, you can agree to disagree, and go off eating the cheese that you prefer. Other things are a little more important, say that you are a couple that can only afford to buy one type of cheese. If you don´t agree about what cheese to buy, hard feelings and arguments may pursue. But for society as a whole, agreement here is still not very important. On the other end of the scale there are things which are really important for a society as a whole to agree about in order to function. One such thing is agreeing about language and the meaning of words.
+Different types of agreement have varying degrees of societal consequence. Some subjects are unimportant to reach an agreement about. As an example, it is not very important that you agree with your friend about the best tasting cheese. In this case, you can agree to disagree, and go off eating the cheese that you prefer. Other things are a little more important, say that you are a couple that can only afford to buy one type of cheese. If you don´t agree about what cheese to buy, hard feelings and arguments may pursue. But for society as a whole, agreement here is still not very important. On the other end of the scale there are things which are really important for a society as a whole to agree about in order to function. <!--Dont like the last sentence here-->One such thing is agreeing about language and the meaning of words.
 
 ![Consequences for society]({{ site.url }}/assets/images/ConsequencesForSociety.jpg)
 
-For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start, is agreeing about the rules of the society (also known as laws).
+For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start is agreeing about the rules of the society. also known as the laws.
 
 
 #### Agreeing about agreements
 
-One of these laws may be to allow people to enter into bindings agreements with one another. This agreement exists in most modern societies, but it is not without restrictions. People can not enter into *any* binding agreement they wish. The agreement about agreements specifies what is allowed and what is not allowed to enter into binding agreements about.
+One of these laws may be to allow people to enter into bindings agreements with one another. The agreement defines what members of the society *can* make agreements about, and what process to follow if an agreement is not being upheld. Essentially, it is an agreement about how to handle agreements.
 
-This rule defines what members of the society *can* make agreements about, and what process to follow if an agreement is not being upheld. Essentially, an agreement about how to handle agreements. Minimum wage is an example of one of these restrictions - you are not allowed to agree to work for an hourly wage which is less than the agreed upon minimum.
+<!--Sketch of person making an agreement to sell his children to slavery, and then the law saying "no"-->
 
-The agreement about agreements is know as contract law. Modern societies have a central authority for documenting, updating and enforcing the contract law. This is the legislative branch of the government. If there is a dispute about an agreement, then you can take this agreement to the authority, who in turn chooses what to do about the dispute (aka going to court).
+This agreement exists in most modern societies, but it is not without restrictions. People can not enter into *any* binding agreement they wish, there are restrictions. Minimum wage is an example of one of these restrictions - you are not allowed to agree to work for an hourly wage which is less than the agreed upon minimum.
 
+The agreement about agreements is know as contract law. Modern societies have a central authority for documenting, updating and enforcing the contract law. This is part of the legislative branch of the government. If there is a dispute about an agreement, then you can take this agreement to the government, who in turn chooses what to do about the dispute (this is also known as going to court).
 
 #### Ownership
 
@@ -67,12 +70,15 @@ In the case of apartments, the government owns a central registry of who owns wh
 - The nonprofit organization ICANN keeps track of who owns what internet domain names. 
 - A bank keeps an up to date ledger with the balance of account holders.
 
-### Blockchain
+<!--should write a sentence here, summarizing the above paragraph-->
 
+### Blockchain
 
 Ok, but what does blockchain technology have to do with agreements?
 
 Blockchain technology is essentially just a new way to reach agreement about the state of something. What's new is that unlike the traditional methods that we mentioned above, the agreement is not administrated (controlled) by a central authority.
+
+<!--Should i emphasize the importance of the word state?-->
 
 Instead of the central authority owning a single document that captures the agreed upon state, everyone who wants to document the agreed upon state is allowed to do so. Let us call the people who wants to take part in documenting the state **Peeps**. 
 
@@ -80,7 +86,7 @@ Instead of the central authority owning a single document that captures the agre
     Should have an image of a large amount of people here, with some of them with their hands up in the air. An an arrow signaling that these are the peeps
 -->
 
-Ofcourse, the agreed upon state *should* not vary between the Peeps -> then there would not be agreement. In order to ensure that all the Peeps had the same document, they would need to meet, dokument the state, and then sign eachothers dokument. This might be fine if the agreement in question did not change, or if only changed once every 10 years. The problem arises when you have an agreement which changes often. If all the Peeps needed to meet, update and sign a new version of the document every time someone makes a bank transaction, this system would be extremely inefficient.
+Ofcourse, the agreed upon state *should* not vary between the Peeps -> then there would not be agreement. In order to ensure that all the Peeps have the same agreement documented, they would need to meet, document the state, and then sign eachothers document. This might be fine if the agreement in question did not change, or if only changed once every 10 years. The problem arises when you have an agreement which changes often. If all the Peeps needed to meet, update and sign a new version of the document every time someone makes a bank transaction, this system would be extremely inefficient.
 
 <!--
     The society as a whole would need to agree that most of the peeps were honest
@@ -90,26 +96,34 @@ Ofcourse, the agreed upon state *should* not vary between the Peeps -> then ther
 
 The ability for many Peeps to keep an up-to-date documentation of the agreed upon state is what the Blockchain technology enables. Once you start asking *how* the Blockchain technology does this you start venturing down the rabbit hole and things can get IT jargony very quickly. Fortunately, we can pretend that Blockchains are based on **magic** instead of fancy **technology**.
 
-<!--
-    Am I cheating by using magic to get around the promise of not using IT jargon?
--->
+<!-- Am I cheating by using magic to get around the promise of not using IT jargon? -->
 
 ![You´re a wizard]({{ site.url }}/assets/images/wizardHarry.png)
 
-Imagine if all the Peeps have a copy of an enchanted document with the agreed upon state. This enchanted document has the following magic properties:
+Imagine if all the Peeps have a copy of an enchanted document with the agreed upon state. These enchanted documents have the following magic properties:
 
-- The documents have a set of rules which need to be followed in order to make an update to the agreement.
-- If an update is made to one of the enchanted documents ain accordance to the rules, this update would also be applied to all the other enchanted documents.
+1. The document has a set of rules which need to be followed in order to make an update to the agreed upon state.
+2. If an update is made to one of the enchanted documents in accordance to the rules, this update will magically be applied to all the other enchanted documents.
 
-The rules of the enchanted documents can vary between sets of enchanted documents. Likewise, the set of, one blockchain has a set of rules that need to be followed. The rules in question 
+These magic properties ensure that all the Peeps have an identical and up-to-date copy of the agreement. There is no central authority which owns the definitive agreed upon state, all the Peeps have their own copy of the agreed upon state. This is why Blockchains are refered to as decentralized, there is no central controller of the truth.
 
-different Blockchains have varying rules. In the case of a Blockchain that specifies ownership, the rule is that only people that have ownership of item A can give away this ownership to someone else. If anyone else have this document
+<!--illustration showing documents being updated based on one enchanted document being updated-->
 
-Blockchains are ofcourse not based on magic, but on the conceptual level, this simplification is good enough.
+The rules of the enchanted documents can vary between sets of enchanted documents.
 
-So if you own an apartment, let one of the peers kno
+#### Sato the Wizard
 
-The document is enchanted in such a way that people cannot make changes to the truth unless you are being honest. So that you cannot change the document to say that you own an apartment which you don’t.
+A wizard (lets call him Sato) wants to make a new currency, but he does not want to deal with the hassle of administration. Therefore, he decides to create a set of enchanted documents. He hands out a copy of the enchanted documents to any Peer that wants to own one. The document contain a list of people and their balance of the new currency. Satos enchants the document with the following rule:
+
+- You can send anyone else your own money (by reducing the balance next to your name and increasing the balance next to theirs by a corresponding amount)
+
+This rule implicitly states that you cannot increase your own balance, it can only be increased by someone else sending you money. If evil Peep A tries to change the document by increasing his own balance, or reducing the balance of anyone else, the enchantment ensures that the other enchanted documents ignore his updates.
+
+Blockchains are ofcourse not based on magic, but on the conceptual level, this simplification is good enough. Blockchains, like the example sets of enchanted documents, have different rules about how to update the agreed upon state.
+
+<!-- could mention that the agreed upon state is done at a block at a time-->
+
+## Smart contracts
 
 
 <!--
@@ -127,14 +141,10 @@ Its all about documenting the state of things. One truth which there is agreemen
 - contracts are a strange case, because no central authoroty actually keeps this state. But both parties have signed versions of the contract which is presented to a central authority in the case a dispute has to be solved.
 
 - Its worth noting that not everyone might agree with the rules of the society. In fact, they probably dont, but they know the consequences if they do not agree about something.
-
-Another form agreement is social norms, of how you should and should not behave in certain settings.
-
-There are other types of implicit agreements, such as eyeballing the girlfriend of the bulky guy with the tribal tatoo.
+    + It does not matter . Its a fiction, a legal fiction
 
 - if today you someone had sneaked in your apartment and claimed it fo rthemselves, the first people that the police would check with is probably the neighbours. They likely do have an up to date view about who owns what. And the police trust them to be honest.
     + But you cannot be sure that they have an up to date view of the world. What if the unknown stranger had just paid a large sum of money for the apartment but the old owner still claimed ownership.
-    + Agreement is very important in my project. The governance structure is extremely important. It could be made using a smart contract.
 - The good thing about smart contract is that everything needs to be so explicitly defined. This means that there is less room missunderstanding.
 - Explain that there are private and public blockchains
 
