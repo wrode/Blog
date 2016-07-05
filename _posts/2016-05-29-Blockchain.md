@@ -6,7 +6,9 @@ draft: true
 
 <!--more-->
 
-    A Blockchain is a decentralized database that carries out transactions based on a predefined protocol.
+<!--Dear reader of the HTML document, I use html notes while i work to jot down any thoughts i get while writing - i´ve decided not to delete these after writing as they are hidden for most readers, and may be of interest for someone who is actually willing to look at the html -->
+
+    A Blockchain is a decentralized database, updated through transactions based on a predefined protocol.
 
 There, now you know that. The problem is, if you are like most people this sentence wasn´t very helpful. 
 
@@ -57,6 +59,9 @@ Why would society trust that the apartment is mine when the con artist claiming 
 Just like with the agreement about agreements, agreement about ownership is solved in our societies by relying on a single source of "truth" - centrally administrated by a trusted authority.
 
 In the case of apartments, the government owns a central registry of who owns what land. But there are also many other registries which keep track of who owns what (among other things):
+
+<!--Could talk about the different types of registers here. How ancients used stone tablets or Quipus as their registreries-->
+
 - Governments keep track of who owns what veichle registration plates.
 - Kennel clubs keep track of who owns what dog through a breed registry.
 - The nonprofit organization ICANN keeps track of who owns what internet domain names. 
@@ -64,7 +69,8 @@ In the case of apartments, the government owns a central registry of who owns wh
 
 ### Blockchain
 
-Ok, but what does blockchain have to do with agreements?
+
+Ok, but what does blockchain technology have to do with agreements?
 
 Blockchain technology is essentially just a new way to reach agreement about the state of something. What's new is that unlike the traditional methods that we mentioned above, the agreement is not administrated (controlled) by a central authority.
 
@@ -74,7 +80,7 @@ Instead of the central authority owning a single document that captures the agre
     Should have an image of a large amount of people here, with some of them with their hands up in the air. An an arrow signaling that these are the peeps
 -->
 
-Ofcourse, the agreed upon state *should* not vary between the Peeps - then there would not be agreement. In order to ensure that all the Peeps had the same document, they would need to meet, dokument the state, and then sign eachothers dokument. This might be fine if the agreement in question did not change. The problem arises when you have an agreement which often changes. If all the Peeps needed to meet, update and sign a new version of the document every time someone makes a bank transaction, this system would be extremely inefficient.
+Ofcourse, the agreed upon state *should* not vary between the Peeps -> then there would not be agreement. In order to ensure that all the Peeps had the same document, they would need to meet, dokument the state, and then sign eachothers dokument. This might be fine if the agreement in question did not change, or if only changed once every 10 years. The problem arises when you have an agreement which changes often. If all the Peeps needed to meet, update and sign a new version of the document every time someone makes a bank transaction, this system would be extremely inefficient.
 
 <!--
     The society as a whole would need to agree that most of the peeps were honest
@@ -88,14 +94,16 @@ The ability for many Peeps to keep an up-to-date documentation of the agreed upo
     Am I cheating by using magic to get around the promise of not using IT jargon?
 -->
 
-![You´re a wizard]({{ site.url }}/assets/images/WizardHarry.png)
+![You´re a wizard]({{ site.url }}/assets/images/wizardHarry.png)
 
 Imagine if all the Peeps have a copy of an enchanted document with the agreed upon state. This enchanted document has the following magic properties:
 
-- The documents have a set of magic rules which need to be followed in order to make an update to the agreement.
-- If an update is made to one of the enchanted documents and it followed the rules, this update would also be applied to all the other enchanted documents.
+- The documents have a set of rules which need to be followed in order to make an update to the agreement.
+- If an update is made to one of the enchanted documents ain accordance to the rules, this update would also be applied to all the other enchanted documents.
 
-The rules of the enchanted documents can vary, it´s these rules that result in many different Blockchain. In the case of a Blockchain that specifies ownership, the magic rule is that only people that have ownership of item A can give away this ownership to someone else. If anyone else have this document
+The rules of the enchanted documents can vary between sets of enchanted documents. Likewise, the set of, one blockchain has a set of rules that need to be followed. The rules in question 
+
+different Blockchains have varying rules. In the case of a Blockchain that specifies ownership, the rule is that only people that have ownership of item A can give away this ownership to someone else. If anyone else have this document
 
 Blockchains are ofcourse not based on magic, but on the conceptual level, this simplification is good enough.
 
