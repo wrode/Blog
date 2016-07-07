@@ -30,7 +30,6 @@ Different types of agreement have varying degrees of societal consequence. Some 
 
 For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start is agreeing about the rules of the society. also known as the laws.
 
-
 #### Agreeing about agreements
 
 One of these laws may be to allow people to enter into bindings agreements with one another. The agreement defines what members of the society *can* make agreements about, and what process to follow if an agreement is not being upheld. Essentially, it is an agreement about how to handle agreements.
@@ -43,11 +42,11 @@ The agreement about agreements is know as contract law. Modern societies have a 
 
 #### Ownership
 
-Another rule is whether people in the society *can* own things at all. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
+Another subject which is important to reach agreement about is whether people in the society *can* own things at all. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
 
-Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it´s pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment. It is also not the end of the world if I happened to lose them. Likewise, it sucks to lose other pieces of clothing, my wallet, my playstation controller etc. But again, it´s not the end of the world, life goes on. 
+Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it´s pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment. It is also not the end of the world if I happened to lose them. Likewise, it sucks to lose other pieces of clothing, my wallet, my playstation controller etc. but again, it´s not the end of the world, life goes on. 
 
-Then there are the big things. Things that *really* do impact you if you lose them. An example of a big thing is the apartment that you own. Losing that apartment would be life changing. If it was possible to steal an apartment in the same way that you could steal a purse, then that is what thiefs would be doing because that is were the big bucks would be. People would be spending their time protecting their apartment, and society as a whole would not function well. Therefore, it is important that society agrees about who owns the big things.
+Then there are the *big things*. Things that really do impact you if you lose them. An example of a big thing is the apartment that you own. Losing that apartment would be life changing. If it was possible to steal an apartment in the same way that you could steal a purse, then that is what thiefs would be doing because that is were the big bucks would be. People would be spending their time protecting their apartment, and society as a whole would not function well. Therefore, for the big things, it is important that society agrees about who owns what.
 
 So what is stopping another person from sneaking in to my apartment and claiming it for himself, while I am strolling about town in my new hemp sandals? 
 
@@ -104,7 +103,7 @@ Imagine if all the Peeps have a copy of an enchanted document with the agreed up
 1. The document has a set of rules which need to be followed in order to make an update to the agreed upon state.
 2. If an update is made to one of the enchanted documents in accordance to the rules, this update will magically be applied to all the other enchanted documents.
 
-These magic properties ensure that all the Peeps have an identical and up-to-date copy of the agreement. There is no central authority which owns the definitive agreed upon state, all the Peeps have their own copy. This is why Blockchains are refered to as decentralized, there is no central controller of the truth.
+These magic properties ensure that all the Peeps have an identical and up-to-date copy of the agreement. There is no central authority which owns the definitive agreed upon state, all the Peeps have their own a copy of this state. This is why Blockchains are refered to as decentralized, there is no central controller of the truth.
 
 <!--illustration showing documents being updated based on one enchanted document being updated
 
@@ -117,21 +116,20 @@ The rules of the enchanted documents can vary between different sets of document
 A wizard (lets call him Sato) wants to make a new currency, but he does not want to deal with the hassle of administration. Therefore, he decides to create a set of enchanted documents. He hands out a copy of the enchanted documents to any Peep that wants to own one. The document contains a list of people and their balance of the new currency. Sato enchants the document with the following rule:
 
     You can send anyone else your own money.
-    This is done reducing the balance next to your name and incr
-    easing the balance next to the recipient by the corresponding amount.
+    This is done reducing the balance next to your name and increasing the balance next to the recipient by the corresponding amount.
 
 This rule implicitly states that you cannot increase your own balance, it can only be increased by someone else sending you money. If evil Peep A tries to change the document by increasing his own balance, or reducing the balance of anyone else, the enchantment ensures that the other enchanted documents ignore his updates.
 
 ### Back to Blockchains
 
-Blockchains are ofcourse not based on magic, but on a high conceptual level, this simplification is good enough. Blockchains, like sets of enchanted documents, follow different rules about how to update the agreed upon state.
+Blockchains are ofcourse not based on magic, but on a high conceptual level, this simplification is good enough. Blockchains, like sets of enchanted documents, can follow different rules about how to update the agreed upon state.
 
-In the example above, the rules defines a currency, and the agreement specifies ownership of said currency. In the non-magic world of reality, the most famous example of this type of blockchain is Bitcoin.
+In the example above, the rules of the enchanted documents create a currency, and the agreement specifies ownership of said currency. In the non-magic world of reality, the most famous example of this type of blockchain is Bitcoin.
+<!--mIt is important to note that the only reason Bitcoin has any value, is because people believe that bitcoin is valuable, and are willing to exchange bitcoin for dollars or euros-->
 
-Another set of enchanted documents could be defined by rules about how to handle agreements which are written on the enchanted document. The enchantement would ensure that any agreement written on the enchanted document was upheld. 
+Another set of enchanted documents could be defined by rules about how to handle agreements which are written on the enchanted document. The enchantment would ensure that any agreement written on the enchanted document was upheld. Blockchains with these rules also exists, the most famous of which is called Ethereum. Agreements, written as code, can be uploaded to the blockchain.  In a world of magic, these agreements would ensure that the agreement was upheld in the physical world - not only on the enchanted document. In reality, a blockchain does not yet have any legal precedence outside the blockchain - and so an agreement on a blockchain can only be enforced on the blockchain.
 
-The blockchain of the real world, does not yet have any authority outside of the blockchain, but blockchains which is an agreements about agreements exist. The most famous of these is called Ethereum. This is a blockchain were anyone can add new contracts on the state. These have been named *Smart Contracts*
-
+Agreements on the blockchain have been named *Smart Contracts* and deserve a blogpost of their own.
 
 <!-- 
 Talk about the weak link between the blockchain and the real world. For example, that scarcity of a certain type of token. And this only has value in the real world because people are willing to pay a price for it.
@@ -146,11 +144,6 @@ Should mention that bitcoin is similar to the above example, it only has value. 
 What do you need to trust? The network, or for ethereum the network and the smart contracts.
 
 Important to note that the document is just an agreement on paper. Consequences in the real world need to be enforced. On chain consequences are different.
--->
-
-
-
-<!--
 
 That’s what is meant by decentralized. Instead of one entity managing a central truth for everyone else, now many entities can own an up to date copy of the truth.
 
