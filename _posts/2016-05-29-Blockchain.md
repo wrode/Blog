@@ -26,7 +26,7 @@ Agreement is nice. Whether its agreeing about the best football team, what chees
 
 Different types of agreement have varying degrees of societal consequence. Some subjects are unimportant to reach an agreement about. As an example, it is not very important that you agree with your friend about the best tasting cheese. In this case, you can agree to disagree, and go off eating the cheese that you prefer. Other things are a little more important, say that you are a couple that can only afford to buy one type of cheese. If you don´t agree about what cheese to buy, hard feelings and arguments may pursue. But for society as a whole, agreement here is still not very important. On the other end of the scale there are things which are really important for a society as a whole to agree about in order to function. <!--Dont like the last sentence here-->One such thing is agreeing about language and the meaning of words.
 
-![Consequences for society]({{ site.url }}/assets/images/ConsequencesForSociety.jpg)
+![Consequences for society]({{ site.url }}/assets/images/ConsequencesForSociety.png)
 
 For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start is agreeing about the rules of the society. also known as the laws.
 
