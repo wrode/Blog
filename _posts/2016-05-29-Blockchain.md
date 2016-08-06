@@ -20,7 +20,7 @@ Most explanations of blockchain are full of IT jargon. So unless you know IT, th
 
 Agreement is nice. Whether its agreeing about the best football team, what cheese tastes good or which political candidate will make a country great again. If you take a step back and observe, you will find different types of agreements existing everywhere. It´s not only the explicit agreements which are the subjects of conversations. The very fact that you are able to communicate abstract ideas with another person is based on an agreement about the meaning of the words being spoken.
 
-![Cheese tastes good]({{ site.url }}/assets/images/CheeseTastesGood.jpg)
+![Cheese tastes good]({{ site.url }}/assets/images/CheeseTastesGreat.png)
 
 ...*more than one agreement here*
 
@@ -53,7 +53,7 @@ So what is stopping another person from sneaking in to my apartment and claiming
 <!--The problem is that todays societies are so huge that people can´t be expected to keep track of who owns which apartment. You cannot trust individuals to report this themselves, because there is an incentive problem.--> 
 Why would society trust that the apartment is mine when the con artist claiming that the apartment is his is just as credible. In fact, he´s more credible, because he is wearing a suit and I am wearing hemp sandals.
 
-![Who owns the apartment]({{ site.url }}/assets/images/WhosApartment.jpg)
+![Who owns the apartment]({{ site.url }}/assets/images/WhosApartment.png)
 
 This problem is solved by the government owning a central registry of who owns what real estate. This is just one example, but ownership is usually solved through central registries. Below are some examples of other registries which keep track of who owns what:
 
