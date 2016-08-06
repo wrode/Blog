@@ -80,9 +80,7 @@ Should i emphasize the importance of the word state?
 
 Instead of the central authority owning a single document that captures the agreed upon state, everyone who wants to document the agreed upon state is allowed to do so <!--for public blockchains-->. Let us call the people who wants to take part in documenting the state **Peeps**. 
 
-<!--
-    Should have an image of a large amount of people here, with some of them with their hands up in the air. An an arrow signaling that these are the peeps
--->
+![Peeps]({{ site.url }}/assets/images/Peeps.png)
 
 Ofcourse, the agreed upon state *should* not vary between the Peeps -> then there would not be agreement. In order to ensure that all the Peeps have the same agreement documented, they would need to meet, document the state, and then sign eachothers document. This might be fine if the agreement in question did not change, or if only changed once every 10 years. The problem arises when you have an agreement which changes often. If all the Peeps needed to meet, update and sign a new version of the document every time someone makes a bank transaction, this system would be extremely inefficient.
 
@@ -104,6 +102,9 @@ Imagine if all the Peeps have a copy of an enchanted document with the agreed up
 2. If an update is made to one of the enchanted documents in accordance to the rules, this update will magically be applied to all the other enchanted documents.
 
 These magic properties ensure that all the Peeps have an identical and up-to-date copy of the agreement. There is no central authority which owns the definitive agreed upon state, all the Peeps have their own a copy of this state. This is why Blockchains are refered to as decentralized, there is no central controller of the truth.
+
+
+![Enchanted documents]({{ site.url }}/assets/images/enchantedDocuments.png)
 
 <!--illustration showing documents being updated based on one enchanted document being updated
 
