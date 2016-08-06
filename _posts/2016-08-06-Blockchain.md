@@ -1,7 +1,6 @@
 ---
 layout: post
 title: What is a Blockchain?
-draft: true
 ---
 
 <!--more-->
