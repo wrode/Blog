@@ -1,5 +1,5 @@
 name: All is abstract
-description: Data visualization. Blockchain. Thoughts.
+description: Data visualization and BlockChain blog.
 meta_description: "A blog about data, and some other things"
 
 markdown: kramdown
@@ -14,4 +14,4 @@ excerpt_separator: <!--more-->
 
 # Details for the RSS feed generator
 url:            'http://allisabstract.com'
-author:         'Bill'
+author:         'William'
