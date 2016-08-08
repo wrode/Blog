@@ -5,10 +5,9 @@ title: What is a Blockchain?
 <!--Dear reader of the HTML document, I use html notes while i work to jot down any thoughts i get while writing - i´ve decided not to delete these after writing as they are hidden for most readers, and may be of interest for someone who is actually willing to look at the html -->
 
     A Blockchain is a decentralized documented state, updated through transactions based on a predefined protocol.
-
 There, now you know that. The problem is, if you are like most people this sentence wasn´t very helpful.
-<!--more-->
 
+<!--more-->
 In some circles, Blockchain is so hot right now, it´s the talk of the town. But even though there is a lot of discussion about Blockchain technology, few people actually understand what this thing is. Or more importantly - what it can become.
 
 Most explanations of blockchain are full of IT jargon. So unless you know IT, the explanations don´t really help. In this post I try to explain blockchain without the IT part, and why it is such a big deal. First however, I will go on what seems like a tangent - bear with me.
