@@ -11,7 +11,7 @@ There, now you know that. The problem is, if you are like most people this sente
 
 
 <!--more-->
-In some circles, Blockchain is so hot right now, it´s the talk of the town. But even though there is a lot of discussion about Blockchain technology, few people actually understand what this thing is. Or more importantly - what it can become.
+In some circles, blockchain is so hot right now, it´s the talk of the town. But even though there is a lot of discussion about blockchain technology, few people actually understand what this thing is. Or more importantly - what it can become.
 
 Most explanations of blockchain are full of IT jargon. So unless you know IT, the explanations don´t really help. In this post I try to explain blockchain without the IT part, and why it is such a big deal. First however, I will go on what seems like a tangent - bear with me.
 
@@ -23,7 +23,7 @@ Agreement is nice. Whether its agreeing about the best football team, what chees
 
 ...*more than one agreement here*
 
-Different types of agreement have varying degrees of societal consequence. Some subjects are unimportant to reach an agreement about. As an example, it is not very important that you agree with your friend about the best tasting cheese. In this case, you can agree to disagree, and go off eating the cheese that you prefer. Other things are a little more important, say that you are a couple that can only afford to buy one type of cheese. If you don´t agree about what cheese to buy, hard feelings and arguments may pursue. But for society as a whole, agreement here is still not very important. On the other end of the scale there are things which are really important for a society as a whole to agree about in order to function. <!--Dont like the last sentence here-->One such thing is agreeing about language and the meaning of words.
+Different types of agreement have varying degrees of societal consequence. Some subjects are unimportant to reach an agreement about. As an example, it is not very important that you agree with your friend about the best tasting cheese. In this case, you can agree to disagree, and go off eating the cheese that you prefer. Other things are a little more important, say that you are a couple that can only afford to buy one type of cheese. If you don´t agree about what cheese to buy, hard feelings and arguments may pursue. But for society as a whole, agreement here is still not very important. On the other end of the scale there are things that are really important for a society as a whole to agree about in order to function. <!--Dont like the last sentence here-->One such thing is agreeing about language and the meaning of words.
 
 ![Consequences for society]({{ site.url }}/assets/images/ConsequencesForSociety.png)
 
@@ -41,9 +41,9 @@ The agreement about agreements is know as contract law. Modern societies have a 
 
 #### Ownership
 
-Another subject which is important to reach agreement about is whether people in the society *can* own things at all. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
+Another subject that is important to reach agreement about is whether people in the society *can* own things at all. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
 
-Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it´s pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment. It is also not the end of the world if I happened to lose them. Likewise, it sucks to lose other pieces of clothing, my wallet, my playstation controller etc. but again, it´s not the end of the world, life goes on. 
+Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it´s pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment. It is also not the end of the world if I happened to lose them. Likewise, it sucks to lose other pieces of clothing, my wallet, my PlayStation controller etc. but again, it´s not the end of the world, life goes on. 
 
 Then there are the *big things*. Things that really do impact you if you lose them. An example of a big thing is the apartment that you own. Losing that apartment would be life changing. If it was possible to steal an apartment in the same way that you could steal a purse, then that is what thiefs would be doing because that is were the big bucks would be. People would be spending their time protecting their apartment, and society as a whole would not function well. Therefore, for the *big things*, it is important that society agrees about who owns what.
 
@@ -58,7 +58,7 @@ This problem is solved by the government owning a central registry of who owns w
 
 <!--Could talk about the different types of registers here. How ancients used stone tablets or Quipus as their registreries-->
 
-- Governments keep track of veichle ownership using a registry of registration plates.
+- Governments keep track of vehicle ownership using a registry of registration plates.
 - Kennel clubs keep track of who owns what dog through a breed registry.
 - The nonprofit organization ICANN keeps track of who owns what internet domain names. 
 - A bank keeps an up to date ledger with the balance of account holders.
@@ -81,7 +81,7 @@ Instead of the central authority owning a single document that captures the agre
 
 ![Peeps]({{ site.url }}/assets/images/Peeps.png)
 
-Ofcourse, the agreed upon state *should* not vary between the Peeps -> then there would not be agreement. In order to ensure that all the Peeps have the same agreement documented, they would need to meet, document the state, and then sign eachothers document. This might be fine if the agreement in question did not change, or if only changed once every 10 years. The problem arises when you have an agreement which changes often. If all the Peeps needed to meet, update and sign a new version of the document every time someone makes a bank transaction, this system would be extremely inefficient.
+Of course, the agreed upon state *should* not vary between the Peeps -> then there would not be agreement. In order to ensure that all the Peeps have the same agreement documented, they would need to meet, document the state, and then sign each others document. This might be fine if the agreement in question did not change, or if only changed once every 10 years. The problem arises when you have an agreement which changes often. If all the Peeps needed to meet, update and sign a new version of the document every time someone makes a bank transaction, this system would be extremely inefficient.
 
 <!--
     The society as a whole would need to agree that most of the peeps were honest
@@ -100,7 +100,7 @@ Imagine if all the Peeps have a copy of an enchanted document with the agreed up
 1. The document has a set of rules which need to be followed in order to make an update to the agreed upon state.
 2. If an update is made to one of the enchanted documents in accordance to the rules, this update will magically be applied to all the other enchanted documents.
 
-These magic properties ensure that all the Peeps have an identical and up-to-date copy of the agreement. There is no central authority which owns the definitive agreed upon state, all the Peeps have their own a copy of this state. This is why Blockchains are refered to as decentralized, there is no central controller of the truth.
+These magic properties ensure that all the Peeps have an identical and up-to-date copy of the agreement. There is no central authority which owns the definitive agreed upon state, all the Peeps have their own a copy of this state. This is why Blockchains are referred to as decentralized; there is no central controller of the truth.
 
 ![Enchanted documents]({{ site.url }}/assets/images/enchantedDocuments.png)
 
@@ -121,14 +121,14 @@ This rule implicitly states that you cannot increase your own balance, it can on
 
 ### Back to Blockchains
 
-Blockchains are ofcourse not based on magic, but on a high conceptual level, this simplification is good enough. Blockchains, like sets of enchanted documents, can follow different rules about how to update the agreed upon state.
+Blockchains are of course not based on magic, but on a high conceptual level, this simplification is good enough. Blockchains, like sets of enchanted documents, can follow different rules about how to update the agreed upon state.
 
 In the example above, the rules of the enchanted documents create a currency, and the agreement specifies ownership of said currency. In the non-magic world of reality, the most famous example of this type of blockchain is Bitcoin.
 <!--mIt is important to note that the only reason Bitcoin has any value, is because people believe that bitcoin is valuable, and are willing to exchange bitcoin for dollars or euros-->
 
 Another set of enchanted documents could be defined by rules about how to handle agreements which are written on the enchanted document. The enchantment would ensure that any agreement written on the enchanted document was upheld. Blockchains with these rules also exists, the most famous of which is called Ethereum. Agreements, written as code, can be uploaded to the blockchain.  In a world of magic, these agreements would ensure that the agreement was upheld in the physical world - not only on the enchanted document. In reality, a blockchain does not yet have any legal precedence outside the blockchain - and so an agreement on a blockchain can only be enforced on the blockchain.
 
-Agreements on the blockchain have been named *Smart Contracts* and deserve a blogpost of their own.
+Agreements on the blockchain have been named *Smart Contracts* and deserve a blog post of their own.
 
 <!-- 
 Talk about the weak link between the blockchain and the real world. For example, that scarcity of a certain type of token. And this only has value in the real world because people are willing to pay a price for it.
