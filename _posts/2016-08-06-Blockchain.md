@@ -27,7 +27,7 @@ Different types of agreement have varying degrees of societal consequence. Some 
 
 ![Consequences for society]({{ site.url }}/assets/images/ConsequencesForSociety.png)
 
-For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start is agreeing about the rules of the society. also known as the laws.
+For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start is agreeing about the rules of the society, also known as the laws.
 
 #### Agreeing about agreements
 
@@ -77,7 +77,7 @@ This also means that there is no central authority who can independently change 
 Should i emphasize the importance of the word state?
 -->
 
-Instead of the central authority owning a single document that captures the agreed upon state, everyone who wants to document the agreed upon state is allowed to do so <!--for public blockchains-->. Let us call the people who wants to take part in documenting the state **Peeps**. 
+Instead of the central authority owning a single document that captures the agreed upon state, everyone who wants to document the agreed upon state is allowed to do so<!--for public blockchains-->. Let us call the people who wants to take part in documenting the state **Peeps**. 
 
 ![Peeps]({{ site.url }}/assets/images/Peeps.png)
 
@@ -101,7 +101,6 @@ Imagine if all the Peeps have a copy of an enchanted document with the agreed up
 2. If an update is made to one of the enchanted documents in accordance to the rules, this update will magically be applied to all the other enchanted documents.
 
 These magic properties ensure that all the Peeps have an identical and up-to-date copy of the agreement. There is no central authority which owns the definitive agreed upon state, all the Peeps have their own a copy of this state. This is why Blockchains are refered to as decentralized, there is no central controller of the truth.
-
 
 ![Enchanted documents]({{ site.url }}/assets/images/enchantedDocuments.png)
 
