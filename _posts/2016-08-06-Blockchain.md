@@ -77,7 +77,7 @@ This also means that there is no central authority who can independently change 
 Should i emphasize the importance of the word state?
 -->
 
-Instead of the central authority owning a single document that captures the agreed upon state, everyone who wants to document the agreed upon state is allowed to do so<!--for public blockchains-->. Let us call the people who wants to take part in documenting the state **Peeps**. 
+Instead of the central authority owning a single document that captures the agreed upon state of something, everyone who wants to document the agreed upon state is allowed to do so<!--for public blockchains-->. Let us call the people who wants to take part in documenting the state **Peeps**. All the peeps will own their own document which describes the agreed upon state.
 
 ![Peeps]({{ site.url }}/assets/images/Peeps.png)
 
