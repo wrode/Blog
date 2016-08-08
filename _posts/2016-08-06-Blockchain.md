@@ -44,16 +44,16 @@ Another subject which is important to reach agreement about is whether people in
 
 Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it´s pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment. It is also not the end of the world if I happened to lose them. Likewise, it sucks to lose other pieces of clothing, my wallet, my playstation controller etc. but again, it´s not the end of the world, life goes on. 
 
-Then there are the *big things*. Things that really do impact you if you lose them. An example of a big thing is the apartment that you own. Losing that apartment would be life changing. If it was possible to steal an apartment in the same way that you could steal a purse, then that is what thiefs would be doing because that is were the big bucks would be. People would be spending their time protecting their apartment, and society as a whole would not function well. Therefore, for the big things, it is important that society agrees about who owns what.
+Then there are the *big things*. Things that really do impact you if you lose them. An example of a big thing is the apartment that you own. Losing that apartment would be life changing. If it was possible to steal an apartment in the same way that you could steal a purse, then that is what thiefs would be doing because that is were the big bucks would be. People would be spending their time protecting their apartment, and society as a whole would not function well. Therefore, for the *big things*, it is important that society agrees about who owns what.
 
 So what is stopping another person from sneaking in to my apartment and claiming it for himself, while I am strolling about town in my new hemp sandals? 
 
 <!--The problem is that todays societies are so huge that people can´t be expected to keep track of who owns which apartment. You cannot trust individuals to report this themselves, because there is an incentive problem.--> 
-Why would society trust that the apartment is mine when the con artist claiming that the apartment is his is just as credible. In fact, he´s more credible, because he is wearing a suit and I am wearing hemp sandals.
+Why would society trust that the apartment is mine when the con artist claiming that the apartment is his is just as credible? In fact, he´s more credible, because he is wearing a suit and I am wearing hemp sandals.
 
 ![Who owns the apartment]({{ site.url }}/assets/images/WhosApartment.png)
 
-This problem is solved by the government owning a central registry of who owns what real estate. This is just one example, but ownership is usually solved through central registries. Below are some examples of other registries which keep track of who owns what:
+This problem is solved by the government owning a central registry of who owns what real estate. This is just one example, but ownership of *big things* is usually solved through central registries. Below are some examples of other registries which keep track of who owns what:
 
 <!--Could talk about the different types of registers here. How ancients used stone tablets or Quipus as their registreries-->
 
