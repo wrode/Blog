@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Smart contracts
-draft: true
 ---
 
 Smart contracts 
@@ -17,7 +16,7 @@ First, let's quickly do a recapp of what a blockchain is (the original blog post
 
 There.
 
-Different sets of enchanted documents can have different rules. The original set of enchanted documents (blockchain) was called Bitcoin. The Bitcoin magic rules are as follows (super oversimplified, please do not kill me Bitcoiners):
+Different sets of enchanted documents can have different rules. The original set of enchanted documents (blockchain) is called Bitcoin. The Bitcoin magic rules are as follows (super oversimplified, please do not kill me Bitcoiners):
 
 - Each enchanted document contains a list of all accounts and balances.
 - People own accounts, and send their own bitcoins to other peoples accounts.
