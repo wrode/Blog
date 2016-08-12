@@ -3,27 +3,26 @@ layout: post
 title: What is a Blockchain?
 disqus: true
 ---
-<!--Dear reader of the HTML document, I use html notes while i work to jot down any thoughts i get while writing - i´ve decided not to delete these after writing as they are hidden for most readers, and may be of interest for someone who is actually willing to look at the html -->
+<!--Dear reader of the HTML document, I use html notes while i work to jot down any thoughts i get while writing - i've decided not to delete these after writing as they are hidden for most readers, and may be of interest for someone who is actually willing to look at the html -->
 
     A Blockchain is a decentralized documented state, updated through transactions based on a predefined protocol.
 
-There, now you know that. The problem is, if you are like most people this sentence wasn´t very helpful.
-
+There, now you know that. The problem is, if you are like most people this sentence wasn't very helpful.
 
 <!--more-->
-In some circles, blockchain is so hot right now, it´s the talk of the town. But even though there is a lot of discussion about blockchain technology, few people actually understand what this thing is. Or more importantly - what it can become.
+In some circles, blockchain is so hot right now, it's the talk of the town. But even though there is a lot of discussion about blockchain technology, few people actually understand what this thing is. Or more importantly - what it can become.
 
-Most explanations of blockchain are full of IT jargon. So unless you know IT, the explanations don´t really help. In this post I try to explain blockchain without the IT part, and why it is such a big deal. First however, I will go on what seems like a tangent - bear with me.
+Most explanations of blockchain are full of IT jargon. So unless you know IT, the explanations don't really help. In this post I try to explain blockchain without the IT part, and why it is such a big deal. First however, I will go on what seems like a tangent - bear with me.
 
 ### Agreement
 
-Agreement is nice. Whether its agreeing about the best football team, what cheese tastes good or which political candidate will make a country great again. If you take a step back and observe, you will find different types of agreements existing everywhere. It´s not only the explicit agreements which are the subjects of conversations. The very fact that you are able to communicate abstract ideas with another person is based on an agreement about the meaning of the words being spoken.
+Agreement is nice. Whether its agreeing about the best football team, what cheese tastes good or which political candidate will make a country great again. If you take a step back and observe, you will find different types of agreements existing everywhere. It's not only the explicit agreements which are the subjects of conversations. The very fact that you are able to communicate abstract ideas with another person is based on an agreement about the meaning of the words being spoken.
 
 ![Cheese tastes good]({{ site.url }}/assets/images/CheeseTastesGreat.png)
 
 ...*more than one agreement here*
 
-Different types of agreement have varying degrees of societal consequence. Some subjects are unimportant to reach an agreement about. As an example, it is not very important that you agree with your friend about the best tasting cheese. In this case, you can agree to disagree, and go off eating the cheese that you prefer. Other things are a little more important, say that you are a couple that can only afford to buy one type of cheese. If you don´t agree about what cheese to buy, hard feelings and arguments may pursue. But for society as a whole, agreement here is still not very important. On the other end of the scale there are things that are really important for a society as a whole to agree about in order to function. <!--Dont like the last sentence here-->One such thing is agreeing about language and the meaning of words.
+Different types of agreement have varying degrees of societal consequence. Some subjects are unimportant to reach an agreement about. As an example, it is not very important that you agree with your friend about the best tasting cheese. In this case, you can agree to disagree, and go off eating the cheese that you prefer. Other things are a little more important, say that you are a couple that can only afford to buy one type of cheese. If you don't agree about what cheese to buy, hard feelings and arguments may pursue. But for society as a whole, agreement here is still not very important. On the other end of the scale there are things that are really important for a society as a whole to agree about in order to function. <!--Dont like the last sentence here-->One such thing is agreeing about language and the meaning of words.
 
 ![Consequences for society]({{ site.url }}/assets/images/ConsequencesForSociety.png)
 
@@ -43,14 +42,14 @@ The agreement about agreements is know as contract law. Modern societies have a 
 
 Another subject that is important to reach agreement about is whether people in the society *can* own things at all. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
 
-Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it´s pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment. It is also not the end of the world if I happened to lose them. Likewise, it sucks to lose other pieces of clothing, my wallet, my PlayStation controller etc. but again, it´s not the end of the world, life goes on. 
+Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it's pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment. It is also not the end of the world if I happened to lose them. Likewise, it sucks to lose other pieces of clothing, my wallet, my PlayStation controller etc. but again, it's not the end of the world, life goes on. 
 
 Then there are the *big things*. Things that really do impact you if you lose them. An example of a big thing is the apartment that you own. Losing that apartment would be life changing. If it was possible to steal an apartment in the same way that you could steal a purse, then that is what thiefs would be doing because that is were the big bucks would be. People would be spending their time protecting their apartment, and society as a whole would not function well. Therefore, for the *big things*, it is important that society agrees about who owns what.
 
 So what is stopping another person from sneaking in to my apartment and claiming it for himself, while I am strolling about town in my new hemp sandals? 
 
-<!--The problem is that todays societies are so huge that people can´t be expected to keep track of who owns which apartment. You cannot trust individuals to report this themselves, because there is an incentive problem.--> 
-Why would society trust that the apartment is mine when the con artist claiming that the apartment is his is just as credible? In fact, he´s more credible, because he is wearing a suit and I am wearing hemp sandals.
+<!--The problem is that todays societies are so huge that people can't be expected to keep track of who owns which apartment. You cannot trust individuals to report this themselves, because there is an incentive problem.--> 
+Why would society trust that the apartment is mine when the con artist claiming that the apartment is his is just as credible? In fact, he's more credible, because he is wearing a suit and I am wearing hemp sandals.
 
 ![Who owns the apartment]({{ site.url }}/assets/images/WhosApartment.png)
 
@@ -93,7 +92,7 @@ The ability for many Peeps to keep an up-to-date documentation of the agreed upo
 
 <!-- Am I cheating by using magic to get around the promise of not using IT jargon? -->
 
-![You´re a wizard]({{ site.url }}/assets/images/wizardHarry.png)
+![You're a wizard]({{ site.url }}/assets/images/wizardHarry.png)
 
 Imagine if all the Peeps have a copy of an enchanted document with the agreed upon state. These enchanted documents have the following magic properties:
 
