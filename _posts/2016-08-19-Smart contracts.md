@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Smart contracts
+draft: true
 ---
 
-Smart contracts 
+Smart contracts
+
+<!--more-->
 
 First, let's quickly do a recapp of what a blockchain is (the original blog post can be found [here](http://allisabstract.com/2016/08/06/Blockchain.html)). We'll first pretend that blockchain technology is based on magic and not technology.
 
