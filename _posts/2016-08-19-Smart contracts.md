@@ -28,7 +28,7 @@ Below is an illustration of the bitcoin enchanted documents:
 
 <!--Need to explain that the bitcoins are just the balances on the enchanted documents -->
 
-Another set of documents is called Ethereum. The enchanted documents that make up the Ethereum blockchain follow very similar rules to the Bitcoin blockchain:
+Another set of documents is called Ethereum. The enchanted documents that make up the Ethereum follow very similar rules to Bitcoin's:
 
 - Each enchanted document contains a list of all accounts and balances.
 - Owners of accounts can send ether to other accounts.
@@ -52,7 +52,7 @@ Code written by person, but once on the blockchain – the person loses control 
 
 ---
 
-A small but interesting digression: From the craddle of civilization when money was first invented, people were the only ones to be able to own it. Then, legal fictions were suddenly able to own money. Now, for the first time, a machine can own money. The consequences of this is hard to know.
+A small but interesting digression: From the craddle of civilization when money was first invented, people have been able to own money. Eventually, organized groups of people made up legal fictions, which were soon able to own money. Now, for the first time in history, a machine can own it's own money (through smart contracts). The consequences of this is hard to know, but we have interesting times ahead.
 
 <!-- Kneeel for your robot overlords picture.-->
 
