@@ -49,6 +49,7 @@ Then there are the *big things*. Things that really do impact you if you lose th
 So what is stopping another person from sneaking in to my apartment and claiming it for himself, while I am strolling about town in my new hemp sandals? 
 
 <!--The problem is that todays societies are so huge that people can't be expected to keep track of who owns which apartment. You cannot trust individuals to report this themselves, because there is an incentive problem.--> 
+
 Why would society trust that the apartment is mine when the con artist claiming that the apartment is his is just as credible? In fact, he's more credible, because he is wearing a suit and I am wearing hemp sandals.
 
 ![Who owns the apartment]({{ site.url }}/assets/images/WhosApartment.png)
