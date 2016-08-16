@@ -23,7 +23,7 @@ The original set of enchanted documents is called Bitcoin. The Bitcoin magic rul
 - Each enchanted document contains a list of all accounts and balances.
 - People own accounts, and can send their own bitcoins to other accounts.
 
-Below is an illustration of the bitcoin enchanted documents:
+Below is an illustration of one of the bitcoin enchanted documents:
 ![bitcoin]({{ site.url }}/assets/images/bitcoin.png)
 
 <!--Need to explain that the bitcoins are just the balances on the enchanted documents -->
@@ -58,22 +58,27 @@ Many people are critical of the name "smart contract", as it is not a real contr
 
 1. Legally binding
 
- First of all, a normal contract has legal consequences in the 'real world'. If the counterparty of an agreement does not uphold their part of the agreement, the legal system can be used to hold the other party accountable.
-
-Is legally binding.
-Not something that needs to be upheld - only settled on the blockchain.
-
-Bound by the blockchain.
-
-Blockchains are intertvined with the 'real world', their cryptocurrencies have real world value. But they still do not have any legal precedence outside the blockchain (yet).
+First of all, a normal contract has legal consequences in the 'real world'. If the counterparty of a contract does not uphold their part of the agreement, the legal system can be used to hold them accountable. On the contrary, a smart contract does not have to be upheld, any conditions are automatically settled on the blockchain. Blockchains do not (currently) have any precedence in the 'real world' outside the blockchain. All settlement (currently) happens on the blockchain. Yet, blockchains are still intertvined with the 'real world' since their cryptocurrencies have real world value.
 
 2. Trust
 
-Since a normal contract has legal consequences outside the blockchain, if you trust the contract and the legal system.
+Need trust in the small print of the contract you are signing (like how you read the carefully read the fine print of your itunes agreement). Not only that, but you need to 
 
-For a blockchain
 
-3. Privacy
+That's why you might be hesitant to go into an agreement with the son of the president in Corruptland, relating some things in corruptland - the rule of law is kind of broken there.
+
+That's also why investors do not want to invest in corruptland. Rule of law ensures that the investors are treated fairly. if you invest and get screwed over by the son of the president.
+
+3. Predictability
+
+If apple created new terms and conditions that included some fine print about having to give away your house once you sign the contract - and 100,000 people signed the contract before someone actually read the contract. Then given the current legal system, the people
+
+Likewise when the state of california create a set of rules about the california electricity market which jp morgan gamed. JP morgan still had to bear a hefty fine.
+
+One of the weaknesses here is that a lot of history within law has created regulation to handle problems, even though the conditions are clearly specifies - it may also. I would highly recommend two articles written byMat Levine on the subject. (bring in Matt Levine).
+
+
+3. Privacy and agreements
 Come to an agreement,
 
 smart contracts are already public
@@ -89,7 +94,7 @@ The smart contract is the law – you need to trust:
 
 
 
-One of the weaknesses here is that a lot of history within law has created regulation to handle problems, even though the conditions are clearly specifies - it may also. I would highly recommend two articles written byMat Levine on the subject. (bring in Matt Levine).
+
 
 
 Example
