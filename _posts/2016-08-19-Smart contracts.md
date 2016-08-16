@@ -36,7 +36,8 @@ There is one big difference however. Not all accounts on the ethereum enchanted 
 
 ![ethereum]({{ site.url }}/assets/images/ethereum.png)
 
-When a set of instructions reside on one of these accounts it is called a smart contract. The set of instructions is just computer code, essentially - just logic. If "poked" by a transaction from another account, the logic can: 
+When a set of instructions reside on one of these accounts it is called a smart contract. The set of instructions is just computer code, essentially - just logic. If "poked" by a transaction from another account, the logic can:
+
 - Compute
 - Store information
 - Send transactions to other accounts
@@ -46,9 +47,7 @@ As mentioned, the account with the code is not controlled by anyone. It is compl
 <!-- Write about smart contracts are a combination of the actual smart contract code and the blockchain--> 
 
 ---
-
-A small but interesting digression: From the craddle of civilization when money was first invented, people have been able to own money. Eventually, organized groups of people made up legal fictions, which were soon able to own money. Now, for the first time in history, a machine can own it's own money (through smart contracts). The consequences of this is hard to know, but we have interesting times ahead.
-
+A small digression: From the craddle of civilization when money was first invented, people have been able to own money. Eventually, organized groups of people made up legal fictions, which were soon able to own money. Now, for the first time in history, a machine can own it's own money (through smart contracts). The consequences of this is hard to know, but we have interesting times ahead.
 <!-- Kneeel for your robot overlords picture.-->
 
 ---
@@ -59,7 +58,7 @@ Many people are critical of the name "smart contract", as it is not a real contr
 
 1. Legally binding
 
-As already mentioned. First of all, a normal contract has legal consequences in the real world. These 
+ First of all, a normal contract has legal consequences in the 'real world'. If the counterparty of an agreement does not uphold their part of the agreement, the legal system can be used to hold the other party accountable.
 
 Is legally binding.
 Not something that needs to be upheld - only settled on the blockchain.
@@ -75,12 +74,13 @@ Since a normal contract has legal consequences outside the blockchain, if you tr
 For a blockchain
 
 3. Privacy
-Come to an agreement, contracts are already public
+Come to an agreement,
 
-Come to an agreement; Contracts can be private
+smart contracts are already public
+Contracts can be private
 Contract code is published to the blockchain; Contracts are public
 
-No breach of agreement can exist. A contract will act exactly as programmed (note that this might be different from intended).
+No breach of agreement can exist. A smart contract will act exactly as programmed (note that this might be different from intended).
  
 If there is breach of contract or disagreement, contract law will handle it. 
 The smart contract is the law – you need to trust:
@@ -89,10 +89,7 @@ The smart contract is the law – you need to trust:
 
 
 
-
-
 One of the weaknesses here is that a lot of history within law has created regulation to handle problems, even though the conditions are clearly specifies - it may also. I would highly recommend two articles written byMat Levine on the subject. (bring in Matt Levine).
-
 
 
 Example
@@ -107,15 +104,17 @@ Example
     + Decentralized prediction markets
 - MtoM
 - DAO’s
-
-
-
-Ethereum is not the only Blockchain which enables the use of smart contracts, but it is the biggest public blockchain which is built around this concept. Therefore, this blogpost will focus on the Ethereum blockchain.
+- Example of tokens created on the ethereum blockchain
 
 - The ethereum blockchain is in one sense an abstraction layer below other blockchains such as:
     + Bitcoin
     + Steemit
     + Namecoin etc.
+
+
+Ethereum is not the only Blockchain which enables the use of smart contracts, but it is the biggest public blockchain which is built around this concept. Therefore, this blogpost will focus on the Ethereum blockchain.
+
+
 
 
 <!--
