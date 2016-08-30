@@ -16,7 +16,7 @@ First, let's quickly do a recapp of our magic analogy to explain a blockchain (t
 
 ![Enchanted documents]({{ site.url }}/assets/images/EnchantedDocuments.gif)
 
-The magic analogy above beskrives **one** set of enchanted documents that follows one set of rules. But another set of enchanted documents can follow another set of rules.
+The magic analogy above beskrives **one** set of enchanted documents that follows **one** set of rules. But another set of enchanted documents can follow another set of rules.
 
 The original set of enchanted documents is called Bitcoin. The Bitcoin magic rules are as follows: <!--(super oversimplified, please do not kill me Bitcoiners)-->
 
@@ -32,7 +32,7 @@ Another set of documents is called Ethereum. The enchanted documents that make u
 - Each enchanted document contains a list of all accounts and balances.
 - Owners of accounts can send ether to other accounts.
 
-There is one big difference however. Not all accounts on the ethereum enchanted document is owned by people. Some special accounts have no owners. Instead, the actions of these accounts are controlled by a set of instructions residing on the accounts.
+There is one big difference however: Not all accounts on the ethereum enchanted document is owned by people. Some special accounts have no owners. Instead, the actions of these accounts are controlled by a set of instructions residing on the accounts.
 
 ![ethereum]({{ site.url }}/assets/images/ethereum.png)
 
@@ -42,7 +42,7 @@ When a set of instructions reside on one of these accounts it is called a smart 
 - Store information
 - Send transactions to other accounts
 
-As mentioned, the account with the code is not controlled by anyone. It is completely automomous. The original code is written by a person, but once the smart contract code has been uploaded on the blockchain, only the logic in the account dictates the accounts actions.
+As mentioned, the account with the code is not controlled by anyone. It is completely automomous. The original code is written by a person, but once the smart contract code has been uploaded on the blockchain, only the logic in the account dictates the actions of the account.
 
 <!-- Write about smart contracts are a combination of the actual smart contract code and the blockchain--> 
 
@@ -56,11 +56,11 @@ Many people are critical of the name "smart contract", as it is not a real contr
 
 ![NormalvsSmart]({{ site.url }}/assets/images/NormalvsSmart.png)
 
-1. Legally binding
+#### Legally binding
 
 First of all, a normal contract has legal consequences in the 'real world'. If the counterparty of a contract does not uphold their part of the agreement, the legal system can be used to hold them accountable. On the contrary, a smart contract does not have to be upheld, any conditions are automatically settled on the blockchain. Blockchains do not (currently) have any precedence in the 'real world' outside the blockchain. All settlement (currently) happens on the blockchain. Yet, blockchains are still intertvined with the 'real world' since their cryptocurrencies have real world value.
 
-2. Trust
+#### Trust
 
 Need trust in the small print of the contract you are signing (like how you read the carefully read the fine print of your itunes agreement). Not only that, but you need to 
 
@@ -69,7 +69,7 @@ That's why you might be hesitant to go into an agreement with the son of the pre
 
 That's also why investors do not want to invest in corruptland. Rule of law ensures that the investors are treated fairly. if you invest and get screwed over by the son of the president.
 
-3. Predictability
+#### Predictability
 
 If apple created new terms and conditions that included some fine print about having to give away your house once you sign the contract - and 100,000 people signed the contract before someone actually read the contract. Then given the current legal system, the people
 
@@ -78,7 +78,7 @@ Likewise when the state of california create a set of rules about the california
 One of the weaknesses here is that a lot of history within law has created regulation to handle problems, even though the conditions are clearly specifies - it may also. I would highly recommend two articles written byMat Levine on the subject. (bring in Matt Levine).
 
 
-3. Privacy and agreements
+#### Privacy and agreements
 Come to an agreement,
 
 smart contracts are already public
