@@ -8,6 +8,48 @@
 	display:inline;
 }
 
+
+body {
+    letter-spacing: 0.01rem;
+    font-size: 1.6rem;
+    line-height: 1.75em;
+}
+
+/*
+==================================
+	PICTURES
+==================================
+*/
+
+
+/*Smaller images*/
+
+.s-img{
+    width: 80%;
+    max-width: none;
+    margin: 0 5%;
+}
+
+/*Edit margin if changing picture size: */
+
+.post-content .full-img {
+    width: 110%;
+    max-width: none;
+    margin: 0 -5%;
+}
+
+/*
+==================================
+*/
+
+/*
+Horisontal line
+*/
+hr{
+	margin-top: 1.5em;
+	margin-bottom:1.5em;
+}
+
 .post-meta{
 	margin-top: 0rem;
 	margin-bottom: 0.5rem;

@@ -18,13 +18,11 @@ Most explanations of blockchain are full of IT jargon. So unless you know IT, th
 
 Agreement is nice. Whether its agreeing about the best football team, what cheese tastes good or which political candidate will make a country great again. If you take a step back and observe, you will find different types of agreements existing everywhere. It's not only the explicit agreements which are the subjects of conversations. The very fact that you are able to communicate abstract ideas with another person is based on an agreement about the meaning of the words being spoken.
 
-![Cheese tastes good]({{ site.url }}/assets/images/CheeseTastesGreat.png)
-
+![Cheese tastes good]({{ site.url }}/assets/images/CheeseTastesGreat.png){:style="width:70%; margin: 0 15%"}
 ...*more than one agreement here*
 
 Different types of agreement have varying degrees of societal consequence. Some subjects are unimportant to reach an agreement about. As an example, it is not very important that you agree with your friend about the best tasting cheese. In this case, you can agree to disagree, and go off eating the cheese that you prefer. Other things are a little more important, say that you are a couple that can only afford to buy one type of cheese. If you don't agree about what cheese to buy, hard feelings and arguments may pursue. But for society as a whole, agreement here is still not very important. On the other end of the scale there are things that are really important for a society as a whole to agree about in order to function. <!--Dont like the last sentence here-->One such thing is agreeing about language and the meaning of words.
-
-![Consequences for society]({{ site.url }}/assets/images/ConsequencesForSociety.png)
+![Consequences for society]({{ site.url }}/assets/images/ConsequencesForSociety.png){:style="width:90%; margin: 0 5%"}
 
 For societies to function, there needs to be a common agreement about some of the more important subjects. An obvious place to start is agreeing about the rules of the society, also known as the laws.
 
@@ -78,8 +76,7 @@ Should i emphasize the importance of the word state?
 -->
 
 Instead of the central authority owning a single document that captures the agreed upon state of something, everyone who wants to document the agreed upon state is allowed to do so<!--for public blockchains-->. Let us call the people who wants to take part in documenting the state **Peeps**. All the peeps will own their own document which describes the agreed upon state.
-
-![Peeps]({{ site.url }}/assets/images/Peeps.png)
+![Peeps]({{ site.url }}/assets/images/Peeps.png){:style="width:70%; margin: 0 15%"}
 
 Of course, the agreed upon state *should* not vary between the Peeps -> then there would not be agreement. In order to ensure that all the Peeps have the same agreement documented, they would need to meet, document the state, and then sign each others document. This might be fine if the agreement in question did not change, or if only changed once every 10 years. The problem arises when you have an agreement which changes often. If all the Peeps needed to meet, update and sign a new version of the document every time someone makes a bank transaction, this system would be extremely inefficient.
 
@@ -102,7 +99,7 @@ Imagine if all the Peeps have a copy of an enchanted document with the agreed up
 
 These magic properties ensure that all the Peeps have an identical and up-to-date copy of the agreement. There is no central authority which owns the definitive agreed upon state, all the Peeps have their own a copy of this state. This is why Blockchains are referred to as decentralized; there is no central controller of the truth.
 
-![Enchanted documents]({{ site.url }}/assets/images/enchantedDocuments.png)
+![Enchanted documents]({{ site.url }}/assets/images/enchantedDocuments.png){:style="width:90%; margin: 0 5%"}
 
 <!--illustration showing documents being updated based on one enchanted document being updated
 
