@@ -4,38 +4,37 @@ title: Smart contracts
 draft: true
 ---
 
-The thought of smart contracts give a lot of blockchain enthusiasts a warm fuzzy feeling in their otherwise cold and calculating insides. In this post, I try to explain exactly what a smart contract is.
-
-Smart contracts are an important part of the enthusiasm surrounding blockchain technology.
+Smart contracts are an important part of the enthusiasm surrounding blockchain technology. In this post, I try to explain exactly what a smart contract is.
 <!--more-->
 
-First, let's quickly do a recap of the magic analogy in the previous post to explain a blockchain (the original blog post can be found [here](http://allisabstract.com/2016/08/06/Blockchain.html)). For those of you who have not read the previous post, I explain what a blockchain is without using IT jargon by pretending it's based on magic and not technology. <!-- which is of course a complete and utter lie, magic does not exist, and neither does your god.--> A public blockchain can be thought of in the following way##:
+First, let's quickly do a recap of the magic analogy in the previous post to explain a blockchain (the original blog post can be found [here](http://allisabstract.com/2016/08/06/Blockchain.html)). For those of you who have not read the previous post, I explain what a blockchain is without using IT jargon by pretending it's based on magic and not technology. <!-- which is of course a complete and utter lie, magic does not exist, and neither does your god.--> A public blockchain can be imagined in the following way:
 
-- Imagine a set of enchanted documents which are all identical.
-- Anyone can participate in the ##network by owning one of these documents.
-- There are some magic rules ##(that describe) about which changes you are allowed to make to the documents.
-- Any valid change to one document is automatically made to all the other documents.
+- An identical agreement is written on a set of enchanted documents.
+- Anyone can take part in maintaining this agreement by owning one of these documents.
+- Magic rules describe the changes you are allowed to make to a document.<!--the agreement-->
+- Any valid change to one document is automatically made to all the other documents.<!--agreement on one document-->
 
-These properties result in an agreement between the participants in the network about the information in the documents.## Below is an illustration of how this plays out##
+These properties result in each participant owning an identical copy of the same agreement, even though the agreement undergoes continuous change. The illustration below shows how a change to one document is subsequently updated in the other documents:
 
 ![Enchanted documents]({{ site.url }}/assets/images/EnchantedDocuments.gif){:style="width:80%; margin: 0 5%"}
-The magic analogy above describes **one** set of enchanted documents that follow **one** set of magic rules. Different sets of enchanted documents have different magic rules that control what changes are allowed to be made to them##. The original set of enchanted documents is called Bitcoin, the magic rules for this set of documents is: <!--(super oversimplified, please do not kill me Bitcoiners)-->
+The magic analogy above describes **one** set of enchanted documents (blockchain) that follow **one** set of magic rules. Different sets of enchanted documents have different magic rules that control the changes that are allowed to be made to them. The original set of enchanted documents is called Bitcoin, the magic rules for this set of documents are: <!--(super oversimplified, please do not kill me Bitcoiners)-->
 
 1. Each enchanted document contains a list of all accounts and balances.
 2. People own accounts, and can send their own bitcoins to other accounts.
 
-In essence, these rules create a digital cash<!--should i write more here, if yes, I should write about Bitcoin being the currency - and all it really is is just a number next to your account on the global digital ledger-->. Below is an illustration of one of these enchanted documents:
+In essence, these rules create a digital cash<!--should i write more here, if yes, I should write about Bitcoin being the currency - and all it really is is just a number next to your account on the global digital ledger-->. Below is an illustration of one of these enchanted documents. The number next to each account denotes the amount of bitcoins in that account.
 ![bitcoin]({{ site.url }}/assets/images/bitcoin.png)
 <!--Remove the bitcoin logo from the bottom of the illustration -->
 <!--Need to explain that the bitcoins are just the balances on the enchanted documents -->
+
 Another set of documents is called Ethereum. The enchanted documents that make up Ethereum follow very similar rules to Bitcoin:
 
 1. Each enchanted document contains a list of all accounts and balances.
 2. Owners of accounts can send transactions to other accounts.
 
-To those of you with an exceptional eye for details might have noticed slight differences in wording between the second rule of Ethereum and the second rule of Bitcoin. This difference in wording incorporates how the two sets of documents work differently. 
+Those of you with an eye for details might have noticed slight differences in wording between the second rule of Ethereum and the second rule of Bitcoin. This difference in wording incorporates how the two sets of documents work differently. 
 
-One of these differences is the fact that not all accounts on the Ethereum enchanted document is owned by people. Some special accounts have no physical owners##. Instead, the actions of these accounts are controlled by a set of instructions residing on the accounts.<!--The second difference is that in addition to sending the local currency between accounts, it is also possible to send information.## --> Below is an illustration of one of the enchanted documents on the Ethereum blockchain with some of the accounts controlled by instructions and not people:
+One of these differences is the fact that not all accounts on the Ethereum enchanted document is owned by people. Instead, the actions of these accounts are controlled by a set of instructions residing on the account.<!--The second difference is that in addition to sending the local currency between accounts, it is also possible to send information.## --> Below is an illustration of one of the enchanted documents on the Ethereum blockchain with some of the accounts controlled by instructions and not people:
 
 ![ethereum]({{ site.url }}/assets/images/ethereum.png)
 
@@ -55,6 +54,8 @@ A small digression: From the cradle of civilization when money was first invente
 
 ---
 
+### The law of smart contracts
+
 Many people are critical of the name "smart contract", as it is not a real contract - it is not something that needs to be complied with or upheld. Instead, it is a contract in the sense that it executes a set of conditions. If we compare the smart contract with a normal contract, some obvious differences are apparent:
 
 ![NormalvsSmart]({{ site.url }}/assets/images/NormalvsSmart.png)
@@ -63,20 +64,33 @@ Many people are critical of the name "smart contract", as it is not a real contr
 
 First of all, a normal contract has legal consequences in the 'real world'. If the counterparty of a contract does not uphold their part of the agreement, the legal system can be used to hold them accountable. 
 
-On the contrary, a smart contract itself does not have to be upheld by anyone external - it's a set of instructions that self-executes. It's important to note however, that smart contracts only have the ability to change the state of the blockchain. A smart contract itself does not have any precedence in the 'real world' other than being able to transfer the ownership of the  cryptocurrency, which has real world value. Any other precedence must be aquired by creating a "legal wrapper" around the state of the blockchain.
-
-Imagine smart contract that administrates ownership of real estate. If Alice choosed to buy some land from Bob - she can pay Bob the fee that ###.
-
+On the contrary, a smart contract itself does not have to be upheld by anyone external - it's a set of instructions that self-executes. It's important to note however, that smart contracts only have the ability to change the state of the blockchain. A smart contract itself does not have any precedence in the 'real world' other than being able to transfer the ownership of the  cryptocurrency, which has real world value// other than being able to send the balance of its own account to other accounts//. Any other precedence must be aquired by creating a "legal wrapper" around the state of the blockchain.
 
 #### Trust and predictability
 
-For any contract in the real world:
-- Fine print of the actual contract.
+When entering into a normal contract, different elements of understanding/trust play an important role:
+
+The most obvious of these is an understanding of the actual contract, the fine print. The contract lays out the terms and conditions of an agreement in laywer language - which is what you are commiting to. This is why you always carefully read the terms and conditions of your itunes agreement. *You* would never sign an agreement that commits you to providing your firstborn as payment for using their service, [as 98% of people would](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2757465).
+
+Secondly, the terms and conditions that are layd out in a contract is constrained by a large body of existing law. Which means that you can't be sure how the contract will play out by just looking at the writing in the agreement, the legal context of the contract also plays an important role.
+
+This is usually a safeguard, that makes sure contracts work more as intended, instead of working by just following the specific terms and conditions functions described in the contract.
+
+---
+
+Matt Levine presents how this works in a great [article](http://dealbreaker.com/2013/07/electricity-market-rules-were-not-a-worthy-opponent-for-jpmorgans-brainpower/).
+
+[smart contracts were dumb article](https://www.bloomberg.com/view/articles/2016-06-17/blockchain-company-s-smart-contracts-were-dumb).
+
+Even though JP morgan learned how they could game a contract by following the rules, they were caught in the net of a law against market manipulation (matt Levine has a great article about this)
+
+- e.g. the jpmorgan case. Folow the rules of the agreement, but got caught in another regulation
 - Legal framework of the contracts context. (does the case of jp morgan fall within this).
 - Trust in the rule of law. (judge not being bribed for example)
 
-Need trust in the small print of the contract you are signing (like how you read the carefully read the fine print of your itunes agreement). Not only that, but you need to trust the legal system in which the contract is enforced.
-(more clearly state the difference between the writing in the contract and the external chaos here.)
+
+Last of all, if you understand the writing in the contract and the actual 
+One of the weaknesses here is that a lot of history within law has created regulation to handle problems, even though the conditions are clearly specified - it may also. When the state of California create a set of rules about the California electricity market which jp morgan gamed. JP morgan still had to bear a hefty fine.
 
 <!-- visual explanaition of the elements involved in trusting a normal contract-->
 
@@ -84,15 +98,12 @@ That's why you might be hesitant to go into an agreement with the son of the pre
 
 This is not only the case for Corruptland, when a contract specifies terms of condition which are executed they are not always valid even though the contract exactly as intended. When stupid rules which rational self-interested bankers exploit there is not certainty that you can trust the context of the contract.
 
-One of the weaknesses here is that a lot of history within law has created regulation to handle problems, even though the conditions are clearly specified - it may also. When the state of California create a set of rules about the California electricity market which jp morgan gamed. JP morgan still had to bear a hefty fine.
-
-I would highly recommend two articles written byMat Levine on the subject. (bring in Matt Levine).
-
----
 
 For smart contracts, you have 
 - The smart contract code (and how this is interpreted by the EVM)
 - the Blockchain network as a whole
+
+No regulation wrapper to make things work more as intended.
 
 If there is breach of contract or disagreement, contract law will handle it. 
 The smart contract is the law – you need to trust:
@@ -101,20 +112,7 @@ The smart contract is the law – you need to trust:
 
 No breach of agreement can exist. A smart contract will act exactly as programmed (note that this might be different from intended).
 
-#### Privacy <!--should i include this, what are the future possibilities of private smart contracts-->
-
-Come to an agreement,
-
-Smart contracts are already public
-Contracts can be private
-Contract code is published to the blockchain; Contracts are public
-
-
-# Understanding smart contracts
-
-A smart contract is logic residing on an account of a blockchain. The logic can be written and uploaded by anyone, and can specify lots of different. It can only send money from its own account.
-
-What to write about after having compared a smart contract to a legal contract. 
+### Examples of smart contracts
 
 - Give examples of what a smart contract can look like.
 - Need to talk about the fact that one smart contract can represent one application - therefore, you do not need a whole new blockcahin for every new idea. Many blockchains are sets of rules that define one specific application. 
@@ -122,7 +120,6 @@ What to write about after having compared a smart contract to a legal contract.
 - Include the diagram of the abstraction layers of different blockchains. Synereo, etc..
 
 
-### Examples
 
 - Compliment smart contract
 - TOKENS to represent anything
@@ -137,7 +134,7 @@ What to write about after having compared a smart contract to a legal contract.
 - DAO’s
 - Example of tokens created on the ethereum blockchain
 
-### How I think about smart contracts and blockchains
+### How to think about smart contracts and blockchains
 
 - The ethereum blockchain is in one sense an abstraction layer below other blockchains (which is why it is ofter refered to as blockchain technology 2.0) such as:
     + Bitcoin
