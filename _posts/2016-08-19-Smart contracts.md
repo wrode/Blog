@@ -54,72 +54,73 @@ A small digression: From the cradle of civilization when money was first invente
 
 ---
 
-### The law of smart contracts
+### Code is law
 
 Many people are critical of the name "smart contract", as it is not a real contract - it is not something that needs to be complied with or upheld. Instead, it is a contract in the sense that it executes a set of conditions. If we compare the smart contract with a normal contract, some obvious differences are apparent:
 
-![NormalvsSmart]({{ site.url }}/assets/images/NormalvsSmart.png)
+![NormalvsSmart]({{ site.url }}/assets/images/NormalvsSmart.png){:style="width:120%; margin: 0 -10%"}
 
 #### Legally binding
 
-First of all, a normal contract has legal consequences in the 'real world'. If the counterparty of a contract does not uphold their part of the agreement, the legal system can be used to hold them accountable. 
+First of all, a normal contract has legal consequences in the 'real world'. If the counterparty of a contract does not uphold their part of the agreement, the legal system can be used to hold them accountable.
 
-On the contrary, a smart contract itself does not have to be upheld by anyone external - it's a set of instructions that self-executes. It's important to note however, that smart contracts only have the ability to change the state of the blockchain. A smart contract itself does not have any precedence in the 'real world' other than being able to transfer the ownership of the  cryptocurrency, which has real world value// other than being able to send the balance of its own account to other accounts//. Any other precedence must be aquired by creating a "legal wrapper" around the state of the blockchain.
+On the contrary, a smart contract does not have to be upheld by anyone, it's a set of instructions that self-executes. It's important to note however, that the smart contact does not have much precendence in the 'real world'. It is only able to send transactions to other accounts on the blockchain, yet these transactions can be balances with real world value.  Any other precedence must be aquired by creating a "legal wrapper" around the state of the blockchain.
 
-#### Trust and predictability
+#### Trust
 
-When entering into a normal contract, different elements of understanding/trust play an important role:
+When entering into a normal contract, several factors play an important role. The most obvious part is an understanding of the actual contract. The contract lays out the terms and conditions of an agreement in laywer language - which is what you are commiting to. Therefore, it is important to understand this laywerish language and how this is interpreted by the legal system. This is why you always carefully read the terms and conditions of your itunes agreement. *You* would never sign an agreement that commits you to providing your firstborn as payment for using their service, as 98% of people apparently [would](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2757465).
 
-The most obvious of these is an understanding of the actual contract, the fine print. The contract lays out the terms and conditions of an agreement in laywer language - which is what you are commiting to. This is why you always carefully read the terms and conditions of your itunes agreement. *You* would never sign an agreement that commits you to providing your firstborn as payment for using their service, [as 98% of people would](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2757465).
+<!--Illustration paying with firstborn-->
 
-Secondly, the terms and conditions that are layd out in a contract is constrained by a large body of existing law. Which means that you can't be sure how the contract will play out by just looking at the writing in the agreement, the legal context of the contract also plays an important role.
+Secondly, the terms and conditions that are laid out in a contract are constrained by a large body of existing law. This means that you can't be sure how the contract will play out by just looking at the writing in the agreement. There are laws that prohibit you from paying with your firstborn.
 
-This is usually a safeguard, that makes sure contracts work more as intended, instead of working by just following the specific terms and conditions functions described in the contract.
 
 ---
 
-Matt Levine presents how this works in a great [article](http://dealbreaker.com/2013/07/electricity-market-rules-were-not-a-worthy-opponent-for-jpmorgans-brainpower/).
+These contextual laws often work as a safeguard, at times making contracts work as *intended* instead of as *written*. Journalist Matt Levine has a great [article](http://dealbreaker.com/2013/07/electricity-market-rules-were-not-a-worthy-opponent-for-jpmorgans-brainpower/) about JPMorgan recieving a hetfy fine, even after following the conditions set forth in a contract. The contract regulated the electricity market, and JPMorgan found a way to game the contract. JPMorgan did not break the rules set forth in the contract, they followed them carefully, but they did break the intent of the contract and where caught in the net of market manipulation laws.
 
-[smart contracts were dumb article](https://www.bloomberg.com/view/articles/2016-06-17/blockchain-company-s-smart-contracts-were-dumb).
+---
 
-Even though JP morgan learned how they could game a contract by following the rules, they were caught in the net of a law against market manipulation (matt Levine has a great article about this)
+Even if you enslave your firstborn to try and uphold your part of a contract (which was [not unheard of](https://en.wikipedia.org/wiki/Nexum) in the early roman republic), there is still a risk that this is not enough. You could sell all your belongings and sell your family into debt bondage, but it might still not cover your obligations in the agreement. The risk of entering into a contract with someone who is not able to fullfill their part of the agreement is called counterparty risk, and must also be taken into account when entering a contract.
 
-- e.g. the jpmorgan case. Folow the rules of the agreement, but got caught in another regulation
-- Legal framework of the contracts context. (does the case of jp morgan fall within this).
-- Trust in the rule of law. (judge not being bribed for example)
-
-
-Last of all, if you understand the writing in the contract and the actual 
-One of the weaknesses here is that a lot of history within law has created regulation to handle problems, even though the conditions are clearly specified - it may also. When the state of California create a set of rules about the California electricity market which jp morgan gamed. JP morgan still had to bear a hefty fine.
-
+Last of all, even if you understand the contract and the legal context you still need to trust in the rule of law. Sometimes, de jure ≠ de facto. That's why you might be hesitant to go into an agreement with the son of the president in Corruptland. The contract is not worth the paper it's written on.<!--That's also why investors do not want to invest in Corruptland. Rule of law ensures that the investors are treated fairly. if you invest and get screwed over by the son of the president. -->
 <!-- visual explanaition of the elements involved in trusting a normal contract-->
 
-That's why you might be hesitant to go into an agreement with the son of the president in Corruptland, regarding some real estate in Corruptland - the rule of law is broken there. // That's also why investors do not want to invest in Corruptland. Rule of law ensures that the investors are treated fairly. if you invest and get screwed over by the son of the president. (give a example from a corrupt country here)
+Like with normal contracts, several factors are important when considering smart contracts.
 
-This is not only the case for Corruptland, when a contract specifies terms of condition which are executed they are not always valid even though the contract exactly as intended. When stupid rules which rational self-interested bankers exploit there is not certainty that you can trust the context of the contract.
+With smart contracts, what is written in the contract is important to understand. But the contract is written in computer code, so it is important that you understand the computer code and how this will be interpreted by a machine. Below is an example of what smart contract code actually look like:
 
+```javascript
+function payOut(address _recipient, uint _amount) returns (bool) {
+  if (msg.sender != owner || msg.value > 0 || (payOwnerOnly && _recipient != owner))
+      throw;
+  if (_recipient.call.value(_amount)()) {
+      PayOut(_recipient, _amount);
+      return true;
+  } else {
+    return false;
+    }
+}
+```
 
-For smart contracts, you have 
-- The smart contract code (and how this is interpreted by the EVM)
+Once you understand. The computer code will act just as programmed. But there is one more element of trust, and that is the whole blockchain netwerk
 - the Blockchain network as a whole
 
-No regulation wrapper to make things work more as intended.
+There is no legal wrapper here to make the contract code work as intended.
 
-If there is breach of contract or disagreement, contract law will handle it. 
-The smart contract is the law – you need to trust:
-- Smart contract code 
-- Blockchain
+If there is breach of contract or disagreement, contract law will handle it. By definition there is no right or wrong - unless the whole network believes it is right or wrong.
 
 No breach of agreement can exist. A smart contract will act exactly as programmed (note that this might be different from intended).
+
+Taking people to court to uphold agreement is a very slow, expensive and inefficient - especially for smaller sums.
 
 ### Examples of smart contracts
 
 - Give examples of what a smart contract can look like.
+    + Talk about the fact that all contracts
 - Need to talk about the fact that one smart contract can represent one application - therefore, you do not need a whole new blockcahin for every new idea. Many blockchains are sets of rules that define one specific application. 
 - Talk about the fact that even though no person owns it, since it is defined by code it is possible to specify that one account has certain privileges that no one else has, thus rendering it in control by someone else.
 - Include the diagram of the abstraction layers of different blockchains. Synereo, etc..
-
-
 
 - Compliment smart contract
 - TOKENS to represent anything

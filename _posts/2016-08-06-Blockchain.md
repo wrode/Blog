@@ -5,7 +5,7 @@ disqus: true
 ---
 <!--Dear reader of the HTML document, I use html notes while i work to jot down any thoughts i get while writing - i've decided not to delete these after writing as they are hidden for most readers, and may be of interest for someone who is actually willing to look at the html -->
 
-    A Blockchain is a decentralized documented state, updated through transactions based on a predefined protocol.
+>A Blockchain is a decentralized documented state, updated through transactions based on a predefined protocol.
 
 There, now you know that. The problem is, if you are like most people this sentence wasn't very helpful.
 
