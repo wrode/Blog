@@ -50,7 +50,8 @@ As mentioned, the account with the code is not controlled by anyone. It is compl
 
 ---
 A small digression: From the cradle of civilization when money was first invented, people have been able to own money. Eventually, organized groups of people made up legal fictions, which were soon able to own money. Now, for the first time in history, a machine can own it's own money (through smart contracts). The consequences of this is hard to know, but we have interesting times ahead.
-<!-- Kneeel for your robot overlords picture.-->
+
+![Robot overlords]({{ site.url }}/assets/images/RobotOverlords.png)
 
 ---
 
@@ -86,7 +87,14 @@ Even if you enslave your firstborn to try and uphold your part of a contract (wh
 Last of all, even if you understand the contract and the legal context you still need to trust in the rule of law. Sometimes, de jure ≠ de facto. That's why you might be hesitant to go into an agreement with the son of the president in Corruptland. The contract is not worth the paper it's written on.<!--That's also why investors do not want to invest in Corruptland. Rule of law ensures that the investors are treated fairly. if you invest and get screwed over by the son of the president. -->
 <!-- visual explanaition of the elements involved in trusting a normal contract-->
 
-Like with normal contracts, several factors are important when considering smart contracts.
+A smart contract essentially consists of two elements of trust:
+
+1. The content of the contract, and how this is interpreted.
+2. The immutibility of the blockchain.
+
+Just like with normal contracts, when interacting with a smart contract it's important to understand the actual content of the contract. The differences are that firstly is that instead of laywerish language describing the agreement, the agreement is written as computer code, and instead of the legal system interpreting the contract, the contract is interpreted by the magic of each enchanted document (In the reality, the virtual machines of the blockchain network).
+
+that will be interpreted by the legal system, the content of a smart contract are instructions that will be interpreted by each participant in the blockchain network.
 
 With smart contracts, what is written in the contract is important to understand. But the contract is written in computer code, so it is important that you understand the computer code and how this will be interpreted by a machine. Below is an example of what smart contract code actually look like:
 
@@ -105,6 +113,8 @@ function payOut(address _recipient, uint _amount) returns (bool) {
 
 Once you understand. The computer code will act just as programmed. But there is one more element of trust, and that is the whole blockchain netwerk
 - the Blockchain network as a whole
+
+All the change the magic rules at once. This is exceptionally difficult to manage.
 
 There is no legal wrapper here to make the contract code work as intended.
 
