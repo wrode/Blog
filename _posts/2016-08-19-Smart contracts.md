@@ -74,7 +74,7 @@ When entering into a normal contract, several factors play an important role. Th
 
 Secondly, the terms and conditions that are laid out in a contract are constrained by a large body of existing law. This means that you can't be sure how the contract will play out by just looking at the writing in the agreement. There are laws that prohibit you from paying with your firstborn, even if you agree to this by signing a contract. Therefore, it is important to understand how this legal context plays in.
 
-![Firstborn]({{ site.url }}/assets/images/Firstborn.png)
+![Firstborn]({{ site.url }}/assets/images/Firstborn.png){:style="width:60%; margin: 0 20%"}
 
 ---
 
