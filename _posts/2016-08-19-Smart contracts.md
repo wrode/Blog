@@ -55,6 +55,7 @@ A small digression: From the cradle of civilization when money was first invente
 
 ---
 
+
 ### Code is law
 
 Many people are critical of the name "smart contract", as it is not a real contract - it is not something that needs to be complied with or upheld. Instead, it is a contract in the sense that it executes a set of conditions. If we compare the smart contract with a normal contract, some obvious differences are apparent:
@@ -71,10 +72,9 @@ On the contrary, a smart contract does not have to be upheld by anyone, it's a s
 
 When entering into a normal contract, several factors play an important role. The most obvious part is an understanding of the actual contract. The contract lays out the terms and conditions of an agreement in laywer language - which is what you are commiting to. Therefore, it is important to understand this laywerish language and how this is interpreted by the legal system. This is why you always carefully read the terms and conditions of your itunes agreement. *You* would never sign an agreement that commits you to providing your firstborn as payment for using their service, as 98% of people apparently [would](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2757465).
 
-<!--Illustration paying with firstborn-->
+Secondly, the terms and conditions that are laid out in a contract are constrained by a large body of existing law. This means that you can't be sure how the contract will play out by just looking at the writing in the agreement. There are laws that prohibit you from paying with your firstborn, even if you agree to this by signing a contract. Therefore, it is important to understand how this legal context plays in.
 
-Secondly, the terms and conditions that are laid out in a contract are constrained by a large body of existing law. This means that you can't be sure how the contract will play out by just looking at the writing in the agreement. There are laws that prohibit you from paying with your firstborn.
-
+![Firstborn]({{ site.url }}/assets/images/Firstborn.png)
 
 ---
 
@@ -92,11 +92,8 @@ A smart contract essentially consists of two elements of trust:
 1. The content of the contract, and how this is interpreted.
 2. The immutibility of the blockchain.
 
-Just like with normal contracts, when interacting with a smart contract it's important to understand the actual content of the contract. The differences are that firstly is that instead of laywerish language describing the agreement, the agreement is written as computer code, and instead of the legal system interpreting the contract, the contract is interpreted by the magic of each enchanted document (In the reality, the virtual machines of the blockchain network).
+Just like with normal contracts, it´s important to understand the actual content of a smart contract when interacting with it. But unlike a normal contract, which is written in laywerish language and interpreted by the legal system, the content of the smart contract is written in computer code and interpreted by computers. So what does smart contract code actually look like? Below is an example, the code is an extract of a smart contract:
 
-that will be interpreted by the legal system, the content of a smart contract are instructions that will be interpreted by each participant in the blockchain network.
-
-With smart contracts, what is written in the contract is important to understand. But the contract is written in computer code, so it is important that you understand the computer code and how this will be interpreted by a machine. Below is an example of what smart contract code actually look like:
 
 ```javascript
 function payOut(address _recipient, uint _amount) returns (bool) {
@@ -111,18 +108,10 @@ function payOut(address _recipient, uint _amount) returns (bool) {
 }
 ```
 
-Once you understand. The computer code will act just as programmed. But there is one more element of trust, and that is the whole blockchain netwerk
-- the Blockchain network as a whole
+The smart contract code is the terms and conditions that you are signing up for when interacting with a smart contract. As long as you trust the blockchain that the smart contract resides on, you know that the code will execute exactly as programmed - so no breach of agreement can exist. It is important to note however, that working as *programmed* does not mean that it will work as *intended* - if there are errors in the code.
 
-All the change the magic rules at once. This is exceptionally difficult to manage.
+The second element of trust was briefly mentioned in the above paraph, and that is trust in the blockchain as a whole. As I briefly mentioned in the above paragraph, you still need to trust the blockchain. Going back to our analogy, you need to trust that the participants that all own a copy of the enchanted documents do not and change the rules of the agreement.
 
-There is no legal wrapper here to make the contract code work as intended.
-
-If there is breach of contract or disagreement, contract law will handle it. By definition there is no right or wrong - unless the whole network believes it is right or wrong.
-
-No breach of agreement can exist. A smart contract will act exactly as programmed (note that this might be different from intended).
-
-Taking people to court to uphold agreement is a very slow, expensive and inefficient - especially for smaller sums.
 
 ### Examples of smart contracts
 
@@ -154,5 +143,7 @@ Taking people to court to uphold agreement is a very slow, expensive and ineffic
 
 Earlier, if you wanted to create a new application, you would need to create a whole new blockchain (with all the infrastructure). Now that is no longer the case.
 
+
+<!--Taking people to court to uphold agreement is a very slow, expensive and inefficient - especially for smaller sums.-->
 
 Ethereum is not the only Blockchain which enables the use of smart contracts, but it is the biggest public blockchain which is built around this concept. Therefore, this blogpost will focus on the Ethereum blockchain.
