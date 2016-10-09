@@ -70,11 +70,11 @@ On the contrary, a smart contract does not have to be upheld by anyone, it's a s
 
 #### Trust
 
-When entering into a normal contract, several factors play an important role. The most obvious part is an understanding of the actual contract. The contract lays out the terms and conditions of an agreement in laywer language - which is what you are commiting to. Therefore, it is important to understand this laywerish language and how this is interpreted by the legal system. This is why you always carefully read the terms and conditions of your itunes agreement. *You* would never sign an agreement that commits you to providing your firstborn as payment for using their service, as 98% of people apparently [would](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2757465).
-
-Secondly, the terms and conditions that are laid out in a contract are constrained by a large body of existing law. This means that you can't be sure how the contract will play out by just looking at the writing in the agreement. There are laws that prohibit you from paying with your firstborn, even if you agree to this by signing a contract. Therefore, it is important to understand how this legal context plays in.
+When entering into a normal contract, several factors play an important role. The most obvious part is an understanding of the actual contract. The contract lays out the terms and conditions of an agreement in laywerish language - which is what you are commiting to. Therefore, it is important to understand this laywerish language and how this is interpreted by the legal system. This is why you always carefully read the terms and conditions of your itunes agreement. *You* would never sign an agreement that commits you to providing your firstborn as payment for using their service, as 98% of people apparently [would](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2757465).
 
 ![Firstborn]({{ site.url }}/assets/images/Firstborn.png){:style="width:60%; margin: 0 20%"}
+
+Secondly, the terms and conditions that are laid out in a contract are constrained by a large body of existing law. This means that you can't be sure how the contract will play out by just looking at the content of the agreement. There are laws that prohibit you from paying with your firstborn, even if you agree to this by signing a contract. Therefore, it is important to understand how this legal context plays in.
 
 ---
 
@@ -110,7 +110,11 @@ function payOut(address _recipient, uint _amount) returns (bool) {
 
 The smart contract code is the terms and conditions that you are signing up for when interacting with a smart contract. As long as you trust the blockchain that the smart contract resides on, you know that the code will execute exactly as programmed - so no breach of agreement can exist. It is important to note however, that working as *programmed* does not mean that it will work as *intended* - if there are errors in the code.
 
-The second element of trust was briefly mentioned in the above paraph, and that is trust in the blockchain as a whole. As I briefly mentioned in the above paragraph, you still need to trust the blockchain. Going back to our analogy, you need to trust that the participants that all own a copy of the enchanted documents do not and change the rules of the agreement.
+The second element of trust was briefly mentioned in the above paraph, and is trust in the blockchain as a whole. Going back to our analogy, the blockchain consists of enchanted documents that can be owned anyone who wants to participate in maintaining the agreement. The magic rules of the enchanted document defines which changes are allowed and which are not. However, if a group of the participants decide to group together and define new rules, they can create their own offshoot of the original blockchain. The new rules for the new blockchain can impact the existing smart contracts on the blockchain. If a small number of participants choose to create an offshoot with new rules, this does not really affect the original blockchain, it just keeps going with a slightly lower number of participants. It really affects the original blockchain when a larger portion of the participants choose to join the offshot.
+
+The creation of offshot blockchains is not necessarily a bad thing though. Almost all of the hard forks to date are upgrades of the magic rules, making the blockchain perform better - the smart contracts on the blockchain remain untouched. There have been a few forks that have changed the state of the contracts however, but these have been extremely controversial.
+
+<!-- Therefore, you can trsut the blockchain. It is mostly the smart contract that you have to understand. -->
 
 
 ### Examples of smart contracts
