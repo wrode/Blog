@@ -24,7 +24,6 @@ The magic analogy above describes **one** set of enchanted documents (blockchain
 
 In essence, these rules create a digital cash<!--should i write more here, if yes, I should write about Bitcoin being the currency - and all it really is is just a number next to your account on the global digital ledger-->. Below is an illustration of one of these enchanted documents. The number next to each account denotes the amount of bitcoins in that account.
 ![bitcoin]({{ site.url }}/assets/images/bitcoin.png)
-<!--Remove the bitcoin logo from the bottom of the illustration -->
 <!--Need to explain that the bitcoins are just the balances on the enchanted documents -->
 
 Another set of documents is called Ethereum. The enchanted documents that make up Ethereum follow very similar rules to Bitcoin:
@@ -42,7 +41,7 @@ When a set of instructions reside on one of these accounts it is called a **smar
 
 - Compute
 - Store information
-- Send transactions to other accounts
+- Send stuff to other accounts
 
 As mentioned, the account with the code is not controlled by anyone. It is completely autonomous. The original code is written by a person, but once the smart contract code has been uploaded on the blockchain, only the logic in the account dictates the actions of the account.
 
@@ -70,7 +69,7 @@ On the contrary, a smart contract does not have to be upheld by anyone, it's a s
 
 #### Trust
 
-When entering into a normal contract, several factors play an important role. The most obvious part is an understanding of the actual contract. The contract lays out the terms and conditions of an agreement in laywerish language - which is what you are commiting to. Therefore, it is important to understand this laywerish language and how this is interpreted by the legal system. This is why you always carefully read the terms and conditions of your itunes agreement. *You* would never sign an agreement that commits you to providing your firstborn as payment for using their service, as 98% of people apparently [would](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2757465).
+When entering into a normal contract, several factors play an important role. The most obvious part is an understanding of the actual contract. The contract lays out the terms and conditions of an agreement in laywerish language - which is what you are commiting to. Therefore, it is important to understand this laywerish language and how this is interpreted by the legal system. This is why you always carefully read the terms and conditions of your itunes agreement. *You* would never sign an agreement that commits you to providing your firstborn as payment for using their service, as 98% of people [would](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2757465).
 
 ![Firstborn]({{ site.url }}/assets/images/Firstborn.png){:style="width:60%; margin: 0 20%"}
 
@@ -110,7 +109,7 @@ function payOut(address _recipient, uint _amount) returns (bool) {
 
 The smart contract code is the terms and conditions that you are signing up for when interacting with a smart contract. As long as you trust the blockchain that the smart contract resides on, you know that the code will execute exactly as programmed - so no breach of agreement can exist. It is important to note however, that working as *programmed* does not mean that it will work as *intended* - if there are errors in the code.
 
-The second element of trust was briefly mentioned in the above paraph, and is trust in the blockchain as a whole. Going back to our analogy, the blockchain consists of enchanted documents that can be owned anyone who wants to participate in maintaining the agreement. The magic rules of the enchanted document defines which changes are allowed and which are not. However, if a group of the participants decide to group together and define new rules, they can create their own offshoot of the original blockchain. The new rules for the new blockchain can impact the existing smart contracts on the blockchain. If a small number of participants choose to create an offshoot with new rules, this does not really affect the original blockchain, it just keeps going with a slightly lower number of participants. It really affects the original blockchain when a larger portion of the participants choose to join the offshot.
+The second element of trust was briefly mentioned in the above paraph, and is trust in the blockchain as a whole. Going back to our analogy, the blockchain consists of enchanted documents that can be owned anyone who wants to participate in maintaining the agreement. The magic rules of the enchanted document defines which changes are allowed and which are not. However, if a group of the participants decide to group together and define new rules, they can create their own offshoot of the original blockchain. The new rules for the new blockchain can impact the existing smart contracts on the blockchain. If a small number of participants choose to create an offshoot with new rules, this does not affect the original blockchain, it just keeps going with a slightly lower number of participants. It really affects the original blockchain when a larger portion of the participants choose to join the offshot.
 
 The creation of offshot blockchains is not necessarily a bad thing though. Almost all of the hard forks to date are upgrades of the magic rules, making the blockchain perform better - the smart contracts on the blockchain remain untouched. There have been a few forks that have changed the state of the contracts however, but these have been extremely controversial.
 
@@ -119,24 +118,34 @@ The creation of offshot blockchains is not necessarily a bad thing though. Almos
 
 ### Examples of smart contracts
 
-- Give examples of what a smart contract can look like.
-    + Talk about the fact that all contracts
-- Need to talk about the fact that one smart contract can represent one application - therefore, you do not need a whole new blockcahin for every new idea. Many blockchains are sets of rules that define one specific application. 
-- Talk about the fact that even though no person owns it, since it is defined by code it is possible to specify that one account has certain privileges that no one else has, thus rendering it in control by someone else.
-- Include the diagram of the abstraction layers of different blockchains. Synereo, etc..
+Now you know that a smart contract is, you might think "so what", what can smart contracts be used for?
 
-- Compliment smart contract
-- TOKENS to represent anything
+Smart contracts are essentially just a set of instructions residing on a blockchain, written in computer code. This computer code can be written in an infinite number of ways, just like words specifying the terms and conditions of a normal contract can be written in an infinite number of ways.
+
+If we want (and dont have anything better to do), we could arrange the logic in a way that creates a smart contract that gives compliments. We might want to make it a little stingy however, and only give compliments to the people that send it money. The more money the contract recieves, the better the compliment it could give.
+
+Like  words in a contract, there is an infinite number of ways to arrange the code in a smart contract that does not make sense. So in what ways can you arrange the logic in a smart contract that is usefull?
+
+Financial instruments are one of the most 
 - Financial instruments
     + Stocks
     + Bonds
     + Options
+
+**Blockchain applications**: In the last post, we introduced how different types of blockchains could be used for different types of applications. The examples we used were bitcoin and namecoin, the former a currency application and the latter a blockchain for keeping track of who owns which domain name. Many other types of single application blockchains also arose, such as gridcoin and ###. With smart contracts you can define the scarcity in a contract, essentially creating a new application for an agreement, but without creating a whole new blockchain, you can use the existing blockchain...
+
+- one smart contract can represent one application - therefore, you do not need a whole new blockcahin for every new idea. Many blockchains are sets of rules that define one specific application. 
+- Tokens!
+
+<!-- Illustration of the different types of blockchains being written on smart contracts on the same enchanted document-->
+
 - Decentralized applications (Dapps)
     + Decentralized stock exchange
     + Decentralized prediction markets
-- MtoM
 - DAO’s
-- Example of tokens created on the ethereum blockchain
+
+- Talk about the fact that even though no person owns it, since it is defined by code it is possible to specify that one account has certain privileges that no one else has, thus rendering it in control by someone else.
+- Include the diagram of the abstraction layers of different blockchains. Synereo, etc.
 
 ### How to think about smart contracts and blockchains
 
@@ -147,6 +156,8 @@ The creation of offshot blockchains is not necessarily a bad thing though. Almos
 
 Earlier, if you wanted to create a new application, you would need to create a whole new blockchain (with all the infrastructure). Now that is no longer the case.
 
+- Explain the different types of blockchain. Blockchain 2.0 vs single application blockchains.
+    + tokens on blockchain 2.0 - explain what santander has recently announced.
 
 <!--Taking people to court to uphold agreement is a very slow, expensive and inefficient - especially for smaller sums.-->
 
