@@ -127,7 +127,7 @@ In the previous blogpost, I introduced how different types of blockchains were u
 
 More of these blockchains appeared after people identified new applications of the technology. The challenge was that for every new application you would need a whole new blockchain, with a new set of participants needing to take  part in maintaining the enchanted document. With the introduction of smart contract blockchains, this changed. The magic rules that define the functionality of one blockchain can be replicated using smart contracts. This means that instead of building a new blockchain for every type of application, you could add this functionality to one blockchain by using smart contracts. You essentially have many blockchains on the same blockchain.
 
-<!-- Picture of blockchain with the different applications. -->
+![Blockchainception]({{ site.url }}/assets/images/Blockchainception.png)
 
 You create a smart contract that itself contains a list of accounts and balances of whatever ownership you want to track. In the same ways as a blockchain, the smart contract would lay out the rules for the transactions. This is just one way in which you could arrange the logic, but it does not need to stop there. More logic could be included. The applications talked about above are just the state of ownership of dumb assets. 
 
