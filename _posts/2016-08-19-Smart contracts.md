@@ -162,3 +162,15 @@ Earlier, if you wanted to create a new application, you would need to create a w
 <!--Taking people to court to uphold agreement is a very slow, expensive and inefficient - especially for smaller sums.-->
 
 Ethereum is not the only Blockchain which enables the use of smart contracts, but it is the biggest public blockchain which is built around this concept. Therefore, this blogpost will focus on the Ethereum blockchain.
+
+Like words in a contract, there is an infinite number of ways to arrange the code in a smart contract that does not make sense. That's not interesting and no one cares. What people are interested in, is knowing ways in which to arrange the logic which does make sense. What useful things can smart contracts be?
+
+Many useful things can be solved by smart contracts - but might be better solved in other ways. Some people will argue that solving old problems with existing solutions in new blockchain ways is not useful, others would argue with that.
+
+1. First of all, anything a blockchain can do, a smart contract on a blockchain can replicate. Essentially this means that you can have the functionalities of several blockchains on a smart contract platform.
+2. First of all, the magic rules that define the functionality of one blockchain can be replicated by a smart contract on a blockchain that allows for smart contracts.
+    1. A lot of blockchains is agreement about ownership of certain things
+
+Below we present some examples of things at least some people think could be useful applications of smart contracts:
+
+The state of the blockchain is the "current" information residing on it.
