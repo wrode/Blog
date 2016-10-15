@@ -118,13 +118,33 @@ The creation of offshot blockchains is not necessarily a bad thing though. Almos
 
 ### Examples of smart contracts
 
-Now you know that a smart contract is, you might think "so what", what can smart contracts be used for?
+As we have already established, Smart contracts are essentially just a set of instructions residing on a blockchain, written in computer code. This computer code can be written in an infinite number of ways, just like words specifying the terms and conditions of a normal contract can be written in an infinite number of ways.
 
-Smart contracts are essentially just a set of instructions residing on a blockchain, written in computer code. This computer code can be written in an infinite number of ways, just like words specifying the terms and conditions of a normal contract can be written in an infinite number of ways.
+<!--If we want (and dont have anything better to do), we could arrange the logic in a way that creates a smart contract that gives compliments. We might want to make it a little stingy however, and only give compliments to the people that send it money. The more money the contract recieves, the better the compliment it could give.-->
+Like words in a contract, there is an infinite number of ways to arrange the code in a smart contract that does not make sense. That's not interesting and no one cares. What is interesting, are the ways to arrange the logic which does make sense.
 
-If we want (and dont have anything better to do), we could arrange the logic in a way that creates a smart contract that gives compliments. We might want to make it a little stingy however, and only give compliments to the people that send it money. The more money the contract recieves, the better the compliment it could give.
+In the previous blogpost, I introduced how different types of blockchains were used for different types of applications. The examples used were bitcoin and namecoin, the former a currency application and the latter domain name application. These applications specify an agreement about the ownership of *digital* assets, but there was also a lot of enthusiasm surrounding using blockchain technology to document agreements about ownership of *physical* assets too, such as oil, gold and even cars.
 
-Like  words in a contract, there is an infinite number of ways to arrange the code in a smart contract that does not make sense. So in what ways can you arrange the logic in a smart contract that is usefull?
+More of these blockchains appeared after people identified new applications of the technology. The challenge was that for every new application you would need a whole new blockchain, with a new set of participants needing to take  part in maintaining the enchanted document. With the introduction of smart contract blockchains, this changed. The magic rules that define the functionality of one blockchain can be replicated using smart contracts. This means that instead of building a new blockchain for every type of application, you could add this functionality to one blockchain by using smart contracts. You essentially have many blockchains on the same blockchain.
+
+<!-- Picture of blockchain with the different applications. -->
+
+You create a smart contract that itself contains a list of accounts and balances of whatever ownership you want to track. In the same ways as a blockchain, the smart contract would lay out the rules for the transactions. This is just one way in which you could arrange the logic, but it does not need to stop there. More logic could be included. The applications talked about above are just the state of ownership of dumb assets. 
+
+The new blockchain applications were used to handle ownership, more sophisticated blockchains were created to handle data storage, and even computing.
+
+![godeeper]({{ site.url }}/assets/images/godeeper.jpg)
+
+Transition: its not just intangible assets. Land and other legal ficitons can exist.
+
+
+But ledgers are just one way to arrange the logic of smart contracts.
+
+
+Shares, loans 
+
+Below we present some examples of things at least some people think could be useful applications of smart contracts:
+
 
 Financial instruments are one of the most 
 - Financial instruments
@@ -132,10 +152,10 @@ Financial instruments are one of the most
     + Bonds
     + Options
 
-**Blockchain applications**: In the last post, we introduced how different types of blockchains could be used for different types of applications. The examples we used were bitcoin and namecoin, the former a currency application and the latter a blockchain for keeping track of who owns which domain name. Many other types of single application blockchains also arose, such as gridcoin and ###. With smart contracts you can define the scarcity in a contract, essentially creating a new application for an agreement, but without creating a whole new blockchain, you can use the existing blockchain...
 
-- one smart contract can represent one application - therefore, you do not need a whole new blockcahin for every new idea. Many blockchains are sets of rules that define one specific application. 
-- Tokens!
+
+
+- Many useful things can be solved by smart contracts - but might be better solved in other ways. Some people will argue that solving old problems with existing solutions in new blockchain ways is not useful, others would argue with that.
 
 <!-- Illustration of the different types of blockchains being written on smart contracts on the same enchanted document-->
 
@@ -153,8 +173,9 @@ Financial instruments are one of the most
     + Bitcoin
     + Steemit (is steemit just a DAO, or can smart contracts also be developed on its platform)
     + Namecoin etc.
+- The state of the blockchain is the "current" information residing on it.
 
-Earlier, if you wanted to create a new application, you would need to create a whole new blockchain (with all the infrastructure). Now that is no longer the case.
+
 
 - Explain the different types of blockchain. Blockchain 2.0 vs single application blockchains.
     + tokens on blockchain 2.0 - explain what santander has recently announced.
@@ -163,14 +184,4 @@ Earlier, if you wanted to create a new application, you would need to create a w
 
 Ethereum is not the only Blockchain which enables the use of smart contracts, but it is the biggest public blockchain which is built around this concept. Therefore, this blogpost will focus on the Ethereum blockchain.
 
-Like words in a contract, there is an infinite number of ways to arrange the code in a smart contract that does not make sense. That's not interesting and no one cares. What people are interested in, is knowing ways in which to arrange the logic which does make sense. What useful things can smart contracts be?
 
-Many useful things can be solved by smart contracts - but might be better solved in other ways. Some people will argue that solving old problems with existing solutions in new blockchain ways is not useful, others would argue with that.
-
-1. First of all, anything a blockchain can do, a smart contract on a blockchain can replicate. Essentially this means that you can have the functionalities of several blockchains on a smart contract platform.
-2. First of all, the magic rules that define the functionality of one blockchain can be replicated by a smart contract on a blockchain that allows for smart contracts.
-    1. A lot of blockchains is agreement about ownership of certain things
-
-Below we present some examples of things at least some people think could be useful applications of smart contracts:
-
-The state of the blockchain is the "current" information residing on it.
