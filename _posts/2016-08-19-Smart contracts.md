@@ -69,7 +69,7 @@ On the contrary, a smart contract does not have to be upheld by anyone, it's a s
 
 #### Trust
 
-When entering into a normal contract, several factors play an important role. The most obvious part is an understanding of the actual contract. The contract lays out the terms and conditions of an agreement in laywerish language - which is what you are commiting to. Therefore, it is important to understand this laywerish language and how this is interpreted by the legal system. This is why you always carefully read the terms and conditions of your itunes agreement. *You* would never sign an agreement that commits you to providing your firstborn as payment for using their service, as 98% of people [would](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2757465).
+When entering into a normal contract, several factors play an important role. The most obvious part is an understanding of the actual contract. The contract lays out the terms and conditions of an agreement in legalese - which is what you are commiting to. Therefore, it is important to understand this legalese and how this is interpreted by the legal system. This is why you always carefully read the terms and conditions of your itunes agreement. *You* would never sign an agreement that commits you to providing your firstborn as payment for using their service, as 98% of people [would](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2757465).
 
 ![Firstborn]({{ site.url }}/assets/images/Firstborn.png){:style="width:60%; margin: 0 20%"}
 
@@ -91,7 +91,7 @@ A smart contract essentially consists of two elements of trust:
 1. The content of the contract, and how this is interpreted.
 2. The immutibility of the blockchain.
 
-Just like with normal contracts, it´s important to understand the actual content of a smart contract when interacting with it. But unlike a normal contract, which is written in laywerish language and interpreted by the legal system, the content of the smart contract is written in computer code and interpreted by computers. So what does smart contract code actually look like? Below is an example, the code is an extract of a smart contract:
+Just like with normal contracts, it´s important to understand the actual content of a smart contract when interacting with it. But unlike a normal contract, which is written in legalese and interpreted by the legal system, the content of the smart contract is written in computer code and interpreted by computers. So what does smart contract code actually look like? Below is an example, the code is an extract of a smart contract:
 
 
 ```javascript
@@ -109,48 +109,42 @@ function payOut(address _recipient, uint _amount) returns (bool) {
 
 The smart contract code is the terms and conditions that you are signing up for when interacting with a smart contract. As long as you trust the blockchain that the smart contract resides on, you know that the code will execute exactly as programmed - so no breach of agreement can exist. It is important to note however, that working as *programmed* does not mean that it will work as *intended* - if there are errors in the code.
 
-The second element of trust was briefly mentioned in the above paraph, and is trust in the blockchain as a whole. Going back to our analogy, the blockchain consists of enchanted documents that can be owned anyone who wants to participate in maintaining the agreement. The magic rules of the enchanted document defines which changes are allowed and which are not. However, if a group of the participants decide to group together and define new rules, they can create their own offshoot of the original blockchain. The new rules for the new blockchain can impact the existing smart contracts on the blockchain. If a small number of participants choose to create an offshoot with new rules, this does not affect the original blockchain, it just keeps going with a slightly lower number of participants. It really affects the original blockchain when a larger portion of the participants choose to join the offshot.
+The second element of trust was briefly mentioned in the above paraph, and is trust in the blockchain as a whole. Going back to our analogy, the blockchain consists of enchanted documents that can be owned anyone who wants to participate in maintaining the agreement. The magic rules of the enchanted document defines which changes are allowed and which are not. However, if a group of the participants decide to group together and define new rules, they can create their own offshoot of the original blockchain. The new rules for the new blockchain *can* impact the existing smart contracts, but only on the new offshoot blockchain. Creating the new blockchain does not really affect the old blockchain, unless a large portion of the participants care more about the new blockchain and ditch the old one. Only when that happens - when the new contract's rules mess with your smart contract, and when the new blockchain becomes the *de facto* blockchain of the two - are you at risk of the smart contract not working as programmed.
 
-The creation of offshot blockchains is not necessarily a bad thing though. Almost all of the hard forks to date are upgrades of the magic rules, making the blockchain perform better - the smart contracts on the blockchain remain untouched. There have been a few forks that have changed the state of the contracts however, but these have been extremely controversial.
-
+<!-- The creation of offshot blockchains is not necessarily a bad thing though. Almost all of the hard forks to date are upgrades of the magic rules, making the blockchain perform better - the smart contracts on the blockchain remain untouched. There have been a few forks that have changed the state of the contracts however, but these have been extremely controversial. -->
 <!-- Therefore, you can trsut the blockchain. It is mostly the smart contract that you have to understand. -->
-
 
 ### Examples of smart contracts
 
-As we have already established, Smart contracts are essentially just a set of instructions residing on a blockchain, written in computer code. This computer code can be written in an infinite number of ways, just like words specifying the terms and conditions of a normal contract can be written in an infinite number of ways.
+As we have already established, smart contracts are essentially just a set of instructions residing on a blockchain, written in computer code. This computer code can be written in an infinite number of ways, just like words specifying the terms and conditions of a normal contract can be written in an infinite number of ways. But like words in a contract, there is an infinite number of ways to arrange the code in a smart contract that does not make sense. That's not interesting and no one cares. What is interesting however, are the ways to arrange the logic which does make sense.
 
 <!--If we want (and dont have anything better to do), we could arrange the logic in a way that creates a smart contract that gives compliments. We might want to make it a little stingy however, and only give compliments to the people that send it money. The more money the contract recieves, the better the compliment it could give.-->
-Like words in a contract, there is an infinite number of ways to arrange the code in a smart contract that does not make sense. That's not interesting and no one cares. What is interesting, are the ways to arrange the logic which does make sense.
 
-In the previous blogpost, I introduced how different types of blockchains were used for different types of applications. The examples used were bitcoin and namecoin, the former a currency application and the latter domain name application. These applications specify an agreement about the ownership of *digital* assets, but there was also a lot of enthusiasm surrounding using blockchain technology to document agreements about ownership of *physical* assets too, such as oil, gold and even cars.
+In the previous blogpost, I introduced how different types of blockchains were used for different types of applications. The examples used were bitcoin and namecoin, the former a currency application and the latter domain name application. These applications specify an agreement about the ownership of *digital* assets, but there was also a lot of enthusiasm surrounding using blockchain technology to document agreements about ownership of *physical* assets too, such as oil, gold, cars and real estate.
 
-More of these blockchains appeared after people identified new applications of the technology. The challenge was that for every new application you would need a whole new blockchain, with a new set of participants needing to take  part in maintaining the enchanted document. With the introduction of smart contract blockchains, this changed. The magic rules that define the functionality of one blockchain can be replicated using smart contracts. This means that instead of building a new blockchain for every type of application, you could add this functionality to one blockchain by using smart contracts. You essentially have many blockchains on the same blockchain.
+The challenge was that all new applications needed their own new blockchain - as the existing blockchains were not made for anything other than their original application. Every new blockchain requires a set of participants that had to take part in maintaining the document. With the introduction of smart contract blockchains, this changed. The magic rules that define the functionality of one blockchain can be replicated using smart contracts. 
+
+For the blockchains mentioned above, which specify ownership of different types of assets, the "magic document" is essentially just a list of accounts and balances. Instead of using a whole blockchain for this application, it could instead be described in one smart contract. Like the blockchain, the smart contract would essentially be a list of accounts and balances, with rules about which transactions are allowed.
 
 ![Blockchainception]({{ site.url }}/assets/images/Blockchainception.png)
 
-You create a smart contract that itself contains a list of accounts and balances of whatever ownership you want to track. In the same ways as a blockchain, the smart contract would lay out the rules for the transactions. This is just one way in which you could arrange the logic, but it does not need to stop there. More logic could be included. The applications talked about above are just the state of ownership of dumb assets. 
+This means that instead of building a new blockchain for every type of application, it is possible to add several types of applications to **one** blockchain by using smart contracts. You essentially have many blockchains on the same blockchain.
+
+![godeeper]({{ site.url }}/assets/images/godeeper.jpg){:style="width:60%; margin: 0 20%"}
+
+As we now know, specifying and managing ownership is one way which you could arrange the logic of a smart contract. But it does not need to stop there. More logic could be included. If you specify the ownership in a company through a smart contract - essentially making shares of that company, you could also include instructions about how to pay out dividens through the contract. Any dividens that the company has could be paid to the contract, and the contract's logic would distribute this money amongst the shareholders. In addition, you might want to add the right to vote to the smart contracts logic, giving each person a vote represented by their ownership, which is described in the smart contract.
+
+This is brings the second use-case of smart contracts: Financial instruments. Securities such as stocks, bonds and derivatives can all be created as smart contracts.
+
+- how do we go from here
+- 
+
 
 The new blockchain applications were used to handle ownership, more sophisticated blockchains were created to handle data storage, and even computing.
-
-![godeeper]({{ site.url }}/assets/images/godeeper.jpg)
-
-Transition: its not just intangible assets. Land and other legal ficitons can exist.
-
-
-But ledgers are just one way to arrange the logic of smart contracts.
-
-
-Shares, loans 
 
 Below we present some examples of things at least some people think could be useful applications of smart contracts:
 
 
-Financial instruments are one of the most 
-- Financial instruments
-    + Stocks
-    + Bonds
-    + Options
 
 
 
