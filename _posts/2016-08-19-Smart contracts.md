@@ -114,25 +114,29 @@ The second element of trust was briefly mentioned in the above paraph, and is tr
 <!-- The creation of offshot blockchains is not necessarily a bad thing though. Almost all of the hard forks to date are upgrades of the magic rules, making the blockchain perform better - the smart contracts on the blockchain remain untouched. There have been a few forks that have changed the state of the contracts however, but these have been extremely controversial. -->
 <!-- Therefore, you can trsut the blockchain. It is mostly the smart contract that you have to understand. -->
 
-### Examples of smart contracts
+### Smart contract applications
 
 As we have already established, smart contracts are essentially just a set of instructions residing on a blockchain, written in computer code. This computer code can be written in an infinite number of ways, just like words specifying the terms and conditions of a normal contract can be written in an infinite number of ways. But like words in a contract, there is an infinite number of ways to arrange the code in a smart contract that does not make sense. That's not interesting and no one cares. What is interesting however, are the ways to arrange the logic which does make sense.
 
 <!--If we want (and dont have anything better to do), we could arrange the logic in a way that creates a smart contract that gives compliments. We might want to make it a little stingy however, and only give compliments to the people that send it money. The more money the contract recieves, the better the compliment it could give.-->
 
-In the previous blogpost, I introduced how different types of blockchains were used for different types of applications. The examples used were bitcoin and namecoin, the former a currency application and the latter domain name application. These applications specify an agreement about the ownership of *digital* assets, but there was also a lot of enthusiasm surrounding using blockchain technology to document agreements about ownership of *physical* assets too, such as oil, gold, cars and real estate.
+In the previous blogpost, I introduced how different types of blockchains were used for different types of applications. The examples used were bitcoin and namecoin, the former a currency application and the latter a domain name application. After the concept was out, people started imagining new applications of Blockchains. In addition to using blockchains for agreeing about ownership of digital assets such as bitcoin and namecoin, people imagined using it for many other types of agreements, such as ownership of physical assets and governance structures.
 
-The challenge was that all new applications needed their own new blockchain - as the existing blockchains were not made for anything other than their original application. Every new blockchain requires a set of participants that had to take part in maintaining the document. With the introduction of smart contract blockchains, this changed. The magic rules that define the functionality of one blockchain can be replicated using smart contracts. 
+The challenge was that each blockchain was being built with one application in mind. Every new imagined application would essentially require creating a whole new blockchain - which required participants coming together to maintain the agreement//emphasize that maintining a blockchain is costly. 
 
-For the blockchains mentioned above, which specify ownership of different types of assets, the "magic document" is essentially just a list of accounts and balances. Instead of using a whole blockchain for this application, it could instead be described in one smart contract. Like the blockchain, the smart contract would essentially be a list of accounts and balances, with rules about which transactions are allowed.
+Smart contracts changed this. The magic rules that define the functionality of one blockchain can be replicated into smart contracts on an existing smart contract blockchain. This means that instead of building a new blockchain for every type of application, it is possible to add several types of applications to **one** blockchain by using smart contracts. You essentially have many blockchains on the same blockchain.
 
 ![Blockchainception]({{ site.url }}/assets/images/Blockchainception.png)
 
-This means that instead of building a new blockchain for every type of application, it is possible to add several types of applications to **one** blockchain by using smart contracts. You essentially have many blockchains on the same blockchain.
+As an example, the blockchains which specify ownership of different types of assets, the "magic document" is essentially just a list of accounts and their ownership. Instead of using a whole blockchain for this application, this information can instead be included in one smart contract. Like the blockchain, the smart contract would essentially be a list of accounts and their ownership, with rules about which transactions are allowed and which are not.
+
+>Therefore, the applications for smart contracts are the same as the applications for blockchains.
+
+As we have already established, smart contracts can be used to document the ownership of assets, not only digital, but also physical such as oil, gold, cars and real estate. But just listing who owns what is just the beginning, additional logic can be included.
 
 ![godeeper]({{ site.url }}/assets/images/godeeper.jpg){:style="width:60%; margin: 0 20%"}
 
-As we now know, specifying and managing ownership is one way which you could arrange the logic of a smart contract. But it does not need to stop there. More logic could be included. If you specify the ownership in a company through a smart contract - essentially making shares of that company, you could also include instructions about how to pay out dividens through the contract. Any dividens that the company has could be paid to the contract, and the contract's logic would distribute this money amongst the shareholders. In addition, you might want to add the right to vote to the smart contracts logic, giving each person a vote represented by their ownership, which is described in the smart contract.
+A smart contract can specify the ownership in a company. In addition, it could also include instructions about how to pay out dividens through the contract. Any dividens that the company has can be paid to the contract, and the contract's logic would distribute this money amongst its owners. In addition, the contract can give the owners voting rights relative to their ownership.
 
 This is brings the second use-case of smart contracts: Financial instruments. Securities such as stocks, bonds and derivatives can all be created as smart contracts.
 
