@@ -120,66 +120,83 @@ As we have already established, smart contracts are essentially just a set of in
 
 <!--If we want (and dont have anything better to do), we could arrange the logic in a way that creates a smart contract that gives compliments. We might want to make it a little stingy however, and only give compliments to the people that send it money. The more money the contract recieves, the better the compliment it could give.-->
 
-In the previous blogpost, I introduced how different types of blockchains were used for different types of applications. The examples used were bitcoin and namecoin, the former a currency application and the latter a domain name application. After the concept was out, people started imagining new applications of Blockchains. In addition to using blockchains for agreeing about ownership of digital assets such as bitcoin and namecoin, people imagined using it for many other types of agreements, such as ownership of physical assets and governance structures.
+After the original bitcoin paper was published, people started imagining new applications of Blockchains. In the previous blogpost, I presented Namecoin, a blockchain for managing domain names in a desentralized manner. In addition to using blockchains for agreeing about ownership of digital assets such as bitcoin and namecoin, people imagined using it for many other types of agreement too, such as ownership of physical assets and defining governance structures.
 
-The challenge was that each blockchain was being built with one application in mind. Every new imagined application would essentially require creating a whole new blockchain - which required participants coming together to maintain the agreement//emphasize that maintining a blockchain is costly. 
-
-Smart contracts changed this. The magic rules that define the functionality of one blockchain can be replicated into smart contracts on an existing smart contract blockchain. This means that instead of building a new blockchain for every type of application, it is possible to add several types of applications to **one** blockchain by using smart contracts. You essentially have many blockchains on the same blockchain.
+The challenge was that each blockchain was being built with one application in mind. Every new application required a whole new blockchain. Creating a new blockchain requires a lot of resources, since a set of participants need to start maintaining a new agreement. Smart contracts changed this. The magic rules that define the functionality of one blockchain can be replicated into smart contracts on an existing smart contract blockchain. This means that instead of building a new blockchain for every type of application, it is possible to add several types of applications to **one** blockchain by using smart contracts. You essentially have many blockchains on the same blockchain, and is why some refer to smart contract blockchains as blockchain 2.0.
 
 ![Blockchainception]({{ site.url }}/assets/images/Blockchainception.png)
 
-As an example, the blockchains which specify ownership of different types of assets, the "magic document" is essentially just a list of accounts and their ownership. Instead of using a whole blockchain for this application, this information can instead be included in one smart contract. Like the blockchain, the smart contract would essentially be a list of accounts and their ownership, with rules about which transactions are allowed and which are not.
+As an example, the blockchains which specify ownership of different types of assets, the "magic document" is essentially just a list of accounts and what they own. Instead of using a whole blockchain for this application, this information can be included in a smart contract. Like the blockchain, the smart contract would essentially be a list of accounts and their ownership, with rules about which transactions are allowed and which are not.
 
->Therefore, the applications for smart contracts are the same as the applications for blockchains.
+>Smart contracts have the same applications as blockchains.
 
 As we have already established, smart contracts can be used to document the ownership of assets, not only digital, but also physical such as oil, gold, cars and real estate. But just listing who owns what is just the beginning, additional logic can be included.
 
 ![godeeper]({{ site.url }}/assets/images/godeeper.jpg){:style="width:60%; margin: 0 20%"}
 
-A smart contract can specify the ownership in a company. In addition, it could also include instructions about how to pay out dividens through the contract. Any dividens that the company has can be paid to the contract, and the contract's logic would distribute this money amongst its owners. In addition, the contract can give the owners voting rights relative to their ownership.
+A smart contract can specify the ownership in a company, and this ownership can easily be transfered by interacting with the contract. The contract can include instructions about how dividens are paid out through the contract. Any dividens that are paid out are automatically distributed to the owners. In addition, the contract can give the owners voting rights relative to their ownership. Owners would send a transaction with their vote to the smart contract - which would .
 
-This is brings the second use-case of smart contracts: Financial instruments. Securities such as stocks, bonds and derivatives can all be created as smart contracts.
+What I have described above is essentially just a share of a company, in the form of a smart contract. This is the second application where smart contracts have considerable promise; financial instruments. Securities such as stocks, bonds and derivatives can all be created as smart contracts. In the case of a derivative, the logic would define the terms of the contract - such as payouts based on the future price of oil. The contract would listen to events, and make a payment based on the agreement. If the price of oil goes up 20% then perform a payment to account A, if not, make a payment to account B.
+  
+<!--- We first present ownership, the second application area relates to adding additional logic to this ownership - thats what financial instruments are. But not only do you have additional logic for handling ownership - you also have other logic you could include. Such as a timer to release money, which might help to save money, or way to distribute money to hundreds of different accounts, or multisignature conditions for moving the money around.-->
 
-- how do we go from here
+#### Dapps
+
+Many of the internet applications that you use today, such as Facebook and Google, communicate with back-end servers to fullfill your needs. The complicated technology is hidden behind the front-end interface, so you will never have to communicate directly with the back-end. This is an abstraction layer, which allows you to perform complicated operations (searching the internet) without needing the competence to know how it is done. Interacting directly with smart contracts is also complicated. The blockchain equivelant of creating an application that hides this complexity behind a front-end interface is called a *decentralized application*, or *Dapp* for short. 
+
+Dapps might consist of several smart contracts that interact with eachother, all seemlessly hidden behind an interface. One example of a Dapp is a decentralized exchange, where ownership can be exchanged without needing to trust the counterparty or third party (the exchange). Another example is a decentralized prediction (or betting) market which is used to predict and verify the outcome of events.
+
+<!--
+- through cryptocurrency can incentivise these new structures to exist. Transistion to dropbox and airbnb for computing power.
+-->
+
+---
+
+The ability to send micro transaction and include financial incentives programatically allows for other types of application. One example is a decentralized dropbox, in which users pays people to rent out their extra storage capacity for a small sum. This is essentially AirBnB for hard disk space. Related is renting out unused processing power for a small sum.
+
+Smart contracts and blockchains have a large range of potential applications, but many of these are already solved using centralized solutions today. Time will tell which of the smart contract applications will be better than their centralized alternatives.
+
+<!--
+The last application area that I will cover in this blogpost is Decentralized Autonomous Organizations.
+
+These are organizations "information from vitaliks blog post."
+-->
+
+<!--
+
+- Micropayments. Road tolls. - Market based system...
+- generall resource payment system.
+- Reputation systems.
 - 
+(something about not looking into the code is stupid, because it is hard to see
+- Unless ofcourse you have a standard contract, which the front-end ensures is correct
+- something about communicating directly with smart contracts being complicated
 
+- can decentralized prediction markets be used for military reconossance, or business reconosance? Give the actors incentives to give the correct information about a future outcome?
 
-The new blockchain applications were used to handle ownership, more sophisticated blockchains were created to handle data storage, and even computing.
+- Example of how tokens can be used to pay for a schooling system through tokens. 
 
-Below we present some examples of things at least some people think could be useful applications of smart contracts:
+Many useful things can be solved by smart contracts - but might be better solved in other ways. Some people will argue that solving old problems with existing solutions in new blockchain ways is not useful, others would argue with that.
 
-
-
-
-
-
-- Many useful things can be solved by smart contracts - but might be better solved in other ways. Some people will argue that solving old problems with existing solutions in new blockchain ways is not useful, others would argue with that.
-
-<!-- Illustration of the different types of blockchains being written on smart contracts on the same enchanted document-->
-
-- Decentralized applications (Dapps)
-    + Decentralized stock exchange
-    + Decentralized prediction markets
-- DAO’s
+Challenge for smart contracts:
+- What happens after contracts are agreed upon is often unpredictable.
+- Parties dont have the time or interest to detail every potential outcome up front.
+- parties want a level of flexibility
+- Smart contracts are very rigid about the commitments and outcomes
 
 - Talk about the fact that even though no person owns it, since it is defined by code it is possible to specify that one account has certain privileges that no one else has, thus rendering it in control by someone else.
-- Include the diagram of the abstraction layers of different blockchains. Synereo, etc.
-
-### How to think about smart contracts and blockchains
 
 - The ethereum blockchain is in one sense an abstraction layer below other blockchains (which is why it is ofter refered to as blockchain technology 2.0) such as:
-    + Bitcoin
     + Steemit (is steemit just a DAO, or can smart contracts also be developed on its platform)
-    + Namecoin etc.
 - The state of the blockchain is the "current" information residing on it.
 
 
+Taking people to court to uphold agreement is a very slow, expensive and inefficient - especially for smaller sums.
 
-- Explain the different types of blockchain. Blockchain 2.0 vs single application blockchains.
-    + tokens on blockchain 2.0 - explain what santander has recently announced.
+Other areas where many actors try to form consensus:
+- Science
+- The governance structure of the society as a whole
 
-<!--Taking people to court to uphold agreement is a very slow, expensive and inefficient - especially for smaller sums.-->
-
-Ethereum is not the only Blockchain which enables the use of smart contracts, but it is the biggest public blockchain which is built around this concept. Therefore, this blogpost will focus on the Ethereum blockchain.
+-->
 
 
