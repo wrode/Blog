@@ -151,10 +151,13 @@ Dapps might consist of several smart contracts that interact with eachother, all
 -->
 
 ---
+//Need to finish this section - will write something about the consequences of smart contracts for the average person
 
 The ability to send micro transaction and include financial incentives programatically allows for other types of application. One example is a decentralized dropbox, in which users pays people to rent out their extra storage capacity for a small sum. This is essentially AirBnB for hard disk space. Related is renting out unused processing power for a small sum.
 
 Smart contracts and blockchains have a large range of potential applications, but many of these are already solved using centralized solutions today. Time will tell which of the smart contract applications will be better than their centralized alternatives.
+
+--
 
 <!--
 The last application area that I will cover in this blogpost is Decentralized Autonomous Organizations.
