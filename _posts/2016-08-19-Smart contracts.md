@@ -23,7 +23,7 @@ The magic analogy above describes **one** set of enchanted documents (blockchain
 2. People own accounts, and can send their own bitcoins to other accounts.
 
 In essence, these rules create a digital cash<!--should i write more here, if yes, I should write about Bitcoin being the currency - and all it really is is just a number next to your account on the global digital ledger-->. Below is an illustration of one of these enchanted documents. The number next to each account denotes the amount of bitcoins in that account.
-![bitcoin]({{ site.url }}/assets/images/bitcoin.png)
+![bitcoin]({{ site.url }}/assets/images/bitcoinDoc.png)
 <!--Need to explain that the bitcoins are just the balances on the enchanted documents -->
 
 Another set of documents is called Ethereum. The enchanted documents that make up Ethereum follow very similar rules to Bitcoin:
@@ -35,7 +35,7 @@ Those of you with an eye for details might have noticed slight differences in wo
 
 One of these differences is the fact that not all accounts on the Ethereum enchanted document is owned by people. Instead, the actions of these accounts are controlled by a set of instructions residing on the account.<!--The second difference is that in addition to sending the local currency between accounts, it is also possible to send information.## --> Below is an illustration of one of the enchanted documents on the Ethereum blockchain with some of the accounts controlled by instructions and not people:
 
-![ethereum]({{ site.url }}/assets/images/ethereum.png)
+![ethereum]({{ site.url }}/assets/images/ethereumDoc.png)
 
 When a set of instructions reside on one of these accounts it is called a **smart contract**. The set of instructions is just computer code, essentially - just logic. If "poked" by a transaction from another account, the smart contract can:
 
