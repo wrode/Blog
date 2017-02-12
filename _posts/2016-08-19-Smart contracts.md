@@ -4,7 +4,7 @@ title: Smart contracts
 draft: true
 ---
 
-Smart contracts are an important part of the enthusiasm surrounding blockchain technology. In this post, I try to explain exactly what a smart contract is.
+Smart contracts are an important part of the enthusiasm surrounding blockchain technology. In this post, I will try to explain exactly what a smart contract is.
 <!--more-->
 
 First, let's quickly do a recap of the magic analogy in the previous blog post to explain a blockchain (the original blog post can be found [here](http://allisabstract.com/2016/08/06/Blockchain.html)). In the previous post, I explain what a blockchain is without using IT jargon by pretending it's based on magic and not technology. <!-- which is of course a complete and utter lie, magic does not exist, and neither does your god.--> A public blockchain can be imagined in the following way:
@@ -32,7 +32,7 @@ Another set of documents is called Ethereum. The enchanted documents that make u
 1. Each enchanted document contains a list of all accounts and balances.
 2. Owners of accounts can send transactions to other accounts.
 
-Those of you with an eye for details might have noticed slight differences in wording between the second rule of Ethereum and the second rule of Bitcoin. This difference in wording incorporates how the two sets of documents work differently. 
+Those of you with an eye for details might have noticed slight differences in wording between the second rule of Ethereum and the second rule of Bitcoin. This difference in wording incorporates how the two sets of documents work differently.
 
 The largest difference is the fact that not all accounts on the Ethereum enchanted document is owned by people. Instead, the actions of these accounts are controlled by a set of instructions residing on the account.<!--The second difference is that in addition to sending the local currency between accounts, it is also possible to send information.## --> Below is an illustration of one of the enchanted documents on the Ethereum blockchain with some of the accounts controlled by instructions and not people:
 ![ethereum]({{ site.url }}/assets/images/EthereumDoc.png){:style="width:50%; margin: 0 25%"}
@@ -45,10 +45,10 @@ When a set of instructions reside on one of these accounts it is called a **smar
 
 As mentioned, the account with the code is not controlled by any person, it is completely autonomous! The original code is written by a person, but once the smart contract code was uploaded on the blockchain, only the logic in the account dictates the actions of that account.
 
-<!-- Write about smart contracts are a combination of the actual smart contract code and the blockchain--> 
+<!-- Write about smart contracts are a combination of the actual smart contract code and the blockchain-->
 
 ---
-A small digression: From the cradle of civilization when money was first invented, people were able to own money. Eventually, ficticous entities that people imagined, called organizations, were able to own money. Now, for the first time in history, a machine can own money (through smart contracts). The consequences of this is hard to know, but we have interesting times ahead.
+A small digression: From the cradle of civilization when money was first invented, people were able to own money. Eventually, fictitious entities that people imagined, called organizations, were able to own money. Now, for the first time in history, a machine can own money (through smart contracts). The consequences of this is hard to know, but we have interesting times ahead.
 
 ![Robot overlords]({{ site.url }}/assets/images/RobotOverlords.png)
 
@@ -112,7 +112,7 @@ The smart contract code is the terms and conditions that you are signing up for 
 The second element of trust was briefly mentioned in the above paragraph, and is trust in the blockchain as a whole. Going back to our analogy, the blockchain consists of enchanted documents that can be owned anyone who wants to participate in maintaining the agreement. The magic rules of the enchanted document defines which changes are allowed and which are not. However, if a group of the participants decide to group together and define new rules, they can create their own offshoot of the original blockchain. The new rules for the new blockchain *can* impact the existing smart contracts, but only on the new offshoot blockchain. Creating the new blockchain does not really affect the old blockchain, unless a large portion of the participants care more about the new blockchain and ditch the old one. Only when that happens - when the new contract's rules mess with your smart contract, and when the new blockchain becomes the *de facto* blockchain of the two - are you at risk of the smart contract not working as programmed.
 
 <!-- The creation of offshot blockchains is not necessarily a bad thing though. Almost all of the hard forks to date are upgrades of the magic rules, making the blockchain perform better - the smart contracts on the blockchain remain untouched. There have been a few forks that have changed the state of the contracts however, but these have been extremely controversial. -->
-<!-- Therefore, you can trsut the blockchain. It is mostly the smart contract that you have to understand. -->
+<!-- Therefore, you can trust the blockchain. It is mostly the smart contract that you have to understand. -->
 
 ### Smart contract applications
 
@@ -137,14 +137,14 @@ As we have already established, smart contracts can be used to document the owne
 A smart contract can specify the ownership in a company, and this ownership can easily be transfered by interacting with the contract. The contract can include instructions about how dividends are paid out through the contract. Any dividends that are paid out are automatically distributed to the owners. In addition, the contract can give the owners voting rights relative to their ownership. Owners would send a transaction with their vote to the smart contract - which would .
 
 What I have described above is essentially just a share of a company, in the form of a smart contract. This is the second application where smart contracts have considerable promise; financial instruments. Securities such as stocks, bonds and derivatives can all be created as smart contracts. In the case of a derivative, the logic would define the terms of the contract - such as payouts based on the future price of oil. The contract would listen to events, and make a payment based on the agreement. If the price of oil goes up 20% then perform a payment to account A, if not, make a payment to account B.
-  
+
 <!--- We first present ownership, the second application area relates to adding additional logic to this ownership - thats what financial instruments are. But not only do you have additional logic for handling ownership - you also have other logic you could include. Such as a timer to release money, which might help to save money, or way to distribute money to hundreds of different accounts, or multisignature conditions for moving the money around.-->
 
 #### Dapps
 
-Many of the internet applications that you use today, such as Facebook and Google, communicate with back-end servers to fulfill your needs. The complicated technology is hidden behind the front-end interface, so you will never have to communicate directly with the back-end. This is an abstraction layer, which allows you to perform complicated operations (searching the internet) without needing the competence to know how it is done. Interacting directly with smart contracts is also complicated. The blockchain equivalent  of creating an application that hides this complexity behind a front-end interface is called a *decentralized application*, or *Dapp* for short. 
+Many of the Internet applications that you use today, such as Facebook and Google, communicate with back-end servers to fulfill your needs. The complicated technology is hidden behind the front-end interface, so you will never have to communicate directly with the back-end. This is an abstraction layer, which allows you to perform complicated operations (searching the internet) without needing the competence to know how it is done. Interacting directly with smart contracts is also complicated. The blockchain equivalent  of creating an application that hides this complexity behind a front-end interface is called a *decentralized application*, or *Dapp* for short.
 
-Dapps might consist of several smart contracts that interact with eachother, all seemlessly hidden behind an interface. One example of a Dapp is a decentralized exchange, where ownership can be exchanged without needing to trust the counterparty or third party (the exchange). Another example is a decentralized prediction (or betting) market which is used to predict and verify the outcome of events.
+Dapps might consist of several smart contracts that interact with each other, all seemlessly hidden behind an interface. One example of a Dapp is a decentralized exchange, where ownership can be exchanged without needing to trust the counterparty or third party (the exchange). Another example is a decentralized prediction (or betting) market which is used to predict and verify the outcome of events.
 
 <!--
 - through cryptocurrency can incentivise these new structures to exist. Transistion to dropbox and airbnb for computing power.
@@ -171,14 +171,14 @@ These are organizations "information from vitaliks blog post."
 - Micropayments. Road tolls. - Market based system...
 - generall resource payment system.
 - Reputation systems.
-- 
+-
 (something about not looking into the code is stupid, because it is hard to see
 - Unless ofcourse you have a standard contract, which the front-end ensures is correct
 - something about communicating directly with smart contracts being complicated
 
 - can decentralized prediction markets be used for military reconossance, or business reconosance? Give the actors incentives to give the correct information about a future outcome?
 
-- Example of how tokens can be used to pay for a schooling system through tokens. 
+- Example of how tokens can be used to pay for a schooling system through tokens.
 
 Many useful things can be solved by smart contracts - but might be better solved in other ways. Some people will argue that solving old problems with existing solutions in new blockchain ways is not useful, others would argue with that.
 
@@ -202,5 +202,3 @@ Other areas where many actors try to form consensus:
 - The governance structure of the society as a whole
 
 -->
-
-

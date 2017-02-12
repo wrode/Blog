@@ -40,13 +40,13 @@ The agreement about agreements is know as contract law. Modern societies have a 
 
 Another subject that is important to reach agreement about is whether people in the society *can* own things at all. This may seem like a no brainer, but its not actually a given, take some of the hippy [communes](https://en.wikipedia.org/wiki/Commune) as an example.
 
-Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it's pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment. It is also not the end of the world if I happened to lose them. Likewise, it sucks to lose other pieces of clothing, my wallet, my PlayStation controller etc. but again, it's not the end of the world, life goes on. 
+Once you have established the agreement that individuals can own things, the next step is to make sure there is agreement about who owns what. For some things, such as the personal property which I wear - it's pretty clear. If I make some sandals out of hemp, they are either on my feet or in my apartment. It is also not the end of the world if I happened to lose them. Likewise, it sucks to lose other pieces of clothing, my wallet, my PlayStation controller etc. but again, it's not the end of the world, life goes on.
 
 Then there are the *big things*. Things that really do impact you if you lose them. An example of a big thing is the apartment that you own. Losing that apartment would be life changing. If it was possible to steal an apartment in the same way that you could steal a purse, then that is what thiefs would be doing because that is were the big bucks would be. People would be spending their time protecting their apartment, and society as a whole would not function well. Therefore, for the *big things*, it is important that society agrees about who owns what.
 
-So what is stopping another person from sneaking in to my apartment and claiming it for himself, while I am strolling about town in my new hemp sandals? 
+So what is stopping another person from sneaking in to my apartment and claiming it for himself, while I am strolling about town in my new hemp sandals?
 
-<!--The problem is that todays societies are so huge that people can't be expected to keep track of who owns which apartment. You cannot trust individuals to report this themselves, because there is an incentive problem.--> 
+<!--The problem is that todays societies are so huge that people can't be expected to keep track of who owns which apartment. You cannot trust individuals to report this themselves, because there is an incentive problem.-->
 
 Why would society trust that the apartment is mine when the con artist claiming that the apartment is his is just as credible? In fact, he's more credible, because he is wearing a suit and I am wearing hemp sandals.
 
@@ -58,7 +58,7 @@ This problem is solved by the government owning a central registry of who owns w
 
 - Governments keep track of vehicle ownership using a registry of registration plates.
 - Kennel clubs keep track of who owns what dog through a breed registry.
-- The nonprofit organization ICANN keeps track of who owns what internet domain names. 
+- The nonprofit organization ICANN keeps track of who owns what internet domain names.
 - A bank keeps an up to date ledger with the balance of account holders.
 
 Just like with the agreement about agreements, agreement about ownership is solved in our societies by relying on a single source of "truth" - centrally administrated by a trusted authority.
@@ -127,7 +127,7 @@ Another set of enchanted documents could be defined by rules about how to handle
 
 Agreements on the blockchain have been named *Smart Contracts* and deserve a blog post of their own.
 
-<!-- 
+<!--
 Talk about the weak link between the blockchain and the real world. For example, that scarcity of a certain type of token. And this only has value in the real world because people are willing to pay a price for it.
 
 It is important that these are agreements only on paper or on blockchain, but since the value tokens have a price - they can have an actual impact.
