@@ -14,9 +14,9 @@ In some circles, blockchain is so hot right now, it's the talk of the town. But 
 
 Most explanations of blockchain are full of IT jargon. So unless you know IT, the explanations don't really help. In the posts below, I try to explain what blockchain technology is without going into the techy parts. The posts are written in chronological order, and should probably be read in that order in order to be understandable.
 
-[Agreement][1]   | *At its core, blockchain technology is all about agreement*
-[Blockchain][2]        | *What*
-[Smart contracts][3]  |  *Smart contracts are an important part*
+[Agreement][1]   | *Agreements are important part of how societies function*
+[Blockchain][2]        | *At its core, blockchain technology is all about agreement*
+[Smart contracts][3]  |  *Smart contracts*
 The DAO wars       |  *A case study, that looks into one of the blockchain spaces most spectacular failures*
 
 
