@@ -4,6 +4,7 @@ title: "What is a Blockchain?"
 date: "2017-02-04 19:09"
 draft: true
 ---
+You may have heard an explanation of a blockchain that sounds a little like this:
 
 >A Blockchain is a decentralized documented state, updated through transactions based on a predefined protocol.
 

@@ -14,7 +14,7 @@ Blockchain technology is essentially just a new way of handling agreements. The 
 
 In order to illustrate the difference, let us take a closer look at the agreement relating to the ownership of money. We'll pretend that banks maintain the agreement about who owns what using pen and paper. The bank has a document with a list of all the customers, their accounts and their corresponding balances (this is *the agreement*). Every time a customer wants to send some money, they notify the bank, and the bank updates *the agreement* by subtracting some money from one account and adding it to another.
 
-One day, the customers of the bank decide that they do not want the bank to be in charge of maintaining *the* agreement anymore. In fact, they do not want any single authority to maintain the agreement. They decide that anyone can take part in the maintainance of the agreement if they wish. Several people from the crowd accept to take on this role, lets call these participants *peers*. In order to maintain the agreement about who owns what in this new decentralized manner, each peer has their own copy of the paper document with the full agreement - all owners of the currency, their accounts and their corresponding balance. There is no longer one single paper document on which the *true* agreement is written, every peer owns a copy.
+One day, the customers of the bank decide that they do not want the bank to be in charge of maintaining *the agreement* anymore. In fact, they do not want any single authority to maintain it. They decide that anyone can take part in the maintainance of the agreement if they wish. Several people from the crowd accept to take on this role. Let us call the people who participante in maintaining the agreement *peers*. In order to maintain the agreement about who owns what in this new decentralized manner, each peer has their own copy of the paper document with the full agreement, which includes all owners of the currency, their accounts and their corresponding balance. There is no longer one single paper document on which the *true* agreement is written, every peer owns a copy.
 
 ![Peers][1]{:.img70}
 
@@ -36,15 +36,61 @@ These magic properties ensure that all the peers have an identical and up-to-dat
 
 ![Enchanted documents][3]{:.img90}
 
-The rules of the enchanted documents can vary between different sets of documents. //Bitcoin looks a lot like the agreement about a bank, accounts and balances, but as we explore below there are many other different types of agreement.
+<!-- Blockchains are of course not based on magic, but on a high conceptual level, this simplification is good enough. Blockchains, like sets of enchanted documents, can follow different rules about how to update the agreed upon state. -->
+The rules of the enchanted documents can vary between different sets of documents. In the example at the start of this post, we looked at an agreement about the ownership of money. The magic rules of these documents would be:
+
+1. Each enchanted document contains a list of all accounts and their corresponding balances.
+2. People own accounts, and can send the balance in their own account to other accounts.
+
+In essence, these rules create a digital cash.
+
+Do not think of the balance being sent from A to B like physical cash. Instead remember that a transaction in this case is just an update of the agreement. Just like a bank would change the balance of two accounts to create the transaction. The same applies to this blockchain transaction. The illustration below illustrates this difference:
+
+![AtoB][4]{:.img70}
+
+"But wait" you may think. "You are just changing a number next to one account and adding it to another". And it exists only on this distributed agreement. Not a lot of people actually accept that this thing is valuable....
+
+Unlike other money which is legal tender and everyone accepts.
+
+The balance on the agreement is nothing more than a number written next to the account that you own. I can't go to a bank and ask for the.
+
+This balance only has a fiat value because some people are willing to trade some of their own dollars to have a higher balance next to their account on the blockchain.
+
+<!-- WHy does bitcoin have any value? Explain. mIt is important to note that the only reason Bitcoin has any value, is because people believe that bitcoin is valuable, and are willing to exchange bitcoin for dollars or euros-->
+---
+
+The most famous example of the currency blockchain above is called bitcoin.
+
+Bitcoin is just one of many blockchains. Why spend so much time explaining the rules for this one. The reason is that all public blockchains need to have its own list of accounts and balances. Therefore, all blockchains have their own currencies.
+
+All public blockchains need this feature. Without a native currency to reward to the participants of the network. There is no incentive for the peers to participate in maintaining the agreement.
+
+After Bitcoin was first published and recieved attention, additional functionality was added to the other blockchains.
+
+One of the first ones were Namecoin...
+
+Storj
+
+Tokens
+
+Go on to talk that it is really about programmable ownership.
+->
+Many different types of applications
+->
+Enter Ethereum
+
+Another set of enchanted documents could be defined by rules about how to handle agreements which are written on the enchanted document. The enchantment would ensure that any agreement written on the enchanted document was upheld. Blockchains with these rules also exists, the most famous of which is called Ethereum. Agreements, written as code, can be uploaded to the blockchain.  In a world of magic, these agreements would ensure that the agreement was upheld in the physical world - not only on the enchanted document. In reality, a blockchain does not yet have any legal precedence outside the blockchain - and so an agreement on a blockchain can only be enforced on the blockchain.
+
+Agreements on the blockchain have been named *Smart Contracts* and deserve a blog post of their own.
 
 
 ---
 
-What to write next?
+
+<!-- What to write next?
 
 - Could write about:
-  - Talk about blockchain enabling programmable money
+  - Talk about blockchain enabling programmable ownership.
   - Comparision of public blockchain, vs permissioned blockchain vs a database as a way to store information
   - Internet analogy (permissionless blockchain, permissionless innovation)
   - Challenges with keeping a distributed agreement
@@ -55,36 +101,7 @@ What to write next?
     - Security in terms of key
     - Magic key analogy? If someone takes this they can also pretend that they are you and take your money.
     - Talk about transactions about updates to the agreement.
-    - Hacks - example, the exchange
-    - Why does bitcoin or other cryptocurrencies have value. The cryptocurrecy is just a token.
-  - How making a transaction actually looks, using a gif with the update process.
-
-<!--illustration showing documents being updated based on one enchanted document being updated
-
-Should mention that each seperate blockchain needs a way to incentivise the peers to take part in the network. !!Value token.
--->
-
-
-#### Sato the Wizard
-
-A wizard (lets call him Sato) wants to make a new currency, but he does not want to deal with the hassle of administration. Therefore, he decides to create a set of enchanted documents. He hands out a copy of the enchanted documents to any Peep that wants to own one. The document contains a list of people and their balance of the new currency. Sato enchants the document with the following rule:
-
-    You can send anyone else your own money.
-    This is done reducing the balance next to your name and increasing the balance next to the recipient by the corresponding amount.
-
-This rule implicitly states that you cannot increase your own balance, it can only be increased by someone else sending you money. If evil Peep A tries to change the document by increasing his own balance, or reducing the balance of anyone else, the enchantment ensures that the other enchanted documents ignore his updates.
-
-### Back to Blockchains
-
-Blockchains are of course not based on magic, but on a high conceptual level, this simplification is good enough. Blockchains, like sets of enchanted documents, can follow different rules about how to update the agreed upon state.
-
-In the example above, the rules of the enchanted documents create a currency, and the agreement specifies ownership of said currency. In the non-magic world of reality, the most famous example of this type of blockchain is Bitcoin.
-<!--mIt is important to note that the only reason Bitcoin has any value, is because people believe that bitcoin is valuable, and are willing to exchange bitcoin for dollars or euros-->
-
-Another set of enchanted documents could be defined by rules about how to handle agreements which are written on the enchanted document. The enchantment would ensure that any agreement written on the enchanted document was upheld. Blockchains with these rules also exists, the most famous of which is called Ethereum. Agreements, written as code, can be uploaded to the blockchain.  In a world of magic, these agreements would ensure that the agreement was upheld in the physical world - not only on the enchanted document. In reality, a blockchain does not yet have any legal precedence outside the blockchain - and so an agreement on a blockchain can only be enforced on the blockchain.
-
-Agreements on the blockchain have been named *Smart Contracts* and deserve a blog post of their own.
-
+    - Hacks - example, the exchange -->
 
 <!--
 why does it matter...
@@ -97,3 +114,4 @@ This also means that there is no central authority who can independently change 
   [1]: /assets/images/Peeps.png
   [2]: /assets/images/wizardHarry.png
   [3]: /assets/images/enchantedDocuments.png
+  [4]: /assets/images/AtoB.png
