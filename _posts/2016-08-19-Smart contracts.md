@@ -54,7 +54,6 @@ A small digression: From the cradle of civilization when money was first invente
 
 ---
 
-
 ### Code is law
 
 Many people are critical of the name "smart contract", as it is not a real contract - it is not something that needs to be complied with or upheld. Instead, it is a contract in the sense that it executes a set of conditions. If we compare the smart contract with a normal contract, some obvious differences are apparent:

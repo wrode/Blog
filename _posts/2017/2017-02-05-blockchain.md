@@ -12,9 +12,9 @@ In the last post, I wrote about how some types of agreement are fundemental to t
 
 Blockchain technology is essentially just a new way of handling agreements. The big difference between blockchain technology and existing methods, is that a blockchain agreement is not handled centrally by one authority.
 
-In order to illustrate the difference, let us take a closer look at the agreement relating to the ownership of money. We'll pretend that banks maintain the agreement about who owns what using pen and paper. The bank has a document with a list of all the customers, their accounts and their corresponding balances (this is *the agreement*). Every time a customer wants to send some money, they notify the bank, and the bank updates *the agreement* by subtracting some money from one account and adding it to another.
+In order to illustrate the difference, let us take a closer look at the agreement relating to the ownership of money, more specifically - the local currency. We'll pretend that banks maintain the agreement about who owns what on a single document. The document consists a list of all the customers, their accounts and their corresponding balances (this is *the agreement*). Every time a customer wants to send some money, they notify the bank, and the bank updates *the agreement* by subtracting some money from one account and adding it to another.
 
-One day, the customers of the bank decide that they do not want the bank to be in charge of maintaining *the agreement* anymore. In fact, they do not want any single authority to maintain it. They decide that anyone can take part in the maintainance of the agreement if they wish. Several people from the crowd accept to take on this role. Let us call the people who participante in maintaining the agreement *peers*. In order to maintain the agreement about who owns what in this new decentralized manner, each peer has their own copy of the paper document with the full agreement, which includes all owners of the currency, their accounts and their corresponding balance. There is no longer one single paper document on which the *true* agreement is written, every peer owns a copy.
+One day, the people in the society decide that they do not want the bank to be in charge of maintaining *the agreement* anymore. In fact, they do not want any single authority to maintain it. They decide that anyone can take part in the maintainance of the agreement if they wish. Several people from the ##crowd accept to take on this role. Let us call the people who participante in maintaining the agreement *peers*. In order to maintain the agreement about who owns what in this new decentralized manner, each peer has their own copy of the paper document with the full agreement, which includes all owners of the currency, their accounts and their corresponding balance. There is no longer one single paper document on which the *true* agreement is written, every peer owns a copy.
 
 ![Peers][1]{:.img70}
 
@@ -36,42 +36,47 @@ These magic properties ensure that all the peers have an identical and up-to-dat
 
 ![Enchanted documents][3]{:.img90}
 
-<!-- Blockchains are of course not based on magic, but on a high conceptual level, this simplification is good enough. Blockchains, like sets of enchanted documents, can follow different rules about how to update the agreed upon state. -->
-The rules of the enchanted documents can vary between different sets of documents. In the example at the start of this post, we looked at an agreement about the ownership of money. The magic rules of these documents would be:
+In the example at the start of this post, we looked at an agreement about the ownership of a currency. The magic rules of these documents would be:
 
 1. Each enchanted document contains a list of all accounts and their corresponding balances.
 2. People own accounts, and can send the balance in their own account to other accounts.
 
-In essence, these rules create a digital cash.
+In essence, these rules create a digital cash, the most famous example of which is Bitcoin. Contrary to Bitcoin however, the society in our example suddenly agreed that the local currency would be documented in this new way. The ownership of the local currency would be specified as balances next to the accounts on *the agreement*.
 
-Do not think of the balance being sent from A to B like physical cash. Instead remember that a transaction in this case is just an update of the agreement. Just like a bank would change the balance of two accounts to create the transaction. The same applies to this blockchain transaction. The illustration below illustrates this difference:
+In the real world however, no society maintains their currency in this way. For the agreement named Bitcoin, the balance in each account is only a number which specifies ownership of bitcoins - which has no link to any existing currency. Yet, we still hear about bitcoins being worth a lot of dollars.
+
+The reason why bitcoins are worth dollars is because people, like you and me, are willing to trade our dollars with bitcoins. We trade our dollars to increase the number next to our accounts in the bitcoin agreement. Just like with traditional currencies, the only reason it has value, is because people believe that it is valuable.
+
+---
+
+Thinking about bitcoin (and other cryptocurrencies) as a digital version of physical cash can be a little misleading. Whenever you send someone your bitcoins, a bitcoin does not move physically from you to them. Instead, the distributed agreement about the ownership of bitcoin is updated. The balance on your account is reduced, and the balance on the recipients account is increased. The process is presented in the illustration below:
 
 ![AtoB][4]{:.img70}
 
-"But wait" you may think. "You are just changing a number next to one account and adding it to another". And it exists only on this distributed agreement. Not a lot of people actually accept that this thing is valuable....
-
-Unlike other money which is legal tender and everyone accepts.
-
-The balance on the agreement is nothing more than a number written next to the account that you own. I can't go to a bank and ask for the.
-
-This balance only has a fiat value because some people are willing to trade some of their own dollars to have a higher balance next to their account on the blockchain.
-
-<!-- WHy does bitcoin have any value? Explain. mIt is important to note that the only reason Bitcoin has any value, is because people believe that bitcoin is valuable, and are willing to exchange bitcoin for dollars or euros-->
 ---
 
-The most famous example of the currency blockchain above is called bitcoin.
+The Bitcoin agreement went live in 2009, and the software behind the protocol was made completely open, so anyone could view how the magic really worked. This allowed people to make changes and create copies of the original. These new blockchains are like other sets of enchanted documents that follow different rules regarding how the agreement is updated.
 
-Bitcoin is just one of many blockchains. Why spend so much time explaining the rules for this one. The reason is that all public blockchains need to have its own list of accounts and balances. Therefore, all blockchains have their own currencies.
+Yet all these other public blockchains share the property of having a list of accounts and balances at their core, so that they have their own blockchain currency - also called their cryptocurrency.
 
-All public blockchains need this feature. Without a native currency to reward to the participants of the network. There is no incentive for the peers to participate in maintaining the agreement.
+The reason for this is that each blockchain must have a mechanism to reward the peers who maintain the agreement. The peers are renumeranted with the blockchain currency for maintaining the agreement. Without accounts and balances, no blockchain currency exists, and no payment can be made to the peers. Without payment, no incentives exist for the peers to maintain the agreement, which leads to no agreement being maintained.
 
-After Bitcoin was first published and recieved attention, additional functionality was added to the other blockchains.
+One of the first of these copies was Namecoin. In addition to having the standard sets of accounts and balances, the documents of this agreement includes information about websites that you owned.
+*write more about namecoin*
 
-One of the first ones were Namecoin...
+In addition to creating blockchains for the of digital assets, other blockchains for the
+Both digital cash and domain names are ownership for digital assets. But blockchains can also be used to track the ownership of physical assets - in these cases of course you will need a lega
 
-Storj
+In addition to using blockchains for agreeing about ownership of digital assets such as bitcoin and namecoin, people imagined using it for many other types of agreement too, such as ownership of physical assets.
 
-Tokens
+
+
+<!-- A state -> a snapshot about who owns what at the current moment. Include information that transaction history is maintained.-->
+
+Siacoin
+
+In addtion documents that document th ownership of assets, other blockchains have been created wit
+Another type of blockchain specified created a set of instructions for storing pieces of data. So that you could create an AirBnB for data storage.
 
 Go on to talk that it is really about programmable ownership.
 ->
@@ -79,7 +84,7 @@ Many different types of applications
 ->
 Enter Ethereum
 
-Another set of enchanted documents could be defined by rules about how to handle agreements which are written on the enchanted document. The enchantment would ensure that any agreement written on the enchanted document was upheld. Blockchains with these rules also exists, the most famous of which is called Ethereum. Agreements, written as code, can be uploaded to the blockchain.  In a world of magic, these agreements would ensure that the agreement was upheld in the physical world - not only on the enchanted document. In reality, a blockchain does not yet have any legal precedence outside the blockchain - and so an agreement on a blockchain can only be enforced on the blockchain.
+Another set of enchanted documents could be defined by rules about how to handle agreements which are written on the enchanted document. The enchantment would ensure that any agreement written on the document was upheld. Blockchains with these rules also exists, the most famous of which is called Ethereum. Agreements, written as code, can be uploaded to the blockchain.  In a world of magic, these agreements would ensure that the agreement was upheld in the physical world - not only on the enchanted document. In reality, a blockchain does not yet have any legal precedence outside the blockchain - and so an agreement on a blockchain can only be enforced on the blockchain.
 
 Agreements on the blockchain have been named *Smart Contracts* and deserve a blog post of their own.
 
