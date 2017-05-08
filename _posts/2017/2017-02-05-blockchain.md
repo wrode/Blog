@@ -34,26 +34,22 @@ Using the magic analogy, a blockchain can be imagined the following way:
 
 These magic properties ensure that all the peers have an identical and up-to-date copy of the agreement. There is no central authority which owns the definitive agreed upon state, all the peers have their own a copy of this state. This is why Blockchains are referred to as decentralized; there is no central controller of the true agreement.
 
-![Enchanted documents][3]{:.img90}
+![Enchanted documents][3]{:.img80}
 
-In the example at the start of this post, we looked at an agreement about the ownership of a currency. The magic rules of these documents would be:
+In the example above, we looked at an agreement about the ownership of a currency. The magic rules of these documents would be:
 
 1. Each enchanted document contains a list of all accounts and their corresponding balances.
 2. People own accounts, and can send the balance in their own account to other accounts.
 
 In essence, these rules create a digital cash, the most famous example of which is Bitcoin. Contrary to Bitcoin however, the society in our example suddenly agreed that the local currency would be documented in this new way. The ownership of the local currency would be specified as balances next to the accounts on *the agreement*.
 
-In the real world however, no society maintains their currency in this way. For the agreement named Bitcoin, the balance in each account is only a number which specifies ownership of bitcoins - which has no link to any existing currency. Yet, we still hear about bitcoins being worth a lot of dollars.
+In the real world however, no society maintains their currency in this way. For the agreement named Bitcoin, the balance in each account is only a number which specifies ownership of bitcoins - which has no link to any existing currency.
+
+Yet, we still hear about bitcoins being worth a lot of dollars.
 
 The reason why bitcoins are worth dollars is because people, like you and me, are willing to trade our dollars with bitcoins. We trade our dollars to increase the number next to our accounts in the bitcoin agreement. Just like with traditional currencies, the only reason it has value, is because people believe that it is valuable.
 
----
-
-Thinking about bitcoin (and other cryptocurrencies) as a digital version of physical cash can be a little misleading. Whenever you send someone your bitcoins, a bitcoin does not move physically from you to them. Instead, the distributed agreement about the ownership of bitcoin is updated. The balance on your account is reduced, and the balance on the recipients account is increased. The process is presented in the illustration below:
-
-![AtoB][4]{:.img70}
-
----
+![Bitcoin][5]{:.img35}
 
 The Bitcoin agreement went live in 2009, and the software behind the protocol was made completely open, so anyone could view how the magic really worked. This allowed people to make changes and create copies of the original. These new blockchains are like other sets of enchanted documents that follow different rules regarding how the agreement is updated.
 
@@ -61,22 +57,37 @@ Yet all these other public blockchains share the property of having a list of ac
 
 The reason for this is that each blockchain must have a mechanism to reward the peers who maintain the agreement. The peers are renumeranted with the blockchain currency for maintaining the agreement. Without accounts and balances, no blockchain currency exists, and no payment can be made to the peers. Without payment, no incentives exist for the peers to maintain the agreement, which leads to no agreement being maintained.
 
+---
+
+Thinking about bitcoin (and other cryptocurrencies) as a digital version of physical cash can be a little misleading. Whenever you send someone a bitcoin, a bitcoin does not physically move from you to them. Instead, the distributed agreement about the ownership of bitcoin is updated. The balance on your account is reduced, and the balance on the recipients account is increased. The process is presented in the illustration below:
+
+![AtoB][4]{:.img70}
+
+---
+
 One of the first of these copies was Namecoin. In addition to having the standard sets of accounts and balances, the documents of this agreement includes information about websites that you owned.
 *write more about namecoin*
 
-In addition to creating blockchains for the of digital assets, other blockchains for the
+In addition to creating blockchains for digital assets, other blockchains for the
 Both digital cash and domain names are ownership for digital assets. But blockchains can also be used to track the ownership of physical assets - in these cases of course you will need a lega
 
-In addition to using blockchains for agreeing about ownership of digital assets such as bitcoin and namecoin, people imagined using it for many other types of agreement too, such as ownership of physical assets.
-
+Blockchains are obvious use cases for the administration of digital assets, such as a digital cash or a domain name registry, but you can also represent physical assets on the blockchain too. The blockchain itself would not be able to enforce the agreement about ownership. But as long as there is agreement that ownership on the blockchain means ownership in the real world a blockchain could be used for this as well.
 
 
 <!-- A state -> a snapshot about who owns what at the current moment. Include information that transaction history is maintained.-->
 
-Siacoin
+Not only can varying rules of blockchains describe ownership of different types of assets, and how to handle these, the rules of a blockchain can focus on how ownership is updated. One example is that if you can prove to a blockchain that you have stored some data, the blockchain automatically transfers some of the local cryptocurrency to your account. In effect, you are creating an automatic mechanism for paying for distributed storage, creating an airbnb for storage. A Blockchain which is currently doing this is named Siacoin.
 
-In addtion documents that document th ownership of assets, other blockchains have been created wit
-Another type of blockchain specified created a set of instructions for storing pieces of data. So that you could create an AirBnB for data storage.
+The title of airbnb for , because it gives the impression that only people at home would rent out their storage. But what essentially you have created is a very efficient market for the storage for data - completely automated.
+
+Other projects are also in the making in which you would prove to a blockchain that you are creating
+
+Varying blockchain rules describe how the blockchain is updated in different ways. With namecoin it describes the mechanisms to handle domain names.
+
+With siacoin, you essentially have a distributed agreement, with some predefined agreements about how to reward storage of information with the local cryptocurrency. If you want to store something you have to pay, if you store something you will be automatically paid.
+
+
+Anyone  can define the rules of how the blockchain changes from one state to another -> based on some foundational rules. E.g. the blockchains consititutional rules.
 
 Go on to talk that it is really about programmable ownership.
 ->
@@ -115,8 +126,8 @@ This also means that there is no central authority who can independently change 
 -->
 
 <!-- IMAGES -->
-<!-- {{ site.url }} - not needed-->
   [1]: /assets/images/Peeps.png
   [2]: /assets/images/wizardHarry.png
   [3]: /assets/images/enchantedDocuments.png
   [4]: /assets/images/AtoB.png
+  [5]: /assets/images/BitcoinDoc.png

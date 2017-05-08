@@ -16,7 +16,7 @@ First, let's quickly do a recap of the magic analogy in the previous blog post t
 
 These properties result in each participant owning an identical copy of the same agreement, even though the agreement undergoes continuous change. The illustration below shows how a change to one document is subsequently updated in the other documents:
 
-![Enchanted documents]({{ site.url }}/assets/images/EnchantedDocuments.gif){:style="width:80%; margin: 0 5%"} *In this way, the agreement is maintained across a network.*
+![Enchanted documents][1]{:.img80} *In this way, the agreement is maintained across a network.*
 
 The magic analogy above describes **one** set of enchanted documents (blockchain) that follow one set of rules. Different sets of enchanted documents have different rules for changes that you are allowed to make to them. The original set of enchanted documents is called Bitcoin, the rules for this set of documents are: <!--(super oversimplified, please do not kill me Bitcoiners)-->
 
@@ -24,8 +24,7 @@ The magic analogy above describes **one** set of enchanted documents (blockchain
 2. People own accounts, and can send their own bitcoins to other accounts.
 
 In essence, these rules create a digital cash<!--should i write more here, if yes, I should write about Bitcoin being the currency - and all it really is is just a number next to your account on the global digital ledger-->. Below is an illustration of one of the enchanted documents maintained across the network. The number next to each account denotes the amount of bitcoins in that account.
-![bitcoin]({{ site.url }}/assets/images/BitcoinDoc.png){:style="width:35%; margin: 0 27,5%"}
-<!--Could explain that the bitcoins are just the balances on the enchanted documents -->
+![bitcoin][2]{:.img35}
 
 Another set of documents is called Ethereum. The enchanted documents that make up Ethereum follow very similar rules to Bitcoin:
 
@@ -34,14 +33,14 @@ Another set of documents is called Ethereum. The enchanted documents that make u
 
 Those of you with an eye for details might have noticed slight differences in wording between the second rule of Ethereum and the second rule of Bitcoin. This difference in wording incorporates how the two sets of documents work differently.
 
-The largest difference is the fact that not all accounts on the Ethereum enchanted document is owned by people. Instead, the actions of these accounts are controlled by a set of instructions residing on the account.<!--The second difference is that in addition to sending the local currency between accounts, it is also possible to send information.## --> Below is an illustration of one of the enchanted documents on the Ethereum blockchain with some of the accounts controlled by instructions and not people:
-![ethereum]({{ site.url }}/assets/images/EthereumDoc.png){:style="width:50%; margin: 0 25%"}
+The largest difference is the fact that not all accounts on the Ethereum enchanted document is owned by people. Instead, the actions of these accounts are controlled by a some instructions residing on the account.<!--The second difference is that in addition to sending the local currency between accounts, it is also possible to send information.## --> Below is an illustration of one of the enchanted documents on the Ethereum blockchain with some of the accounts controlled by instructions and not people:
+![ethereum][3]{:.img50}
 
-When a set of instructions reside on one of these accounts it is called a **smart contract**. The set of instructions is just computer code, essentially - just logic. If "poked" by a transaction from another account, the smart contract can:
+When a set of instructions reside on one of these accounts it is called a **smart contract**. The instructions are just computer code, essentially - just logic. If "poked" by a transaction from another account, the smart contract can:
 
 - Compute
 - Store information
-- Send stuff to other accounts
+- Send transactions to other accounts
 
 As mentioned, the account with the code is not controlled by any person, it is completely autonomous! The original code is written by a person, but once the smart contract code was uploaded on the blockchain, only the logic in the account dictates the actions of that account.
 
@@ -50,7 +49,7 @@ As mentioned, the account with the code is not controlled by any person, it is c
 ---
 A small digression: From the cradle of civilization when money was first invented, people were able to own money. Eventually, fictitious entities that people imagined, called organizations, were able to own money. Now, for the first time in history, a machine can own money (through smart contracts). The consequences of this is hard to know, but we have interesting times ahead.
 
-![Robot overlords]({{ site.url }}/assets/images/RobotOverlords.png)
+![Robot overlords][4]
 
 ---
 
@@ -58,7 +57,7 @@ A small digression: From the cradle of civilization when money was first invente
 
 Many people are critical of the name "smart contract", as it is not a real contract - it is not something that needs to be complied with or upheld. Instead, it is a contract in the sense that it executes a set of conditions. If we compare the smart contract with a normal contract, some obvious differences are apparent:
 
-![NormalvsSmart]({{ site.url }}/assets/images/NormalvsSmart.png){:style="width:120%; margin: 0 -10%"}
+![NormalvsSmart][5]{:.img120}
 
 #### Legally binding
 
@@ -70,7 +69,7 @@ On the contrary, a smart contract does not have to be upheld by anyone, it's a s
 
 When entering into a normal contract, several factors play an important role. The most obvious part is an understanding of the actual contract. The contract lays out the terms and conditions of an agreement in legalese - which is what you are committing to. Therefore, it is important to understand this legalese and how this is interpreted by the legal system. This is why you always carefully read the terms and conditions of your iTunes agreement. *You* would never sign an agreement that commits you to providing your firstborn as payment for using their service, as 98% of people [would](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2757465).
 
-![Firstborn]({{ site.url }}/assets/images/Firstborn.png){:style="width:60%; margin: 0 20%"}
+![Firstborn][6]{:.img60}
 
 Secondly, the terms and conditions that are laid out in a contract are constrained by a large body of existing law. This means that you can't be sure how the contract will play out by just looking at the content of the agreement. There are laws that prohibit you from paying with your firstborn, even if you agree to this by signing a contract. Therefore, it is important to understand how this legal context plays in.
 
@@ -108,11 +107,6 @@ function payOut(address _recipient, uint _amount) returns (bool) {
 
 The smart contract code is the terms and conditions that you are signing up for when interacting with a smart contract. As long as you trust the blockchain that the smart contract resides on, you know that the code will execute exactly as programmed - so no breach of agreement can exist. It is important to note however, that working as *programmed* does not mean that it will work as *intended* - if there are errors in the code.
 
-The second element of trust was briefly mentioned in the above paragraph, and is trust in the blockchain as a whole. Going back to our analogy, the blockchain consists of enchanted documents that can be owned anyone who wants to participate in maintaining the agreement. The magic rules of the enchanted document defines which changes are allowed and which are not. However, if a group of the participants decide to group together and define new rules, they can create their own offshoot of the original blockchain. The new rules for the new blockchain *can* impact the existing smart contracts, but only on the new offshoot blockchain. Creating the new blockchain does not really affect the old blockchain, unless a large portion of the participants care more about the new blockchain and ditch the old one. Only when that happens - when the new contract's rules mess with your smart contract, and when the new blockchain becomes the *de facto* blockchain of the two - are you at risk of the smart contract not working as programmed.
-
-<!-- The creation of offshot blockchains is not necessarily a bad thing though. Almost all of the hard forks to date are upgrades of the magic rules, making the blockchain perform better - the smart contracts on the blockchain remain untouched. There have been a few forks that have changed the state of the contracts however, but these have been extremely controversial. -->
-<!-- Therefore, you can trust the blockchain. It is mostly the smart contract that you have to understand. -->
-
 ### Smart contract applications
 
 As we have already established, smart contracts are essentially just a set of instructions residing on a blockchain, written in computer code. This computer code can be written in an infinite number of ways, just like words specifying the terms and conditions of a normal contract can be written in an infinite number of ways. But like words in a contract, there is an infinite number of ways to arrange the code in a smart contract that does not make sense. That's not interesting and no one cares. What is interesting however, are the ways to arrange the logic which does make sense.
@@ -123,7 +117,7 @@ After the original bitcoin paper was published, people started imagining new app
 
 The challenge was that each blockchain was being built with one application in mind. Every new application required a whole new blockchain. Creating a new blockchain requires a lot of resources, since a set of participants need to start maintaining a new agreement. Smart contracts changed this. The magic rules that define the functionality of one blockchain can be replicated into smart contracts on an existing smart contract blockchain. This means that instead of building a new blockchain for every type of application, it is possible to add several types of applications to **one** blockchain by using smart contracts. You essentially have many blockchains on the same blockchain, and is why some refer to smart contract blockchains as blockchain 2.0.
 
-![Blockchainception]({{ site.url }}/assets/images/Blockchainception.png)
+![Blockchainception][7]
 
 As an example, the blockchains which specify ownership of different types of assets, the "magic document" is essentially just a list of accounts and what they own. Instead of using a whole blockchain for this application, this information can be included in a smart contract. Like the blockchain, the smart contract would essentially be a list of accounts and their ownership, with rules about which transactions are allowed and which are not.
 
@@ -131,7 +125,7 @@ As an example, the blockchains which specify ownership of different types of ass
 
 As we have already established, smart contracts can be used to document the ownership of assets, not only digital, but also physical such as oil, gold, cars and real estate. But just listing who owns what is just the beginning, additional logic can be included.
 
-![godeeper]({{ site.url }}/assets/images/godeeper.jpg){:style="width:60%; margin: 0 20%"}
+![godeeper][8]{:.img70}
 
 A smart contract can specify the ownership in a company, and this ownership can easily be transfered by interacting with the contract. The contract can include instructions about how dividends are paid out through the contract. Any dividends that are paid out are automatically distributed to the owners. In addition, the contract can give the owners voting rights relative to their ownership. Owners would send a transaction with their vote to the smart contract - which would .
 
@@ -201,3 +195,13 @@ Other areas where many actors try to form consensus:
 - The governance structure of the society as a whole
 
 -->
+
+<!-- IMAGES -->
+  [1]: /assets/images/EnchantedDocuments.gif
+  [2]: /assets/images/BitcoinDoc.png
+  [3]: /assets/images/EthereumDoc.png
+  [4]: /assets/images/RobotOverlords.png
+  [5]: /assets/images/NormalvsSmart.png
+  [6]: /assets/images/Firstborn.png
+  [7]: /assets/images/Blockchainception.png
+  [8]: /assets/images/godeeper.jpg
