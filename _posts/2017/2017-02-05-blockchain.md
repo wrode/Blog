@@ -18,7 +18,7 @@ One day, the people in the society decide that they do not want the bank to be i
 
 In order to maintain the agreement about who owns what in this new decentralized manner, each peer has their own copy of the paper document with the full agreement, which includes all owners of the currency, their accounts and their corresponding balance. There is no longer one single paper document on which the *true* agreement is written, every peer owns a copy.
 
-![Peers][1]{:.img70}
+![Peers][1]{:.img90}
 
 Whenever there is a change in the agreement, i.e. every time a transaction is made, all the peers will need to update their agreement - since of course, the agreement should not vary between the peers. In order to ensure that all the peers have the same agreement documented, they would need to meet, agree upon the update, update the agreement, and then sign each others document.
 
