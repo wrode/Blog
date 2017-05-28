@@ -18,8 +18,6 @@ Most explanations of blockchain are full of IT jargon. So unless you know IT, th
 [Agreement][1]   | *Agreements are important part of how societies function*
 [Blockchain][2]        | *At its core, blockchain technology is all about agreement*
 [Smart contracts][3]  |  *Smart contracts*
-The DAO wars       |  *A case study, that looks into one of the blockchain spaces most spectacular failures*
-
 
 
 <!-- {{ site.url }} not needed? -->

@@ -80,8 +80,12 @@ Eventually, as more people started thinking about different blockchain applicati
 
 These agreements about how to update the blockchain agreement are better known as smart contracts, and will be the focus of the next post in this series.
 
+---
+If you liked the article, you can tip me some ether or tokens at the following address:
+0xAEe32096745dbf51362E2984fC0fFb78d7a47f47
+
 <!-- IMAGES -->
-  [1]: /assets/images/Peeps.png
+  [1]: /assets/images/Peers.png
   [2]: /assets/images/wizardHarry.png
   [3]: /assets/images/enchantedDocuments.png
   [4]: /assets/images/AtoB.png

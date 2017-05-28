@@ -19,7 +19,7 @@ For societies to function, there needs to be a common agreement about some of th
 
 #### Agreeing about agreements
 
-One of these laws may be to allow people to enter into bindings agreements with one another. The agreement defines what members of the society *can* make agreements about, and what process to follow if an agreement is not being upheld. Essentially, it is a societal agreement about how to handle agreements between participants in the society.
+One of these laws may be to allow people to enter into bindings agreements with one another. The agreement defines what members of the society *can* make agreements about, and what process to follow if an agreement is not upheld. Essentially, it is a societal agreement about how to handle agreements between participants in the society.
 
 <!--Sketch of person making an agreement to sell his children to slavery, and then the law saying "no"-->
 
@@ -58,10 +58,14 @@ Real estate is one just one example, but ownership of other *big things* is usua
 
 Modern societies are built on agreement about some topics which are *not* part of an objective reality. These common myths include nation states, ownership, money, laws, contracts, religions and human rights. None of these phenomena are part of the natural world, but some are still necessary for modern societies to function.
 
-These sets of commonly shared, subjective beliefs have been named the inter-subjective. Since many individuals within a larger community believe in them, they appear to be objective phenomena from an individual's perspective. The agreement about these phenomena is what allows us to co-operate. I am willing to trade my hemp sandals for money, because I believe that someone else is willing to accept the same money when I am buying food. As historian Yuval Harari argues in the great book *Sapiens*, the only way that a larger number of strangers can co-operate is by successfully believing in a set of common myths. In essence, societal agreement about some subjective phenomena is what enables mass co-operation and allows modern complex societies to function.
+These sets of commonly shared, subjective beliefs have been named the inter-subjective. Since many individuals within a larger community believe in them, they appear to be objective phenomena from an individual's perspective. The agreement about these phenomena is what allows us to co-operate effectively on a massive scale. I am willing to trade my hemp sandals for money, because I believe that someone else is willing to accept the same money when I am buying food. As historian Yuval Harari argues in the great book *Sapiens*, the only way that a larger number of strangers can co-operate is by believing in a set of common myths. In essence, societal agreement about some subjective phenomena is what enables mass co-operation and allows modern complex societies to function. Since the inter-subjective does not objectively exist, modern societies formalize these agreements by documenting them and claim them to be the truth. Trusted authorities are used for maintaining these single sources of "truth". This is the case for agreements about agreements (contract law and contracts) and agreements about ownership. This has been the way agreements
 
-Since the inter-subjective does not objectively exist, modern societies formalize these agreements by documenting them and claim them to be the truth. Trusted authorities are used for maintaining these single sources of "truth". This is true for agreements about agreements (contract law and contracts) and agreements about ownership.
+In modern societies, agreements have been maintained in this centralized manner because there has been no other way to do it.
 
-Agreements have been maintained in this central manner because there has been no other way to do it. **Until now**. Blockchain technology enables agreements to be maintained by a group of participants, instead of one central trusted authority. To read more about how blockchains do this, follow this *link* to the second post in this series.
+Until now!
+
+Blockchain technology enables agreements to be collectively maintained by anyone, taking away the monopoly of "truth" maintainance from central authoroties . To read more about how blockchains do this, follow this *link* to the second post in this series.
+
+Blockchain technology takes away this monopoly of maintaining the truth
 
 <!-- With objective reality, it does not matter whether anyone believes in it or not, you still cannot walk through a wall. -->
